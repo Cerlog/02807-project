@@ -16,7 +16,6 @@ data/
 
 The script `data.py` automatically downloads the dataset from Google Drive and places it in `data/raw`, as it is too large to be on GitHub.
 
-First, install the requirements file
 
 Before running the script, install the required dependencies:
 
