@@ -1,6 +1,11 @@
 # Project name: Pending
 
 
+# Todo
+- join the 'user.json' together with the 'business.json' and 'review.json'
+
+
+
 
 
 ## Dataset :package:
