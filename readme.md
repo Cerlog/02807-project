@@ -1,5 +1,44 @@
 # Project name: Pending
 
+!TODO: ADD PROJECT DESCRIPTION 
+
+The overall description of the project so far: 
+
+- Run the apriori algorithm on the Yelp dataset to generate: 
+    - positive 
+    - negative rules 
+- Use the graph networks to locate communities within the dataset 
+  - on the following communities apply the Appriori algortihm to discover the rules to local communities
+  - analyze these with sentiment analysis to further understand the communities
+
+## Setup :wrench:
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/Cerlog/02807-project
+```
+
+**2. Create conda environment** 
+
+
+**3. Activate the environment** 
+
+**4. Change the directories** 
+```bash
+cd 02807-project
+```
+**5. Install the requirements**
+
+```bash
+pip install -r requirements.txt
+```
+
+## Project Structure :file_folder:
+
+The project structure:
+!TODO:
+
 
 # Todo
 - join the 'user.json' together with the 'business.json' and 'review.json'
