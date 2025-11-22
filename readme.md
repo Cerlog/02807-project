@@ -20,9 +20,14 @@ git clone https://github.com/Cerlog/02807-project
 ```
 
 **2. Create conda environment** 
+```bash
+conda create -n 02807-project python=3.11 -y
+```
 
-
-**3. Activate the environment** 
+**3. Activate the environment**
+```bash 
+conda activate 02807-project
+```
 
 **4. Change the directories** 
 ```bash
