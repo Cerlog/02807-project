@@ -1,3 +1,6 @@
+import numpy as np
+from sklearn.cluster import KMeans
+
 def betweenness_centrality_normalized(graph):
     betweenness = dict.fromkeys(graph.keys(), 0.0)
     n = len(graph)
