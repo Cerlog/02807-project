@@ -42,6 +42,13 @@ def apriori_triangular(transactions, min_support):
     frequent_items = [items[i] for i, count in enumerate(single_counts) if count >= min_count]
     L1 = [frozenset([item]) for item in frequent_items]
     
+    
+        # support dict (store supports for all frequent sets)
+    support_map = {}
+    for item in frequent_items:
+        support_map[frozenset([item])] = single_counts[index[item]] / N
+    
+    
     '''
     #2. Pair counts using triangular matrix
     Count how many times each pair of frequent items appear together
@@ -109,7 +116,7 @@ def apriori_triangular(transactions, min_support):
 
         all_frequent.append(next_level)
         k += 1
-    return all_frequent
+    return all_frequent, support_map
 
 
 def support_of(itemset, transactions):
