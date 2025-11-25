@@ -6,6 +6,8 @@ def baskets_parquet_to_transactions(path_parquet):
     b = pd.read_parquet(path_parquet)
     return [set(items) for items in b["items"]]
 
+def baskets_df_to_transactions(df):
+    return [set(items) for items in df["items"]]
 
 def decode_itemset(itemset, id2cat_map):
     """Convert set/tuple of IDs to sorted tuple of category names."""
