@@ -1,26 +1,13 @@
 Antecedent_decoded,Consequent_decoded,Support,Confidence,Lift
-"('American (New)', 'Breakfast & Brunch')","('Mexican',)",0.020717006731722592,0.42021698862132845,2.311065299501494
-"('American (Traditional)', 'Italian')","('American (New)',)",0.025498356207274434,0.5041919257061782,2.219898302032222
-"('American (Traditional)', 'Breakfast & Brunch')","('Mexican',)",0.02235427647028127,0.4028920761815189,2.215783564015483
-"('American (Traditional)', 'Sandwiches')","('Mexican',)",0.020893127380890258,0.4001249219237976,2.2005650593939325
-"('Breakfast & Brunch', 'Mexican')","('American (New)',)",0.020717006731722592,0.4921741825507516,2.1669855791883865
-"('American (New)', 'Burgers')","('American (Traditional)',)",0.024343787507175287,0.5837634913186298,2.13812304742716
-"('American (Traditional)', 'Breakfast & Brunch')","('American (New)',)",0.0264637582841935,0.47695744180578414,2.099988042694906
-"('American (Traditional)', 'Sandwiches')","('American (New)',)",0.024819965558628608,0.47532792004996877,2.0928134482707836
-"('American (Traditional)', 'Mexican')","('American (New)',)",0.028531545165162032,0.47159029649595685,2.0763571272585706
-"('American (Traditional)', 'Pizza')","('American (New)',)",0.025968011271721547,0.46879415920866696,2.064046060579726
-"('Burgers', 'Mexican')","('American (Traditional)',)",0.020501748160517665,0.5590537175382426,2.0476197227036206
-"('American (New)', 'Sandwiches')","('American (Traditional)',)",0.024819965558628608,0.5572642062097247,2.0410653638373386
-"('American (Traditional)', 'Seafood')","('American (New)',)",0.02189114439284037,0.4620044052863436,2.0341515651804367
-"('American (Traditional)', 'Burgers')","('American (New)',)",0.024343787507175287,0.4618811881188119,2.03360905434867
-"('Mexican', 'Sandwiches')","('American (Traditional)',)",0.020893127380890258,0.5539605672777586,2.0289652811054446
-"('Italian', 'Mexican')","('American (Traditional)',)",0.02017559881020717,0.5511404133998574,2.0186360363114426
-"('American (New)', 'Pizza')","('American (Traditional)',)",0.025968011271721547,0.5497100248550124,2.013397019552103
-"('American (New)', 'Seafood')","('American (Traditional)',)",0.02189114439284037,0.5454249959369413,1.997702445936469
-"('Mexican', 'Pizza')","('American (Traditional)',)",0.021382351406356,0.5404781533388293,1.9795838785229332
-"('American (New)', 'Breakfast & Brunch')","('American (Traditional)',)",0.0264637582841935,0.5367822175178619,1.9660469484508387
-"('American (New)', 'Italian')","('American (Traditional)',)",0.025498356207274434,0.5361404471265944,1.963696366262792
-"('American (New)', 'Mexican')","('American (Traditional)',)",0.028531545165162032,0.5327000365363537,1.9510953364193704
-"('Breakfast & Brunch', 'Mexican')","('American (Traditional)',)",0.02235427647028127,0.5310708197737487,1.9451280809106166
-"('Diners',)","('American (Traditional)',)",0.02011689192715128,0.4132940230501206,1.5137525542258143
-"('Steakhouses',)","('American (Traditional)',)",0.03363252100401816,0.40037272868457835,1.4664263378789326
+"('American (Traditional)', 'Italian')","('American (New)',)",0.022221113265655297,0.47544234289200726,2.194440733182444
+"('American (New)', 'Burgers')","('American (Traditional)',)",0.021344245465951865,0.562887760857304,2.1008246059753017
+"('American (Traditional)', 'Breakfast & Brunch')","('American (New)',)",0.02320491616288354,0.45070617557463305,2.0802690487382756
+"('American (Traditional)', 'Sandwiches')","('American (New)',)",0.021558115661001482,0.4416532788082371,2.038484706820738
+"('American (Traditional)', 'Mexican')","('American (New)',)",0.025086973879320178,0.4387780548628429,2.0252138893659537
+"('American (Traditional)', 'Pizza')","('American (New)',)",0.022705885707767767,0.4323920716806951,1.995738892395593
+"('American (New)', 'Sandwiches')","('American (Traditional)',)",0.021558115661001482,0.533051295610788,1.9894681603319617
+"('American (Traditional)', 'Burgers')","('American (New)',)",0.021344245465951865,0.43023422905589886,1.9857792036500623
+"('American (New)', 'Breakfast & Brunch')","('American (Traditional)',)",0.02320491616288354,0.5215510334882231,1.9465465775186255
+"('American (New)', 'Pizza')","('American (Traditional)',)",0.022705885707767767,0.5209355577363428,1.9442494826200583
+"('American (New)', 'Mexican')","('American (Traditional)',)",0.025086973879320178,0.5126001456664239,1.913139836976389
+"('American (New)', 'Italian')","('American (Traditional)',)",0.022221113265655297,0.5113188976377953,1.9083579291573225

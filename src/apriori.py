@@ -1,4 +1,46 @@
 from itertools import combinations
+import pandas as pd
+
+def baskets_parquet_to_transactions(path_parquet):
+    """Load parquet with an 'items' column and return list of itemsets (as sets)."""
+    b = pd.read_parquet(path_parquet)
+    return [set(items) for items in b["items"]]
+
+
+def decode_itemset(itemset, id2cat_map):
+    """Convert set/tuple of IDs to sorted tuple of category names."""
+    if isinstance(itemset, (frozenset, set)):
+        itemset = sorted(itemset)
+    return tuple(id2cat_map.get(x, f"<ID_{x}>") for x in itemset)
+
+
+def run_apriori(label, path_parquet, min_support, min_conf, OUT_DIR, id2cat_map):
+    print("Running Apriori for", label)
+    
+    # load the transactions
+    transactions = baskets_parquet_to_transactions(path_parquet)
+    
+    # run apriori 
+    frequent_sets, support_map = apriori_triangular(transactions, min_support)
+    rules = generate_rules(frequent_sets, transactions, min_conf)
+    
+    print(f"Generated {len(rules)} {label} rules")
+
+    # 3) Turn into DataFrame and decode
+    df = pd.DataFrame(rules).sort_values("Lift", ascending=False)
+    df["Antecedent_decoded"] = df["Antecedent"].apply(lambda x: decode_itemset(x, id2cat_map))
+    df["Consequent_decoded"] = df["Consequent"].apply(lambda x: decode_itemset(x, id2cat_map))
+
+    # 4) Save parquet + human-readable CSV
+    parquet_out = OUT_DIR / f"rules_{label}.parquet"
+    csv_out     = OUT_DIR / f"rules_{label}_human.csv"
+
+    df.to_parquet(parquet_out, index=False)
+    df[["Antecedent_decoded", "Consequent_decoded", "Support", "Confidence", "Lift"]].to_csv(csv_out, index=False)
+
+    print(f"Saved {len(df)} {label} rules")
+
+    return df
 
 #Triangular matrix
 def pair_index(i, j, n):
