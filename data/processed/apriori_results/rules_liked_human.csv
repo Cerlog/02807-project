@@ -1,86 +1,1316 @@
 Antecedent_decoded,Consequent_decoded,Support,Confidence,Lift
+"('American (New)', 'Breakfast & Brunch', 'Sandwiches')","('American (Traditional)', 'Coffee & Tea')",0.01211117754373055,0.4457233130218912,9.299541320721898
+"('American (New)', 'American (Traditional)', 'Coffee & Tea')","('Breakfast & Brunch', 'Sandwiches')",0.01211117754373055,0.43777014296797073,9.251979217100104
+"('American (New)', 'American (Traditional)', 'Sandwiches')","('Breakfast & Brunch', 'Pizza')",0.013239510033880636,0.4173190296704358,9.081638415417649
+"('American (New)', 'American (Traditional)', 'Pizza')","('Mexican', 'Sandwiches')",0.013122997439789051,0.41126165081195354,9.07148188178443
+"('American (Traditional)', 'Italian', 'Mexican')","('American (New)', 'Pizza')",0.012365665578193748,0.5232905151161281,9.037734857686381
+"('American (New)', 'American (Traditional)', 'Mexican')","('Breakfast & Brunch', 'Pizza')",0.013935519477533,0.41503059081362437,9.031837728758893
+"('American (Traditional)', 'Breakfast & Brunch', 'Italian')","('American (New)', 'Sandwiches')",0.012396326787165218,0.5135272450146069,8.988587094149572
+"('American (New)', 'Breakfast & Brunch', 'Mexican')","('American (Traditional)', 'Coffee & Tea')",0.012604823008171211,0.4294369581113548,8.959743903737705
+"('American (New)', 'American (Traditional)', 'Italian')","('Breakfast & Brunch', 'Pizza')",0.012460715326005305,0.4099667103803087,8.921638270299978
+"('American (Traditional)', 'Breakfast & Brunch', 'Italian')","('American (New)', 'Pizza')",0.012460715326005305,0.5161945891019942,8.91518133142713
+"('American (Traditional)', 'Italian', 'Mexican')","('American (New)', 'Sandwiches')",0.012003863312330405,0.5079797586609576,8.891485986608599
+"('American (Traditional)', 'Breakfast & Brunch', 'Sandwiches')","('American (New)', 'Coffee & Tea')",0.01211117754373055,0.45664739884393063,8.87564159093884
+"('American (Traditional)', 'Breakfast & Brunch', 'Coffee & Tea')","('American (New)', 'Sandwiches')",0.01211117754373055,0.5051796904975061,8.842474650207112
+"('American (Traditional)', 'Breakfast & Brunch', 'Pizza')","('American (New)', 'Sandwiches')",0.013239510033880636,0.5051474029012635,8.841909500307658
+"('American (New)', 'Mexican', 'Sandwiches')","('American (Traditional)', 'Italian')",0.012003863312330405,0.4630943931866572,8.82322238964028
+"('American (New)', 'Mexican', 'Pizza')","('American (Traditional)', 'Italian')",0.012365665578193748,0.4629778441051544,8.82100180895406
+"('American (New)', 'Breakfast & Brunch', 'Pizza')","('American (Traditional)', 'Italian')",0.012460715326005305,0.46166079745541294,8.795908446436247
+"('American (New)', 'American (Traditional)', 'Pizza')","('Breakfast & Brunch', 'Sandwiches')",0.013239510033880636,0.41491303930047085,8.7689096165534
+"('American (Traditional)', 'Mexican', 'Sandwiches')","('American (New)', 'Pizza')",0.013122997439789051,0.5077105575326216,8.768653875581279
+"('American (New)', 'Mexican', 'Sandwiches')","('American (Traditional)', 'Pizza')",0.013122997439789051,0.5062692216702154,8.764646494061914
+"('American (Traditional)', 'Breakfast & Brunch', 'Mexican')","('American (New)', 'Coffee & Tea')",0.012604823008171211,0.4484075043630017,8.715486621601382
+"('American (New)', 'Pizza', 'Sandwiches')","('American (Traditional)', 'Mexican')",0.013122997439789051,0.5335327848416854,8.696973716123125
+"('American (New)', 'Breakfast & Brunch', 'Sandwiches')","('American (Traditional)', 'Italian')",0.012396326787165218,0.45621755811329273,8.69219975995209
+"('American (New)', 'American (Traditional)', 'Coffee & Tea')","('Breakfast & Brunch', 'Mexican')",0.012604823008171211,0.4556134323395766,8.650369244987264
+"('American (New)', 'Italian', 'Mexican')","('American (Traditional)', 'Pizza')",0.012365665578193748,0.4994427244582043,8.646464640820694
+"('American (Traditional)', 'Breakfast & Brunch', 'Sandwiches')","('American (New)', 'Pizza')",0.013239510033880636,0.49919075144508673,8.621508559100711
+"('American (New)', 'American (Traditional)', 'Mexican')","('Breakfast & Brunch', 'Sandwiches')",0.013696362047555534,0.4079079536115423,8.62086181510086
+"('American (New)', 'American (Traditional)', 'Italian')","('Breakfast & Brunch', 'Sandwiches')",0.012396326787165218,0.4078482800363159,8.619600653994572
+"('American (New)', 'Mexican', 'Pizza')","('American (Traditional)', 'Sandwiches')",0.013122997439789051,0.4913327976122145,8.577547119004159
+"('American (New)', 'Breakfast & Brunch', 'Pizza')","('American (Traditional)', 'Sandwiches')",0.013239510033880636,0.4905145972963762,8.563263212462617
+"('American (Traditional)', 'Breakfast & Brunch', 'Mexican')","('American (New)', 'Pizza')",0.013935519477533,0.49574607329842935,8.562015625710455
+"('American (Traditional)', 'Breakfast & Brunch', 'Mexican')","('American (New)', 'Sandwiches')",0.013696362047555534,0.4872382198952879,8.528433919806186
+"('American (New)', 'American (Traditional)', 'Sandwiches')","('Mexican', 'Pizza')",0.013122997439789051,0.41364646757514256,8.522883768228875
+"('American (Traditional)', 'Mexican', 'Pizza')","('American (New)', 'Sandwiches')",0.013122997439789051,0.48641891123991365,8.51409305030546
+"('American (Traditional)', 'Italian', 'Sandwiches')","('American (New)', 'Mexican')",0.012003863312330405,0.53330608908868,8.472654022398926
+"('American (New)', 'Italian', 'Mexican')","('American (Traditional)', 'Sandwiches')",0.012003863312330405,0.48482972136222907,8.46401827821883
+"('American (Traditional)', 'Breakfast & Brunch', 'Italian')","('American (New)', 'Mexican')",0.012859311042634412,0.5327067191667726,8.463131809764091
+"('American (Traditional)', 'Breakfast & Brunch', 'Pizza')","('American (New)', 'Mexican')",0.013935519477533,0.5317033224145999,8.447190807584864
+"('American (New)', 'Coffee & Tea', 'Sandwiches')","('American (Traditional)', 'Breakfast & Brunch')",0.01211117754373055,0.551830120145292,8.442868815254785
+"('American (New)', 'Breakfast & Brunch', 'Sandwiches')","('American (Traditional)', 'Pizza')",0.013239510033880636,0.48724892800722186,8.435362897442294
+"('American (New)', 'Breakfast & Brunch', 'Pizza')","('American (Traditional)', 'Mexican')",0.013935519477533,0.5163012609337726,8.416087302441285
+"('American (New)', 'Italian', 'Sandwiches')","('American (Traditional)', 'Mexican')",0.012003863312330405,0.5160822567888215,8.41251737506948
+"('American (New)', 'American (Traditional)', 'Italian')","('Mexican', 'Pizza')",0.012365665578193748,0.40683950368203364,8.38263124192159
+"('American (Traditional)', 'Italian', 'Pizza')","('American (New)', 'Mexican')",0.012365665578193748,0.5258148631029986,8.353640631629766
+"('American (Traditional)', 'Breakfast & Brunch', 'Coffee & Tea')","('American (New)', 'Mexican')",0.012604823008171211,0.5257705588949994,8.352936769000417
+"('American (Traditional)', 'Breakfast & Brunch', 'Pizza')","('American (New)', 'Italian')",0.012460715326005305,0.47543284978942446,8.347781792439937
+"('American (New)', 'Breakfast & Brunch', 'Mexican')","('American (Traditional)', 'Italian')",0.012859311042634412,0.4381071764337198,8.347147158428296
+"('American (Traditional)', 'Pizza', 'Sandwiches')","('American (New)', 'Mexican')",0.013122997439789051,0.5248957566838363,8.33903875316137
+"('American (New)', 'Coffee & Tea', 'Mexican')","('American (Traditional)', 'Breakfast & Brunch')",0.012604823008171211,0.5446475887652358,8.332977803529475
+"('American (New)', 'Breakfast & Brunch', 'Italian')","('American (Traditional)', 'Sandwiches')",0.012396326787165218,0.47671265180992806,8.322312805082378
+"('American (New)', 'Breakfast & Brunch', 'Coffee & Tea')","('American (Traditional)', 'Sandwiches')",0.01211117754373055,0.47607569000843675,8.311192908564479
+"('American (New)', 'Breakfast & Brunch', 'Italian')","('American (Traditional)', 'Pizza')",0.012460715326005305,0.47918877490861933,8.295823716363483
+"('American (New)', 'American (Traditional)', 'Pizza')","('Breakfast & Brunch', 'Mexican')",0.013935519477533,0.43672528106082453,8.291754965163735
+"('American (New)', 'Italian', 'Pizza')","('American (Traditional)', 'Mexican')",0.012365665578193748,0.5084467977811397,8.288053821587853
+"('American (New)', 'Pizza', 'Sandwiches')","('American (Traditional)', 'Breakfast & Brunch')",0.013239510033880636,0.5382697581650461,8.235398521214943
+"('American (New)', 'Breakfast & Brunch', 'Mexican')","('American (Traditional)', 'Pizza')",0.013935519477533,0.47477279849576937,8.219373340697633
+"('American (New)', 'Breakfast & Brunch', 'Sandwiches')","('American (Traditional)', 'Mexican')",0.013696362047555534,0.504062288422478,8.216583119629602
+"('American (Traditional)', 'Breakfast & Brunch', 'Sandwiches')","('American (New)', 'Italian')",0.012396326787165218,0.46739884393063585,8.206718490108061
+"('American (Traditional)', 'Breakfast & Brunch', 'Sandwiches')","('American (New)', 'Mexican')",0.013696362047555534,0.5164161849710982,8.204323476418667
+"('American (New)', 'American (Traditional)', 'Sandwiches')","('Breakfast & Brunch', 'Mexican')",0.013696362047555534,0.4317193389388228,8.19671113041113
+"('American (Traditional)', 'Coffee & Tea', 'Mexican')","('American (New)', 'Breakfast & Brunch')",0.012604823008171211,0.5671127052007173,8.170376059620459
+"('American (New)', 'Mexican', 'Seafood')","('American (Traditional)', 'Breakfast & Brunch')",0.0120099955541247,0.5329976867601034,8.154737090039589
+"('American (Traditional)', 'Mexican', 'Sandwiches')","('American (New)', 'Italian')",0.012003863312330405,0.46441281138790036,8.154288902832127
+"('American (New)', 'Italian', 'Sandwiches')","('American (Traditional)', 'Breakfast & Brunch')",0.012396326787165218,0.5329554442393883,8.154090789578989
+"('American (New)', 'Breakfast & Brunch', 'Mexican')","('American (Traditional)', 'Sandwiches')",0.013696362047555534,0.46662488248198053,8.146203420248664
+"('American (Traditional)', 'Coffee & Tea', 'Sandwiches')","('American (New)', 'Breakfast & Brunch')",0.01211117754373055,0.5649313501144164,8.138949341066628
+"('American (New)', 'Breakfast & Brunch', 'Seafood')","('American (Traditional)', 'Mexican')",0.0120099955541247,0.4964512040557668,8.09251689058217
+"('American (New)', 'Mexican', 'Sandwiches')","('American (Traditional)', 'Breakfast & Brunch')",0.013696362047555534,0.528388928317956,8.084224188500247
+"('American (New)', 'Breakfast & Brunch', 'Coffee & Tea')","('American (Traditional)', 'Mexican')",0.012604823008171211,0.49548029408219835,8.076690349532116
+"('American (New)', 'Breakfast & Brunch', 'Italian')","('American (Traditional)', 'Mexican')",0.012859311042634412,0.49451715599575524,8.060990495913414
+"('American (Traditional)', 'Mexican', 'Pizza')","('American (New)', 'Italian')",0.012365665578193748,0.45834753949312423,8.047793177280484
+"('American (New)', 'American (Traditional)', 'Italian')","('Breakfast & Brunch', 'Mexican')",0.012859311042634412,0.423080802985978,8.032698130740586
+"('American (Traditional)', 'Breakfast & Brunch', 'Mexican')","('American (New)', 'Italian')",0.012859311042634412,0.4574607329842932,8.032222382727445
+"('American (Traditional)', 'Breakfast & Brunch', 'Mexican')","('American (New)', 'Seafood')",0.0120099955541247,0.4272469458987784,8.023057068756165
+"('American (New)', 'Mexican', 'Pizza')","('American (Traditional)', 'Breakfast & Brunch')",0.013935519477533,0.5217541040064287,7.9827129638868835
+"('American (Traditional)', 'Breakfast & Brunch', 'Seafood')","('American (New)', 'Mexican')",0.0120099955541247,0.5022438774201822,7.97916748995106
+"('American (New)', 'American (Traditional)', 'Seafood')","('Breakfast & Brunch', 'Mexican')",0.0120099955541247,0.41857234451805947,7.947099621774509
+"('American (New)', 'Italian', 'Mexican')","('American (Traditional)', 'Breakfast & Brunch')",0.012859311042634412,0.5193808049535604,7.946402056179527
+"('American (Traditional)', 'Italian', 'Sandwiches')","('American (New)', 'Breakfast & Brunch')",0.012396326787165218,0.5507424056668029,7.934529635842363
+"('American (Traditional)', 'Italian', 'Mexican')","('American (New)', 'Breakfast & Brunch')",0.012859311042634412,0.5441806150253017,7.8399941111152485
+"('American (New)', 'Italian', 'Pizza')","('American (Traditional)', 'Breakfast & Brunch')",0.012460715326005305,0.5123550176500252,7.838909191324646
+"('American (Traditional)', 'Mexican', 'Seafood')","('American (New)', 'Breakfast & Brunch')",0.0120099955541247,0.5390861546930912,7.766598370985874
+"('American (New)', 'Breakfast & Brunch', 'Mexican')","('American (Traditional)', 'Seafood')",0.0120099955541247,0.4091716285385982,7.748767900924463
+"('American (Traditional)', 'Mexican', 'Sandwiches')","('American (New)', 'Breakfast & Brunch')",0.013696362047555534,0.5298932384341637,7.634156296895057
+"('American (Traditional)', 'Italian', 'Pizza')","('American (New)', 'Breakfast & Brunch')",0.012460715326005305,0.5298565840938723,7.6336282188928335
+"('American (Traditional)', 'Pizza', 'Sandwiches')","('American (New)', 'Breakfast & Brunch')",0.013239510033880636,0.5295560461123375,7.629298377034558
+"('Breakfast & Brunch', 'Italian', 'Sandwiches')","('American (New)', 'American (Traditional)')",0.012396326787165218,0.6436873109377488,7.616289291314471
+"('Breakfast & Brunch', 'Italian', 'Pizza')","('American (New)', 'American (Traditional)')",0.012460715326005305,0.6355958711291836,7.520549099892163
+"('American (Traditional)', 'Mexican', 'Pizza')","('American (New)', 'Breakfast & Brunch')",0.013935519477533,0.5165359699965906,7.441718523479902
+"('Breakfast & Brunch', 'Italian', 'Mexican')","('American (New)', 'American (Traditional)')",0.012859311042634412,0.6280323450134772,7.4310553317523045
+"('Breakfast & Brunch', 'Pizza', 'Sandwiches')","('American (New)', 'American (Traditional)')",0.013239510033880636,0.626796341994484,7.416430596422543
+"('Italian', 'Mexican', 'Sandwiches')","('American (New)', 'American (Traditional)')",0.012003863312330405,0.6267008163918681,7.415300310627116
+"('Breakfast & Brunch', 'Mexican', 'Seafood')","('American (New)', 'American (Traditional)')",0.0120099955541247,0.6207606973058637,7.345015151023833
+"('Italian', 'Mexican', 'Pizza')","('American (New)', 'American (Traditional)')",0.012365665578193748,0.6126386146133981,7.24891238438132
+"('Breakfast & Brunch', 'Coffee & Tea', 'Sandwiches')","('American (New)', 'American (Traditional)')",0.01211117754373055,0.6120235512860241,7.241634782113639
+"('Breakfast & Brunch', 'Mexican', 'Sandwiches')","('American (New)', 'American (Traditional)')",0.013696362047555534,0.6097461097461097,7.214687453313922
+"('Mexican', 'Pizza', 'Sandwiches')","('American (New)', 'American (Traditional)')",0.013122997439789051,0.6081273088945723,7.195533346372816
+"('Breakfast & Brunch', 'Coffee & Tea', 'Mexican')","('American (New)', 'American (Traditional)')",0.012604823008171211,0.6074172576832151,7.187131820747794
+"('Breakfast & Brunch', 'Mexican', 'Pizza')","('American (New)', 'American (Traditional)')",0.013935519477533,0.6056769722814499,7.166540274442515
+"('Burgers', 'Italian')","('American (Traditional)', 'Mexican')",0.012028392279507581,0.4247049907978781,6.923001260684424
+"('Burgers', 'Pizza')","('American (Traditional)', 'Mexican')",0.013573717211669657,0.41768091329370693,6.808503671840066
+"('Burgers', 'Sandwiches')","('American (Traditional)', 'Mexican')",0.013349890386177928,0.40998116760828623,6.682992198600785
+"('Burgers', 'Coffee & Tea')","('American (Traditional)', 'Breakfast & Brunch')",0.01215103711539346,0.43640568219359105,6.676902529391038
+"('Coffee & Tea', 'Pizza')","('American (Traditional)', 'Mexican')",0.01390485826856153,0.4027173430423586,6.564586557704421
+"('Coffee & Tea', 'Italian')","('American (New)', 'Mexican')",0.012929831823268791,0.4116957922483647,6.540626633681275
+"('Burgers', 'Italian')","('American (Traditional)', 'Breakfast & Brunch')",0.012095846939244814,0.4270867164663852,6.5343245832870105
+"('Burgers', 'Pizza')","('American (New)', 'Mexican')",0.013322295298103604,0.40994433437116706,6.512801156095488
+"('American (New)', 'Bakeries')","('American (Traditional)', 'Breakfast & Brunch')",0.012037590642199022,0.41993796127928124,6.424950339233062
+"('American (Traditional)', 'Bakeries')","('American (New)', 'Breakfast & Brunch')",0.012037590642199022,0.4456805539788853,6.420906629447987
+"('Burgers', 'Sandwiches')","('American (New)', 'Mexican')",0.013153658648760521,0.403954802259887,6.417645232746399
+"('Burgers', 'Coffee & Tea')","('American (New)', 'Breakfast & Brunch')",0.012335004369222278,0.4430128840436075,6.382473587172115
+"('Coffee & Tea', 'Pizza')","('American (New)', 'Mexican')",0.013861932576001471,0.4014741141994494,6.3782344476389214
+"('American (New)', 'Specialty Food')","('American (Traditional)', 'Breakfast & Brunch')",0.012031458400404729,0.41664897005733703,6.374629560414232
+"('Coffee & Tea', 'Italian')","('American (Traditional)', 'Breakfast & Brunch')",0.0130218154501832,0.4146246216928634,6.343657514754371
+"('Burgers', 'Sandwiches')","('American (Traditional)', 'Breakfast & Brunch')",0.013417345045915161,0.4120527306967985,6.304308197828369
+"('Coffee & Tea', 'Italian')","('American (New)', 'Breakfast & Brunch')",0.01365956859678977,0.4349311725080543,6.266040606839798
+"('American (Traditional)', 'Specialty Food')","('American (New)', 'Breakfast & Brunch')",0.012031458400404729,0.4336870026525199,6.248115888334044
+"('Burgers', 'Pizza')","('American (Traditional)', 'Breakfast & Brunch')",0.01326710512195496,0.4082460609491462,6.246067061418552
+"('Burgers', 'Italian')","('American (New)', 'Breakfast & Brunch')",0.012270615830382192,0.43325755115297176,6.241928793214329
+"('Coffee & Tea', 'Pizza')","('American (Traditional)', 'Breakfast & Brunch')",0.014055098192521731,0.4070686439925406,6.228052863674399
+"('Coffee & Tea', 'Pizza')","('American (New)', 'Breakfast & Brunch')",0.014499685722608043,0.4199449427226712,6.0501344352100705
+"('American (Traditional)', 'Cafes')","('American (New)', 'Breakfast & Brunch')",0.012289012555765073,0.4176305095342294,6.016790464353797
+"('Breakfast & Brunch', 'Specialty Food')","('American (New)', 'American (Traditional)')",0.012031458400404729,0.5066494512588767,5.9948187955603816
+"('American (Traditional)', 'Desserts')","('American (New)', 'Breakfast & Brunch')",0.012764261294822854,0.4111604938271605,5.923577138407071
+"('Burgers', 'Pizza')","('American (New)', 'Breakfast & Brunch')",0.013349890386177928,0.41079347108217756,5.918289452517748
+"('Bakeries', 'Breakfast & Brunch')","('American (New)', 'American (Traditional)')",0.012037590642199022,0.49860299720599444,5.899610888250946
+"('Burgers', 'Sandwiches')","('American (New)', 'Breakfast & Brunch')",0.013325361419000752,0.4092278719397363,5.895733911731836
+"('American (Traditional)', 'Salad')","('American (New)', 'Breakfast & Brunch')",0.012479112051388186,0.406228166483681,5.852517243476461
+"('Coffee & Tea', 'Seafood')","('American (New)', 'Breakfast & Brunch')",0.012755062932131415,0.40537906840771776,5.84028431247615
+"('Burgers', 'Italian')","('American (New)', 'American (Traditional)')",0.013914056631252971,0.49128504925841726,5.813022870061911
+"('Burgers', 'Coffee & Tea')","('American (New)', 'American (Traditional)')",0.013441874013092336,0.4827662151745402,5.712225629375287
+"('Desserts', 'Mexican')","('American (New)', 'American (Traditional)')",0.012052921246684757,0.4817401960784314,5.700085482876215
+"('Burgers', 'Seafood')","('American (New)', 'American (Traditional)')",0.013319229177206458,0.4804246848042469,5.684519983510416
+"('Breakfast & Brunch', 'Desserts')","('American (New)', 'American (Traditional)')",0.012764261294822854,0.4753368348938114,5.624319112481574
+"('Breakfast & Brunch', 'Salad')","('American (New)', 'American (Traditional)')",0.012479112051388186,0.47441426739713255,5.613403034401313
+"('Coffee & Tea', 'Italian')","('American (New)', 'American (Traditional)')",0.014876818592957121,0.4736893488235869,5.604825593965634
+"('Burgers', 'Pizza')","('American (New)', 'American (Traditional)')",0.015330604485734872,0.47174261722804034,5.581791318235351
+"('Burgers', 'Sandwiches')","('American (New)', 'American (Traditional)')",0.015253951463306199,0.4684557438794727,5.542900108386687
+"('Mexican', 'Salad')","('American (New)', 'American (Traditional)')",0.0122123595333364,0.4667760459392945,5.523025449966304
+"('Breakfast & Brunch', 'Cafes')","('American (New)', 'American (Traditional)')",0.012289012555765073,0.4619107986631324,5.465458475910148
+"('Breakfast & Brunch', 'Burgers')","('American (New)', 'American (Traditional)')",0.016446672492296373,0.4553093964858671,5.387348828794193
+"('Coffee & Tea', 'Pizza')","('American (New)', 'American (Traditional)')",0.01571693571877539,0.4551993606251665,5.386046853544294
+"('Pizza', 'Seafood')","('American (New)', 'American (Traditional)')",0.015306075518557697,0.44835638584515897,5.305078851453685
+"('Burgers', 'Mexican')","('American (New)', 'American (Traditional)')",0.01598368823682718,0.44616569667921946,5.279158001140765
+"('Coffee & Tea', 'Seafood')","('American (New)', 'American (Traditional)')",0.013855800334207177,0.4403625024361722,5.210492974787599
+"('Italian', 'Seafood')","('American (New)', 'American (Traditional)')",0.01542565423354643,0.4399265477439665,5.205334636263095
+"('Italian', 'Sandwiches')","('American (New)', 'American (Traditional)')",0.01710895460608012,0.438541339201509,5.188944459217681
+"('Sandwiches', 'Seafood')","('American (New)', 'American (Traditional)')",0.015876374005427032,0.4382564536606009,5.185573613377474
+"('Breakfast & Brunch', 'Italian')","('American (New)', 'American (Traditional)')",0.018531634702356314,0.433883704235463,5.133834012402956
+"('Coffee & Tea', 'Sandwiches')","('American (New)', 'American (Traditional)')",0.016161523248861703,0.433114215283484,5.124729202714842
+"('Pizza', 'Sandwiches')","('American (New)', 'American (Traditional)')",0.018286345030584555,0.4275268817204301,5.058618300635237
+"('Breakfast & Brunch', 'Pizza')","('American (New)', 'American (Traditional)')",0.01958944641187202,0.42630279575632213,5.044134571250387
+"('Coffee & Tea', 'Mexican')","('American (New)', 'American (Traditional)')",0.01680234251636542,0.4244442723259236,5.022143999337482
+"('Italian', 'Mexican')","('American (New)', 'American (Traditional)')",0.017752839994480983,0.4241136829768532,5.0182323731855245
+"('Mexican', 'Sandwiches')","('American (New)', 'American (Traditional)')",0.01897315611154548,0.4185039902610578,4.951856911322475
+"('Mexican', 'Seafood')","('American (New)', 'American (Traditional)')",0.0164681353385764,0.4176841122948908,4.942155884647263
+"('Italian', 'Pizza')","('American (New)', 'American (Traditional)')",0.017525947048092107,0.415618410528612,4.917713920398134
+"('Breakfast & Brunch', 'Sandwiches')","('American (New)', 'American (Traditional)')",0.019663033313403546,0.41556505961638146,4.917082657400404
+"('Breakfast & Brunch', 'Seafood')","('American (New)', 'American (Traditional)')",0.017676186972052307,0.4091263927329501,4.840898540048179
+"('Breakfast & Brunch', 'Coffee & Tea')","('American (New)', 'American (Traditional)')",0.017906146039338332,0.40126425724886633,4.747871541881858
+"('American (Traditional)', 'Mexican', 'Sandwiches')","('Burgers',)",0.013349890386177928,0.5164887307236062,4.49884403177765
+"('American (New)', 'Pizza', 'Sandwiches')","('Burgers',)",0.012693740514188475,0.5160807778608826,4.495290582897672
+"('American (Traditional)', 'Pizza', 'Sandwiches')","('Burgers',)",0.012886906130708734,0.5154525386313465,4.4898183428657035
+"('American (Traditional)', 'Italian', 'Mexican')","('Burgers',)",0.012028392279507581,0.5090177760477488,4.433768730312556
+"('American (New)', 'Mexican', 'Sandwiches')","('Burgers',)",0.013153658648760521,0.5074520936834634,4.420130948225121
+"('American (Traditional)', 'Breakfast & Brunch', 'Coffee & Tea')","('Burgers',)",0.01215103711539346,0.5068423072004092,4.414819439731792
+"('American (Traditional)', 'Breakfast & Brunch', 'Pizza')","('Burgers',)",0.01326710512195496,0.5062002807674311,4.409227107093283
+"('American (Traditional)', 'Breakfast & Brunch', 'Sandwiches')","('Burgers',)",0.013417345045915161,0.5058959537572255,4.406576284970497
+"('American (Traditional)', 'Mexican', 'Pizza')","('Burgers',)",0.013573717211669657,0.5031253551539948,4.382443152437028
+"('American (Traditional)', 'Breakfast & Brunch', 'Mexican')","('Burgers',)",0.014140949577641846,0.5030541012216404,4.381822499343854
+"('American (Traditional)', 'Breakfast & Brunch', 'Italian')","('Burgers',)",0.012095846939244814,0.5010796392734663,4.364624067271444
+"('American (New)', 'Mexican', 'Pizza')","('Burgers',)",0.013322295298103604,0.4987946274824934,4.344720609467132
+"('American (New)', 'Breakfast & Brunch', 'Pizza')","('Burgers',)",0.013349890386177928,0.49460411223446554,4.308219378380732
+"('American (New)', 'American (Traditional)', 'Italian', 'Mexican')","('Pizza',)",0.012365665578193748,0.6965457685664939,4.295639967649034
+"('American (New)', 'Breakfast & Brunch', 'Sandwiches')","('Burgers',)",0.013325361419000752,0.4904084856691492,4.271673625472443
+"('American (New)', 'American (Traditional)', 'Mexican', 'Sandwiches')","('Pizza',)",0.013122997439789051,0.691661279896574,4.2655170300060155
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch', 'Sandwiches')","('Coffee & Tea',)",0.01211117754373055,0.6159363792296897,4.26072305090072
+"('American (New)', 'American (Traditional)', 'Coffee & Tea')","('Burgers',)",0.013441874013092336,0.48586944475229965,4.232136582505109
+"('American (New)', 'Breakfast & Brunch', 'Coffee & Tea')","('Burgers',)",0.012335004369222278,0.4848740508617572,4.223466263875967
+"('American (New)', 'American (Traditional)', 'Mexican', 'Pizza')","('Italian',)",0.012365665578193748,0.6374269005847953,4.218620058669401
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch', 'Mexican')","('Coffee & Tea',)",0.012604823008171211,0.6093078405217134,4.214870315749431
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch', 'Pizza')","('Italian',)",0.012460715326005305,0.6360932853341682,4.209793923403253
+"('American (New)', 'American (Traditional)', 'Sandwiches')","('Burgers',)",0.015253951463306199,0.48081569537063884,4.188116202405176
+"('American (New)', 'American (Traditional)', 'Mexican', 'Sandwiches')","('Italian',)",0.012003863312330405,0.6326761473820297,4.187178613796918
+"('American (New)', 'Breakfast & Brunch', 'Mexican')","('Burgers',)",0.014104156126876082,0.48051812389010756,4.185524223917398
+"('American (New)', 'American (Traditional)', 'Pizza')","('Burgers',)",0.015330604485734872,0.48044585375228216,4.184894719227574
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch', 'Sandwiches')","('Italian',)",0.012396326787165218,0.6304381724621863,4.17236724345941
+"('American (New)', 'American (Traditional)', 'Mexican', 'Pizza')","('Sandwiches',)",0.013122997439789051,0.6764659396238344,4.160556383016811
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch', 'Coffee & Tea')","('Sandwiches',)",0.01211117754373055,0.6763698630136986,4.15996547055523
+"('American (New)', 'American (Traditional)', 'Italian', 'Mexican')","('Sandwiches',)",0.012003863312330405,0.6761658031088082,4.158710414402245
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch', 'Pizza')","('Sandwiches',)",0.013239510033880636,0.6758491156675537,4.1567626504751125
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch', 'Mexican')","('Pizza',)",0.013935519477533,0.6736327256558471,4.154333843415453
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch', 'Sandwiches')","('Pizza',)",0.013239510033880636,0.6733198191174178,4.152404129829824
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch', 'Italian')","('Pizza',)",0.012460715326005305,0.6724023825281271,4.146746242784079
+"('American (New)', 'American (Traditional)', 'Mexican')","('Burgers',)",0.01598368823682718,0.47602958633914716,4.146427087481803
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch', 'Italian')","('Sandwiches',)",0.012396326787165218,0.6689278623428193,4.114193966655329
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch', 'Mexican')","('Italian',)",0.012859311042634412,0.6216096042685638,4.11393799480866
+"('American (New)', 'Breakfast & Brunch', 'Italian')","('Burgers',)",0.012270615830382192,0.4718783162362929,4.110267698872573
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch', 'Mexican')","('Sandwiches',)",0.013696362047555534,0.6620720320142286,4.072027662391201
+"('Italian', 'Mexican', 'Sandwiches')","('Pizza',)",0.012558831194714008,0.6556747238674564,4.043585758074153
+"('American (New)', 'American (Traditional)', 'Seafood')","('Burgers',)",0.013319229177206458,0.46420175251122037,4.043401452147851
+"('American (New)', 'Pizza', 'Seafood')","('Italian',)",0.012338070490119426,0.6077631777677088,4.0222995457193464
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch')","('Burgers',)",0.016446672492296373,0.4590893529613147,3.998870203284138
+"('American (New)', 'American (Traditional)', 'Italian')","('Burgers',)",0.013914056631252971,0.4577827095732876,3.987488764623024
+"('American (New)', 'Burgers', 'Sandwiches')","('Pizza',)",0.012693740514188475,0.6443579766536965,3.9737946921758507
+"('Breakfast & Brunch', 'Italian', 'Sandwiches')","('Pizza',)",0.012408591270753807,0.644324152205063,3.973586094751258
+"('Breakfast & Brunch', 'Mexican', 'Sandwiches')","('Coffee & Tea',)",0.012902236735194469,0.5743925743925744,3.973344917605544
+"('Breakfast & Brunch', 'Coffee & Tea', 'Pizza')","('Sandwiches',)",0.012074384092964786,0.6448337972818078,3.9660051070090367
+"('Breakfast & Brunch', 'Pizza', 'Sandwiches')","('Coffee & Tea',)",0.012074384092964786,0.5716359413557847,3.9542759839968267
+"('American (Traditional)', 'Coffee & Tea', 'Italian')","('Sandwiches',)",0.012000797191433259,0.6403795811518325,3.9386097626681074
+"('American (New)', 'Breakfast & Brunch', 'Burgers')","('Coffee & Tea',)",0.012335004369222278,0.568300607430428,3.9312039028250814
+"('American (Traditional)', 'Pizza', 'Seafood')","('Italian',)",0.012105045301936256,0.5931490384615385,3.925580218121723
+"('American (Traditional)', 'Coffee & Tea', 'Pizza')","('Sandwiches',)",0.013165923132349109,0.6364310063732029,3.9143243300442836
+"('American (Traditional)', 'Burgers', 'Sandwiches')","('Pizza',)",0.012886906130708734,0.6347025067955301,3.91424882440821
+"('American (New)', 'Burgers', 'Pizza')","('Sandwiches',)",0.012693740514188475,0.6363356901321857,3.9137380941797106
+"('American (New)', 'Sandwiches', 'Seafood')","('Italian',)",0.012497508776771069,0.591324532134049,3.9135052664947123
+"('American (Traditional)', 'Burgers', 'Pizza')","('Sandwiches',)",0.012886906130708734,0.6359509759418974,3.9113719364971358
+"('American (Traditional)', 'Italian', 'Sandwiches')","('Pizza',)",0.014272792776219166,0.6341097943059529,3.9105935305647166
+"('American (Traditional)', 'Burgers', 'Mexican')","('Pizza',)",0.013573717211669657,0.633514596451059,3.906922909322694
+"('Breakfast & Brunch', 'Italian', 'Mexican')","('Pizza',)",0.01294209630685738,0.6320754716981132,3.8980477397557176
+"('Breakfast & Brunch', 'Italian', 'Pizza')","('Sandwiches',)",0.012408591270753807,0.6329371285580232,3.892835479247878
+"('American (New)', 'American (Traditional)', 'Pizza', 'Sandwiches')","('Mexican',)",0.013122997439789051,0.7176391683433938,3.8927323713427833
+"('Breakfast & Brunch', 'Pizza', 'Sandwiches')","('Italian',)",0.012408591270753807,0.5874582668021484,3.887917541115802
+"('American (Traditional)', 'Italian', 'Mexican')","('Pizza',)",0.014889083076545708,0.6300765537822759,3.8857202918279357
+"('Breakfast & Brunch', 'Mexican', 'Sandwiches')","('Pizza',)",0.014147081819436141,0.6298116298116299,3.8840864896457226
+"('American (New)', 'Pizza', 'Sandwiches')","('Italian',)",0.014380107007619311,0.5846422338568936,3.86928046593459
+"('American (New)', 'Burgers', 'Mexican')","('Pizza',)",0.013322295298103604,0.6259904912836767,3.8605212967706297
+"('American (Traditional)', 'Breakfast & Brunch', 'Burgers')","('Coffee & Tea',)",0.01215103711539346,0.5580118276541819,3.8600315502306173
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch', 'Pizza')","('Mexican',)",0.013935519477533,0.7113789325403037,3.8587746058836006
+"('American (Traditional)', 'Coffee & Tea', 'Mexican')","('Pizza',)",0.01390485826856153,0.6256035315215892,3.858134892466838
+"('Mexican', 'Pizza', 'Sandwiches')","('Italian',)",0.012558831194714008,0.5819835180448991,3.8516845473367214
+"('American (Traditional)', 'Mexican', 'Sandwiches')","('Pizza',)",0.01613392816078738,0.6241992882562277,3.8494748391477245
+"('American (New)', 'Coffee & Tea', 'Pizza')","('Italian',)",0.01225221910499931,0.5808983863933711,3.844502926750528
+"('American (New)', 'Coffee & Tea', 'Pizza')","('Sandwiches',)",0.01314446028606908,0.6232010466637592,3.8329543894574893
+"('American (Traditional)', 'Burgers', 'Mexican')","('Sandwiches',)",0.013349890386177928,0.6230681167716084,3.8321368134660223
+"('American (New)', 'American (Traditional)', 'Italian', 'Pizza')","('Mexican',)",0.012365665578193748,0.7055633310006998,3.8272286962249815
+"('Italian', 'Mexican', 'Pizza')","('Sandwiches',)",0.012558831194714008,0.6222087194288318,3.8268511503001497
+"('Breakfast & Brunch', 'Coffee & Tea', 'Mexican')","('Sandwiches',)",0.012902236735194469,0.6217494089834515,3.8240261935752393
+"('American (New)', 'Mexican', 'Seafood')","('Italian',)",0.01301261708749176,0.577493536535583,3.8219689422361554
+"('Breakfast & Brunch', 'Mexican', 'Pizza')","('Coffee & Tea',)",0.012712137239571356,0.5525053304904051,3.8219405067615417
+"('American (Traditional)', 'Sandwiches', 'Seafood')","('Italian',)",0.012255285225896457,0.5770174678793129,3.818818223650538
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch', 'Coffee & Tea')","('Mexican',)",0.012604823008171211,0.7039383561643835,3.8184142495963953
+"('American (New)', 'Italian', 'Sandwiches')","('Pizza',)",0.014380107007619311,0.6182441339309254,3.8127490415222023
+"('American (Traditional)', 'Coffee & Tea', 'Mexican')","('Sandwiches',)",0.013757684465498474,0.6189819285418678,3.8070049989493753
+"('American (New)', 'American (Traditional)', 'Italian', 'Sandwiches')","('Mexican',)",0.012003863312330405,0.7016129032258064,3.8058001583770853
+"('Breakfast & Brunch', 'Italian', 'Mexican')","('Sandwiches',)",0.012669211547011299,0.6187481281820905,3.8055670262115844
+"('American (New)', 'Burgers', 'Mexican')","('Sandwiches',)",0.013153658648760521,0.618066561014263,3.8013750950817835
+"('American (New)', 'American (Traditional)', 'Coffee & Tea', 'Mexican')","('Breakfast & Brunch',)",0.012604823008171211,0.7501824817518248,3.801262572996953
+"('American (New)', 'American (Traditional)', 'Coffee & Tea', 'Sandwiches')","('Breakfast & Brunch',)",0.01211117754373055,0.7493834187061279,3.7972136268765646
+"('American (New)', 'Coffee & Tea', 'Italian')","('Sandwiches',)",0.01247604593049104,0.6170761298149834,3.7952835173589
+"('American (New)', 'Breakfast & Brunch', 'Burgers')","('Pizza',)",0.013349890386177928,0.6150586240994491,3.7931038093394127
+"('American (New)', 'Breakfast & Brunch', 'Sandwiches')","('Coffee & Tea',)",0.014892149197442856,0.548070412999323,3.7912620863592137
+"('American (Traditional)', 'Breakfast & Brunch', 'Burgers')","('Sandwiches',)",0.013417345045915161,0.6161644607152915,3.7896763604131545
+"('Breakfast & Brunch', 'Ice Cream & Frozen Yogurt')","('Coffee & Tea',)",0.012215425654233546,0.5477041517734396,3.7887284843503104
+"('American (Traditional)', 'Coffee & Tea', 'Sandwiches')","('Pizza',)",0.013165923132349109,0.6141304347826086,3.787379609571219
+"('Breakfast & Brunch', 'Mexican', 'Pizza')","('Sandwiches',)",0.014147081819436141,0.6148720682302772,3.781727590951266
+"('American (New)', 'Pizza', 'Seafood')","('Sandwiches',)",0.01247604593049104,0.614559734179127,3.779806602245066
+"('American (Traditional)', 'Breakfast & Brunch', 'Sandwiches')","('Coffee & Tea',)",0.014490487359916602,0.5463583815028902,3.7794191553249368
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch', 'Sandwiches')","('Mexican',)",0.013696362047555534,0.696553874941525,3.7783581735489418
+"('American (Traditional)', 'Pizza', 'Sandwiches')","('Italian',)",0.014272792776219166,0.5708854549914153,3.778235323014918
+"('Breakfast & Brunch', 'Coffee & Tea', 'Mexican')","('Pizza',)",0.012712137239571356,0.6125886524822695,3.777871344688093
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch', 'Mexican')","('Seafood',)",0.0120099955541247,0.5805543204387136,3.77609813612038
+"('American (New)', 'Breakfast & Brunch', 'Burgers')","('Sandwiches',)",0.013325361419000752,0.6139285209775392,3.7759243696579077
+"('American (New)', 'Mexican', 'Sandwiches')","('Pizza',)",0.01583958055466127,0.6110716820440029,3.7685160960620463
+"('American (New)', 'Mexican', 'Sandwiches')","('Coffee & Tea',)",0.014113354489567524,0.5444759876981311,3.766397747684037
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch', 'Italian')","('Mexican',)",0.012859311042634412,0.6939113170086036,3.764023991048316
+"('Breakfast & Brunch', 'Coffee & Tea', 'Sandwiches')","('Pizza',)",0.012074384092964786,0.6101642392314843,3.7629198412433102
+"('American (New)', 'Coffee & Tea', 'Sandwiches')","('Italian',)",0.01247604593049104,0.5684548756635932,3.7621492577780566
+"('American (Traditional)', 'Pizza', 'Seafood')","('Sandwiches',)",0.012482178172285334,0.6116286057692308,3.76177890225175
+"('American (Traditional)', 'Breakfast & Brunch', 'Burgers')","('Pizza',)",0.01326710512195496,0.6092649957758378,3.7573741523553115
+"('Bakeries', 'Breakfast & Brunch')","('Coffee & Tea',)",0.013104600714406169,0.5427990855981712,3.7547978232886985
+"('American (Traditional)', 'Breakfast & Brunch', 'Italian')","('Pizza',)",0.01468365297643686,0.6082814683094119,3.7513086788649552
+"('American (New)', 'Coffee & Tea', 'Mexican')","('Sandwiches',)",0.014113354489567524,0.609830418653948,3.7507192783414776
+"('American (New)', 'Italian', 'Mexican')","('Pizza',)",0.015030124637814469,0.6070588235294118,3.7437685544105137
+"('American (New)', 'Breakfast & Brunch', 'Burgers')","('Italian',)",0.012270615830382192,0.5653340867354146,3.7414952459075046
+"('American (Traditional)', 'Mexican', 'Seafood')","('Italian',)",0.012592558524582624,0.56523534269199,3.7408417378709236
+"('American (Traditional)', 'Italian', 'Mexican')","('Sandwiches',)",0.01437090864492787,0.6081484364863111,3.740374364822885
+"('American (New)', 'Coffee & Tea', 'Italian')","('Pizza',)",0.01225221910499931,0.6060054595086442,3.737272394657214
+"('American (New)', 'Mexican', 'Sandwiches')","('Italian',)",0.01462233055849392,0.5641116631180506,3.733404999343276
+"('Breakfast & Brunch', 'Mexican', 'Sandwiches')","('Italian',)",0.012669211547011299,0.564018564018564,3.732788850686578
+"('American (Traditional)', 'Italian', 'Pizza')","('Sandwiches',)",0.014272792776219166,0.6069100391134289,3.73275768851643
+"('American (Traditional)', 'Breakfast & Brunch', 'Italian')","('Coffee & Tea',)",0.0130218154501832,0.5394385875777975,3.731551670178179
+"('American (New)', 'Breakfast & Brunch', 'Pizza')","('Italian',)",0.015207959649848994,0.5634442803589685,3.7289881253586814
+"('American (New)', 'Mexican', 'Pizza')","('Italian',)",0.015030124637814469,0.5627367696016531,3.7243056761714928
+"('American (Traditional)', 'Italian', 'Seafood')","('Sandwiches',)",0.012255285225896457,0.60542259921236,3.723609293582921
+"('Breakfast & Brunch', 'Mexican', 'Pizza')","('Italian',)",0.01294209630685738,0.5625,3.7227386870941563
+"('American (Traditional)', 'Breakfast & Brunch', 'Pizza')","('Sandwiches',)",0.015845712796455563,0.6045858680393074,3.7184630371064324
+"('American (Traditional)', 'Breakfast & Brunch', 'Coffee & Tea')","('Sandwiches',)",0.014490487359916602,0.6044251183015731,3.717474357103163
+"('American (New)', 'Breakfast & Brunch', 'Pizza')","('Coffee & Tea',)",0.014499685722608043,0.5372032261728956,3.7160886188207143
+"('American (Traditional)', 'Breakfast & Brunch', 'Mexican')","('Coffee & Tea',)",0.01510064541844885,0.537194589877836,3.716028877485934
+"('American (Traditional)', 'Burgers', 'Mexican')","('Italian',)",0.012028392279507581,0.5613909559244419,3.715398809252782
+"('American (New)', 'Italian', 'Sandwiches')","('Coffee & Tea',)",0.01247604593049104,0.5363828104402848,3.710413415437488
+"('American (Traditional)', 'Breakfast & Brunch', 'Pizza')","('Coffee & Tea',)",0.014055098192521731,0.5362657931679925,3.709603951658075
+"('American (New)', 'Breakfast & Brunch', 'Seafood')","('Italian',)",0.013555320486286774,0.5603295310519645,3.7083740849217324
+"('American (Traditional)', 'Breakfast & Brunch', 'Pizza')","('Italian',)",0.01468365297643686,0.5602480112306972,3.7078345702685827
+"('American (Traditional)', 'Coffee & Tea', 'Sandwiches')","('Italian',)",0.012000797191433259,0.5597826086956522,3.704754442228967
+"('American (Traditional)', 'Breakfast & Brunch', 'Italian')","('Sandwiches',)",0.014530346931579513,0.601930649053728,3.702132298703102
+"('American (New)', 'Coffee & Tea', 'Mexican')","('Italian',)",0.012929831823268791,0.5586910439851616,3.697530246358371
+"('American (New)', 'Pizza', 'Sandwiches')","('Coffee & Tea',)",0.01314446028606908,0.5344053851907256,3.696734630377305
+"('American (Traditional)', 'Breakfast & Brunch', 'Mexican')","('Pizza',)",0.016848334329822624,0.5993673647469459,3.696334861972065
+"('American (Traditional)', 'Mexican', 'Seafood')","('Pizza',)",0.013352956507075074,0.5993669143958161,3.6963320846293555
+"('American (New)', 'American (Traditional)', 'Mexican', 'Seafood')","('Breakfast & Brunch',)",0.0120099955541247,0.7292869111897226,3.6953822675362704
+"('American (New)', 'Coffee & Tea', 'Mexican')","('Pizza',)",0.013861932576001471,0.5989666136724959,3.693863405809137
+"('American (New)', 'Coffee & Tea', 'Sandwiches')","('Pizza',)",0.01314446028606908,0.598910310142498,3.6935161785274655
+"('American (Traditional)', 'Italian', 'Sandwiches')","('Coffee & Tea',)",0.012000797191433259,0.5331698678654135,3.6881879730840184
+"('American (Traditional)', 'Italian', 'Seafood')","('Pizza',)",0.012105045301936256,0.598000605877007,3.687905977191197
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch', 'Seafood')","('Mexican',)",0.0120099955541247,0.6794449262792716,3.685553096519859
+"('American (Traditional)', 'Breakfast & Brunch', 'Sandwiches')","('Pizza',)",0.015845712796455563,0.5974566473988439,3.684551352290743
+"('American (New)', 'Breakfast & Brunch', 'Mexican')","('Coffee & Tea',)",0.015634150454552423,0.5326438942860128,3.6845495652394935
+"('Breakfast & Brunch', 'Coffee & Tea', 'Pizza')","('Mexican',)",0.012712137239571356,0.6788930735221876,3.6825596491350483
+"('American (Traditional)', 'Mexican', 'Sandwiches')","('Coffee & Tea',)",0.013757684465498474,0.5322657176749703,3.6819335388797656
+"('American (Traditional)', 'Coffee & Tea', 'Mexican')","('Italian',)",0.012362599457296602,0.5562146502965927,3.6811409724225292
+"('American (Traditional)', 'Mexican', 'Sandwiches')","('Italian',)",0.01437090864492787,0.5559905100830368,3.6796575671881504
+"('American (Traditional)', 'Mexican', 'Pizza')","('Sandwiches',)",0.01613392816078738,0.5980225025571088,3.678095517396248
+"('Bakeries', 'Mexican')","('Coffee & Tea',)",0.012197028928850665,0.531533939070016,3.6768714804019336
+"('American (Traditional)', 'Breakfast & Brunch', 'Burgers')","('Italian',)",0.012095846939244814,0.5554773303294847,3.676261239860182
+"('American (New)', 'American (Traditional)', 'Burgers')","('Pizza',)",0.015330604485734872,0.5954507562224604,3.6721808998425707
+"('American (New)', 'American (Traditional)', 'Italian', 'Sandwiches')","('Breakfast & Brunch',)",0.012396326787165218,0.7245519713261648,3.6713897722080633
+"('American (New)', 'American (Traditional)', 'Italian', 'Mexican')","('Breakfast & Brunch',)",0.012859311042634412,0.7243523316062176,3.670378174344905
+"('American (Traditional)', 'Mexican', 'Seafood')","('Sandwiches',)",0.013294700210029282,0.5967519955959263,3.670281353315859
+"('American (New)', 'American (Traditional)', 'Pizza', 'Sandwiches')","('Breakfast & Brunch',)",0.013239510033880636,0.7240107310529846,3.6686472442985423
+"('American (New)', 'Breakfast & Brunch', 'Pizza')","('Sandwiches',)",0.016063407380153,0.5951380211291606,3.660354716398319
+"('American (New)', 'American (Traditional)', 'Mexican', 'Sandwiches')","('Breakfast & Brunch',)",0.013696362047555534,0.7218810601163541,3.657855952018151
+"('American (New)', 'Breakfast & Brunch', 'Sandwiches')","('Italian',)",0.015011727912431588,0.5524712254570074,3.6563662302491013
+"('American (Traditional)', 'Mexican', 'Pizza')","('Italian',)",0.014889083076545708,0.5518808955563133,3.652459307654501
+"('Breakfast & Brunch', 'Specialty Food')","('Coffee & Tea',)",0.012522037743948243,0.527307940606843,3.6476382516590062
+"('American (New)', 'Mexican', 'Pizza')","('Sandwiches',)",0.01583958055466127,0.5930432786132477,3.6474711492667584
+"('American (New)', 'Breakfast & Brunch', 'Seafood')","('Coffee & Tea',)",0.012755062932131415,0.5272496831432193,3.647235257248351
+"('American (Traditional)', 'Breakfast & Brunch', 'Seafood')","('Italian',)",0.01317512149504055,0.55096807282985,3.6464180623598104
+"('American (Traditional)', 'Coffee & Tea', 'Pizza')","('Mexican',)",0.01390485826856153,0.6721505854453832,3.6459859742887355
+"('American (New)', 'Breakfast & Brunch', 'Sandwiches')","('Pizza',)",0.016063407380153,0.5911758068156173,3.6458170277749744
+"('American (New)', 'American (Traditional)', 'Burgers')","('Sandwiches',)",0.015253951463306199,0.5924735024413481,3.6439667808277414
+"('American (Traditional)', 'Pizza', 'Sandwiches')","('Coffee & Tea',)",0.013165923132349109,0.5266127054206524,3.64282898128062
+"('American (New)', 'Sandwiches', 'Seafood')","('Pizza',)",0.01247604593049104,0.590309009139707,3.640471433976926
+"('American (New)', 'American (Traditional)', 'Mexican', 'Pizza')","('Breakfast & Brunch',)",0.013935519477533,0.7183499288762447,3.639963296097923
+"('American (New)', 'Italian', 'Pizza')","('Sandwiches',)",0.014380107007619311,0.5912758446797781,3.6366006706473226
+"('American (New)', 'American (Traditional)', 'Pizza')","('Italian',)",0.017525947048092107,0.549245700009609,3.635019050926014
+"('American (New)', 'Breakfast & Brunch', 'Italian')","('Coffee & Tea',)",0.01365956859678977,0.5252918287937743,3.6336918533542364
+"('American (Traditional)', 'Burgers', 'Pizza')","('Mexican',)",0.013573717211669657,0.6698441519140567,3.633475051159399
+"('Breakfast & Brunch', 'Pizza', 'Sandwiches')","('Mexican',)",0.014147081819436141,0.6697633909130499,3.633036974509142
+"('American (New)', 'Italian', 'Mexican')","('Sandwiches',)",0.01462233055849392,0.5905882352941176,3.6323715772799274
+"('American (New)', 'Mexican', 'Seafood')","('Pizza',)",0.01326710512195496,0.5887875901483195,3.631088750854187
+"('American (New)', 'Italian', 'Seafood')","('Sandwiches',)",0.012497508776771069,0.5896990740740741,3.6269028534715413
+"('American (Traditional)', 'Breakfast & Brunch', 'Sandwiches')","('Italian',)",0.014530346931579513,0.5478612716763006,3.625856624408829
+"('American (Traditional)', 'Sandwiches', 'Seafood')","('Pizza',)",0.012482178172285334,0.5877003031615418,3.6243833861136627
+"('American (New)', 'Burgers', 'Pizza')","('Mexican',)",0.013322295298103604,0.6678450660928373,3.6226312923003103
+"('American (New)', 'Burgers', 'Sandwiches')","('Mexican',)",0.013153658648760521,0.6677042801556421,3.621867618856433
+"('American (Traditional)', 'Breakfast & Brunch', 'Seafood')","('Coffee & Tea',)",0.012518971623051097,0.523528657520195,3.621495164310766
+"('American (Traditional)', 'Burgers', 'Italian')","('Mexican',)",0.012028392279507581,0.6675174408711927,3.620854135530971
+"('American (New)', 'Mexican', 'Seafood')","('Sandwiches',)",0.013260972880160664,0.5885154442781331,3.6196230213112264
+"('American (Traditional)', 'Italian', 'Mexican')","('Coffee & Tea',)",0.012362599457296602,0.5231607629427794,3.6189502636373287
+"('American (Traditional)', 'Breakfast & Brunch', 'Coffee & Tea')","('Pizza',)",0.014055098192521731,0.586264228162169,3.615527024561797
+"('American (Traditional)', 'Breakfast & Brunch', 'Mexican')","('Sandwiches',)",0.016523325514725046,0.587805410122164,3.615256005964645
+"('American (New)', 'Italian', 'Mexican')","('Coffee & Tea',)",0.012929831823268791,0.5222291021671827,3.6125055257129843
+"('American (New)', 'American (Traditional)', 'Burgers')","('Coffee & Tea',)",0.013441874013092336,0.5220912230558533,3.611551750732826
+"('American (New)', 'Breakfast & Brunch', 'Italian')","('Pizza',)",0.015207959649848994,0.5848366937861101,3.6067233335514968
+"('American (New)', 'American (Traditional)', 'Italian', 'Pizza')","('Breakfast & Brunch',)",0.012460715326005305,0.7109867039888034,3.602652972460627
+"('American (New)', 'Breakfast & Brunch', 'Coffee & Tea')","('Sandwiches',)",0.014892149197442856,0.5853923104736651,3.6004144055863603
+"('Coffee & Tea', 'Pizza', 'Sandwiches')","('Breakfast & Brunch',)",0.012074384092964786,0.7096774193548387,3.5960186737432434
+"('American (Traditional)', 'Breakfast & Brunch', 'Coffee & Tea')","('Italian',)",0.0130218154501832,0.5431640874792173,3.594769710042803
+"('American (New)', 'American (Traditional)', 'Coffee & Tea')","('Sandwiches',)",0.016161523248861703,0.5841737781225756,3.592919907705126
+"('American (New)', 'Italian', 'Seafood')","('Pizza',)",0.012338070490119426,0.5821759259259259,3.5903142169067057
+"('American (New)', 'Mexican', 'Pizza')","('Coffee & Tea',)",0.013861932576001471,0.5189989668235564,3.5901611528520574
+"('Breakfast & Brunch', 'Italian', 'Pizza')","('Mexican',)",0.01294209630685738,0.6601501407569597,3.580891255982081
+"('American (Traditional)', 'Coffee & Tea', 'Italian')","('Mexican',)",0.012362599457296602,0.6596858638743456,3.578372851566684
+"('American (New)', 'Breakfast & Brunch', 'Mexican')","('Pizza',)",0.017029235462754297,0.5801734043664473,3.577964545090195
+"('American (New)', 'American (Traditional)', 'Burgers')","('Italian',)",0.013914056631252971,0.5404311063475051,3.5766822885492506
+"('American (Traditional)', 'Breakfast & Brunch', 'Mexican')","('Italian',)",0.01518036456177467,0.5400305410122164,3.5740312662018936
+"('American (New)', 'American (Traditional)', 'Sandwiches')","('Italian',)",0.01710895460608012,0.5392867497825456,3.5691087055159976
+"('Breakfast & Brunch', 'Italian', 'Sandwiches')","('Mexican',)",0.012669211547011299,0.657857029135488,3.5684525956723174
+"('American (New)', 'Breakfast & Brunch', 'Mexican')","('Italian',)",0.015818117708381242,0.5389115219889272,3.5666253721403955
+"('American (Traditional)', 'Burgers', 'Sandwiches')","('Mexican',)",0.013349890386177928,0.6575052854122623,3.5665446114955643
+"('American (Traditional)', 'Mexican', 'Pizza')","('Coffee & Tea',)",0.01390485826856153,0.5153994772133197,3.5652617819576258
+"('American (New)', 'Coffee & Tea', 'Pizza')","('Mexican',)",0.013861932576001471,0.6572176188399476,3.5649842047792086
+"('American (New)', 'American (Traditional)', 'Mexican')","('Pizza',)",0.019399346916248908,0.5777554561227285,3.5630529117357908
+"('American (Traditional)', 'Breakfast & Brunch', 'Seafood')","('Sandwiches',)",0.013849668092412884,0.5791768175407104,3.5621864516258386
+"('Italian', 'Pizza', 'Sandwiches')","('Mexican',)",0.012558831194714008,0.65609482620535,3.5588937746190314
+"('American (New)', 'American (Traditional)', 'Coffee & Tea')","('Italian',)",0.014876818592957121,0.537736894602682,3.558851450693826
+"('American (New)', 'Burgers', 'Coffee & Tea')","('Breakfast & Brunch',)",0.012335004369222278,0.7023393854748604,3.558835995893705
+"('American (New)', 'American (Traditional)', 'Seafood')","('Italian',)",0.01542565423354643,0.5376148749732849,3.558043900125041
+"('American (New)', 'American (Traditional)', 'Italian')","('Pizza',)",0.017525947048092107,0.5766165641077373,3.5560292956588446
+"('American (New)', 'American (Traditional)', 'Sandwiches')","('Pizza',)",0.018286345030584555,0.5763989562191939,3.554687294622464
+"('American (New)', 'Breakfast & Brunch', 'Coffee & Tea')","('Italian',)",0.01365956859678977,0.5369410630348318,3.553584476531965
+"('American (Traditional)', 'Burgers', 'Coffee & Tea')","('Breakfast & Brunch',)",0.01215103711539346,0.7009197028652282,3.551642297692532
+"('American (New)', 'Breakfast & Brunch', 'Italian')","('Sandwiches',)",0.015011727912431588,0.5772904138662894,3.5505842579471403
+"('American (Traditional)', 'Breakfast & Brunch', 'Italian')","('Seafood',)",0.01317512149504055,0.5457894068334815,3.5499767882198077
+"('American (Traditional)', 'Pizza', 'Seafood')","('Mexican',)",0.013352956507075074,0.654296875,3.549141042092855
+"('American (New)', 'Pizza', 'Seafood')","('Mexican',)",0.01326710512195496,0.6535266576045915,3.544963106550403
+"('American (New)', 'American (Traditional)', 'Salad')","('Mexican',)",0.0122123595333364,0.6534864643150123,3.544745083724507
+"('American (Traditional)', 'Italian', 'Sandwiches')","('Seafood',)",0.012255285225896457,0.5444762293965401,3.5414354912257853
+"('Breakfast & Brunch', 'Coffee & Tea', 'Sandwiches')","('Mexican',)",0.012902236735194469,0.6519987604586303,3.5366752441502842
+"('American (New)', 'Ice Cream & Frozen Yogurt')","('Coffee & Tea',)",0.013279369605543547,0.5102497643732329,3.529638784285824
+"('American (Traditional)', 'Salad')","('Burgers',)",0.012433120237930981,0.40473101107895,3.5253851349609846
+"('Coffee & Tea', 'Pizza')","('Burgers',)",0.013972312928298763,0.4046709883669301,3.524862310737185
+"('American (New)', 'Breakfast & Brunch', 'Burgers')","('Mexican',)",0.014104156126876082,0.6498092950981776,3.5247987983533773
+"('American (New)', 'American (Traditional)', 'Pizza')","('Sandwiches',)",0.018286345030584555,0.5730758143557221,3.5246626588414984
+"('American (New)', 'Breakfast & Brunch', 'Seafood')","('Sandwiches',)",0.013861932576001471,0.5730038022813688,3.524219753621804
+"('American (New)', 'American (Traditional)', 'Sandwiches')","('Coffee & Tea',)",0.016161523248861703,0.5094230211655552,3.5239198107669463
+"('American (Traditional)', 'Breakfast & Brunch', 'Burgers')","('Mexican',)",0.014140949577641846,0.6493945367502111,3.522549000239457
+"('American (Traditional)', 'Coffee & Tea', 'Italian')","('Breakfast & Brunch',)",0.0130218154501832,0.6948625654450262,3.5209500723540446
+"('American (New)', 'Bakeries')","('Coffee & Tea',)",0.014579404865933863,0.5086105465825222,3.51829954006865
+"('Coffee & Tea', 'Mexican', 'Sandwiches')","('Breakfast & Brunch',)",0.012902236735194469,0.6938169826875515,3.515651981956521
+"('American (New)', 'Breakfast & Brunch', 'Coffee & Tea')","('Pizza',)",0.014499685722608043,0.5699650476075689,3.5150089902991506
+"('Cafes', 'Mexican')","('Coffee & Tea',)",0.012497508776771069,0.5072806471686372,3.5090999972600145
+"('Coffee & Tea', 'Mexican', 'Pizza')","('Breakfast & Brunch',)",0.012712137239571356,0.6922691601268992,3.507808983602696
+"('American (Traditional)', 'Bakeries')","('Coffee & Tea',)",0.01369022980576124,0.5068679759337041,3.506245355283319
+"('American (Traditional)', 'Coffee & Tea', 'Seafood')","('Breakfast & Brunch',)",0.012518971623051097,0.6916821954938167,3.5048347650016445
+"('American (New)', 'American (Traditional)', 'Coffee & Tea')","('Pizza',)",0.01571693571877539,0.5681037348997008,3.5035301620282295
+"('American (Traditional)', 'Pizza', 'Sandwiches')","('Mexican',)",0.01613392816078738,0.64532744665195,3.5004876440857573
+"('American (New)', 'American (Traditional)', 'Bakeries')","('Breakfast & Brunch',)",0.012037590642199022,0.690710767065447,3.4999124232822214
+"('American (New)', 'American (Traditional)', 'Mexican')","('Italian',)",0.017752839994480983,0.5287188384622409,3.4991681325135464
+"('Breakfast & Brunch', 'Desserts')","('Coffee & Tea',)",0.013567584969875363,0.5052523407170587,3.495069242877007
+"('American (New)', 'Italian', 'Sandwiches')","('Seafood',)",0.012497508776771069,0.5373055628789877,3.4947953414268675
+"('American (New)', 'Breakfast & Brunch', 'Mexican')","('Sandwiches',)",0.016676631559582395,0.5681604512691947,3.494431062442323
+"('American (New)', 'Pizza', 'Sandwiches')","('Mexican',)",0.01583958055466127,0.6439790575916231,3.4931734979579536
+"('American (New)', 'Coffee & Tea', 'Sandwiches')","('Mexican',)",0.014113354489567524,0.6430567197541213,3.4881704065497106
+"('American (Traditional)', 'Breakfast & Brunch', 'Pizza')","('Mexican',)",0.016848334329822624,0.6428404305100608,3.486997176075305
+"('American (New)', 'Italian', 'Pizza')","('Coffee & Tea',)",0.01225221910499931,0.5037821482602117,3.484899226782191
+"('American (New)', 'Coffee & Tea', 'Pizza')","('Breakfast & Brunch',)",0.014499685722608043,0.6874545718854485,3.4834129006071555
+"('American (Traditional)', 'Coffee & Tea', 'Sandwiches')","('Mexican',)",0.013757684465498474,0.6417334096109839,3.4809922974682226
+"('American (Traditional)', 'Ice Cream & Frozen Yogurt')","('Coffee & Tea',)",0.012920633460577351,0.502444258972219,3.4756444142380243
+"('American (New)', 'American (Traditional)', 'Mexican')","('Sandwiches',)",0.01897315611154548,0.5650625513651721,3.4753776460548025
+"('American (New)', 'Coffee & Tea', 'Italian')","('Mexican',)",0.012929831823268791,0.6395207764634516,3.4689901812805184
+"('American (New)', 'Coffee & Tea', 'Seafood')","('Breakfast & Brunch',)",0.012755062932131415,0.6845482968570018,3.4686864643583757
+"('Breakfast & Brunch', 'Cafes')","('Coffee & Tea',)",0.013337625902589339,0.5013253428604356,3.4679043426490366
+"('American (Traditional)', 'Italian', 'Mexican')","('Seafood',)",0.012592558524582624,0.532892175943947,3.4660893588983224
+"('American (Traditional)', 'Italian', 'Sandwiches')","('Mexican',)",0.01437090864492787,0.6384688734504836,3.463284281866547
+"('American (New)', 'American (Traditional)', 'Italian')","('Sandwiches',)",0.01710895460608012,0.5628972056894986,3.462059839134071
+"('American (New)', 'American (Traditional)', 'Mexican')","('Coffee & Tea',)",0.01680234251636542,0.5004109213770432,3.4615788570568373
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch')","('Coffee & Tea',)",0.017906146039338332,0.4998288257446081,3.457552226445983
+"('American (Traditional)', 'Breakfast & Brunch', 'Seafood')","('Pizza',)",0.013365220990663661,0.5589178099756379,3.4468800063251286
+"('American (Traditional)', 'Coffee & Tea', 'Pizza')","('Breakfast & Brunch',)",0.014055098192521731,0.6794130724766564,3.442665680461417
+"('American (Traditional)', 'Coffee & Tea', 'Mexican')","('Breakfast & Brunch',)",0.01510064541844885,0.679404055731825,3.4426199915583946
+"('Desserts', 'Mexican')","('Coffee & Tea',)",0.012448450842416716,0.49754901960784315,3.441781729871893
+"('American (New)', 'Coffee & Tea', 'Sandwiches')","('Breakfast & Brunch',)",0.014892149197442856,0.6785414920368819,3.438249280204596
+"('American (Traditional)', 'Italian', 'Pizza')","('Mexican',)",0.014889083076545708,0.633116036505867,3.4342485734325585
+"('American (New)', 'Burgers', 'Italian')","('Breakfast & Brunch',)",0.012270615830382192,0.6776159837453437,3.4335596212013533
+"('American (New)', 'American (Traditional)', 'Desserts')","('Mexican',)",0.012052921246684757,0.6319935691318328,3.4281599076023954
+"('American (New)', 'Burgers', 'Sandwiches')","('Breakfast & Brunch',)",0.013325361419000752,0.676420233463035,3.427500614352545
+"('American (New)', 'American (Traditional)', 'Specialty Food')","('Breakfast & Brunch',)",0.012031458400404729,0.6762019645011201,3.4263946199365773
+"('American (Traditional)', 'Coffee & Tea', 'Sandwiches')","('Breakfast & Brunch',)",0.014490487359916602,0.6759153318077803,3.4249422184797402
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch')","('Italian',)",0.018531634702356314,0.5172885997945909,3.4235205028410483
+"('American (New)', 'Coffee & Tea', 'Italian')","('Breakfast & Brunch',)",0.01365956859678977,0.675614194722475,3.423416321568579
+"('American (New)', 'Coffee & Tea', 'Mexican')","('Breakfast & Brunch',)",0.015634150454552423,0.6755431902490726,3.4230565335785563
+"('American (New)', 'Breakfast & Brunch', 'Pizza')","('Mexican',)",0.017029235462754297,0.6309212768374418,3.4223434094093648
+"('American (New)', 'Breakfast & Brunch', 'Seafood')","('Pizza',)",0.013411212804120866,0.5543726235741445,3.4188495663342984
+"('American (New)', 'Italian', 'Mexican')","('Seafood',)",0.01301261708749176,0.5255727554179567,3.418481668743184
+"('American (Traditional)', 'Breakfast & Brunch', 'Coffee & Tea')","('Mexican',)",0.01510064541844885,0.629875943215245,3.4166731447283385
+"('American (New)', 'American (Traditional)', 'Cafes')","('Breakfast & Brunch',)",0.012289012555765073,0.6735002520584774,3.4127047262893204
+"('American (Traditional)', 'Breakfast & Brunch', 'Italian')","('Mexican',)",0.01518036456177467,0.628858122697828,3.4111521210006175
+"('American (New)', 'Italian', 'Sandwiches')","('Mexican',)",0.01462233055849392,0.6286580543105721,3.4100668782743164
+"('American (New)', 'American (Traditional)', 'Pizza')","('Coffee & Tea',)",0.01571693571877539,0.49255308926683966,3.4072225184299105
+"('Bakeries', 'Pizza')","('Sandwiches',)",0.01235340109460516,0.5538144329896907,3.406196881787408
+"('Bakeries', 'Sandwiches')","('Pizza',)",0.01235340109460516,0.5520690600164428,3.4046433502706392
+"('American (New)', 'Sandwiches', 'Seafood')","('Mexican',)",0.013260972880160664,0.6274481357899317,3.4035038460434306
+"('American (New)', 'American (Traditional)', 'Seafood')","('Sandwiches',)",0.015876374005427032,0.5533233596922419,3.4031765698654715
+"('American (Traditional)', 'Burgers', 'Italian')","('Breakfast & Brunch',)",0.012095846939244814,0.6712608473711077,3.401357400230714
+"('American (Traditional)', 'Breakfast & Brunch', 'Sandwiches')","('Seafood',)",0.013849668092412884,0.5221965317919075,3.3965217051487078
+"('American (Traditional)', 'Breakfast & Brunch', 'Coffee & Tea')","('Seafood',)",0.012518971623051097,0.522189538304131,3.396476217422188
+"('American (New)', 'Mexican', 'Pizza', 'Sandwiches')","('American (Traditional)',)",0.013122997439789051,0.8284939992257065,3.3964223811539913
+"('American (Traditional)', 'Sandwiches', 'Seafood')","('Mexican',)",0.013294700210029282,0.6259564024830374,3.395412149283675
+"('American (New)', 'Breakfast & Brunch', 'Mexican', 'Seafood')","('American (Traditional)',)",0.0120099955541247,0.8275934924994719,3.3927307416222363
+"('American (New)', 'American (Traditional)', 'Desserts')","('Breakfast & Brunch',)",0.012764261294822854,0.6692926045016078,3.3913840828894095
+"('American (New)', 'Burgers', 'Pizza')","('Breakfast & Brunch',)",0.013349890386177928,0.6692284045496465,3.391058774207169
+"('American (New)', 'Breakfast & Brunch', 'Italian')","('Seafood',)",0.013555320486286774,0.5212828675863695,3.39057896115024
+"('American (New)', 'American (Traditional)', 'Italian')","('Coffee & Tea',)",0.014876818592957121,0.4894582870977504,3.3858143091010393
+"('American (New)', 'Breakfast & Brunch', 'Italian', 'Sandwiches')","('American (Traditional)',)",0.012396326787165218,0.8257761437908496,3.3852804959546825
+"('American (New)', 'American (Traditional)', 'Salad')","('Breakfast & Brunch',)",0.012479112051388186,0.667760459392945,3.3836205240225596
+"('American (Traditional)', 'Breakfast & Brunch', 'Sandwiches')","('Mexican',)",0.016523325514725046,0.6230057803468209,3.379406915996639
+"('American (New)', 'Breakfast & Brunch', 'Pizza', 'Sandwiches')","('American (Traditional)',)",0.013239510033880636,0.8242030921931666,3.378831749605193
+"('American (New)', 'Specialty Food')","('Coffee & Tea',)",0.014094957764184643,0.4881078785304736,3.3764728947849605
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch')","('Sandwiches',)",0.019663033313403546,0.5488702499144128,3.37578803006593
+"('American (Traditional)', 'Italian', 'Seafood')","('Mexican',)",0.012592558524582624,0.6220842169039685,3.374408025182863
+"('American (New)', 'Italian', 'Mexican', 'Pizza')","('American (Traditional)',)",0.012365665578193748,0.8227254181966545,3.3727740050246724
+"('Bakeries', 'Mexican')","('Pizza',)",0.012549632832022567,0.5469000534473544,3.3727657735007543
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch')","('Pizza',)",0.01958944641187202,0.546816158849709,3.372248390432795
+"('American (New)', 'American (Traditional)', 'Burgers')","('Mexican',)",0.01598368823682718,0.6208169584375373,3.367533960509773
+"('American (New)', 'Breakfast & Brunch', 'Mexican', 'Sandwiches')","('American (Traditional)',)",0.013696362047555534,0.8212906784335355,3.366892269915978
+"('American (New)', 'Italian', 'Mexican', 'Sandwiches')","('American (Traditional)',)",0.012003863312330405,0.8209268190396309,3.3654006233980724
+"('American (New)', 'American (Traditional)', 'Burgers')","('Seafood',)",0.013319229177206458,0.5173276170060737,3.364852833864066
+"('American (New)', 'Breakfast & Brunch', 'Italian', 'Pizza')","('American (Traditional)',)",0.012460715326005305,0.8193548387096774,3.3589562687251626
+"('American (New)', 'Burgers', 'Mexican')","('Breakfast & Brunch',)",0.014104156126876082,0.6627287134418671,3.358124077456657
+"('American (New)', 'Breakfast & Brunch', 'Mexican', 'Pizza')","('American (Traditional)',)",0.013935519477533,0.818329132157004,3.3547513708076733
+"('American (New)', 'Italian', 'Pizza')","('Mexican',)",0.015030124637814469,0.6180030257186081,3.3522701796726118
+"('Italian', 'Mexican', 'Sandwiches')","('Breakfast & Brunch',)",0.012669211547011299,0.6614374899951977,3.3515812968924688
+"('American (Traditional)', 'Burgers', 'Sandwiches')","('Breakfast & Brunch',)",0.013417345045915161,0.6608275445484748,3.348490631814842
+"('American (Traditional)', 'Italian', 'Pizza')","('Seafood',)",0.012105045301936256,0.5147327249022164,3.3479748830990044
+"('American (New)', 'Pizza', 'Seafood')","('Breakfast & Brunch',)",0.013411212804120866,0.6606252831898505,3.347465749801193
+"('American (Traditional)', 'Specialty Food')","('Coffee & Tea',)",0.013420411166812307,0.4837533156498674,3.3463503252020446
+"('American (Traditional)', 'Breakfast & Brunch', 'Italian', 'Sandwiches')","('American (New)',)",0.012396326787165218,0.8531335724836463,3.3461841304303968
+"('American (Traditional)', 'Mexican', 'Sandwiches')","('Seafood',)",0.013294700210029282,0.5143534994068802,3.3455082875786637
+"('American (Traditional)', 'Burgers', 'Mexican')","('Breakfast & Brunch',)",0.014140949577641846,0.6599885518030909,3.3442393572254963
+"('Mexican', 'Specialty Food')","('Pizza',)",0.012626285854451242,0.5417708196289962,3.3411334776949793
+"('American (New)', 'American (Traditional)', 'Seafood')","('Coffee & Tea',)",0.013855800334207177,0.48290232955759776,3.3404636521923035
+"('American (New)', 'Breakfast & Brunch', 'Coffee & Tea', 'Sandwiches')","('American (Traditional)',)",0.01211117754373055,0.8132592135062795,3.3339671705695983
+"('American (New)', 'Breakfast & Brunch', 'Coffee & Tea')","('Mexican',)",0.015634150454552423,0.6145594793298782,3.3335911483558385
+"('American (New)', 'Breakfast & Brunch', 'Italian', 'Mexican')","('American (Traditional)',)",0.012859311042634412,0.8129482457840667,3.3326923541768094
+"('American (New)', 'Italian', 'Seafood')","('Mexican',)",0.01301261708749176,0.6140046296296297,3.33058144447586
+"('Bakeries', 'Mexican')","('Sandwiches',)",0.012423921875239542,0.5414216996258685,3.3299762432013065
+"('American (New)', 'Breakfast & Brunch', 'Sandwiches')","('Mexican',)",0.016676631559582395,0.613744075829384,3.3291681071645285
+"('Bakeries', 'Breakfast & Brunch')","('Sandwiches',)",0.013067807263640405,0.5412750825501651,3.329074485146028
+"('American (Traditional)', 'Breakfast & Brunch', 'Mexican')","('Seafood',)",0.014386239249413605,0.5117801047120419,3.328770162361823
+"('American (Traditional)', 'Breakfast & Brunch', 'Italian', 'Pizza')","('American (New)',)",0.012460715326005305,0.8486114011275842,3.328447144670137
+"('American (New)', 'Mexican', 'Sandwiches')","('Seafood',)",0.013260972880160664,0.511592145729832,3.327547621184533
+"('American (New)', 'Sandwiches', 'Seafood')","('Breakfast & Brunch',)",0.013861932576001471,0.6558827796315102,3.3234349283448905
+"('American (Traditional)', 'Breakfast & Brunch', 'Italian', 'Mexican')","('American (New)',)",0.012859311042634412,0.8471015956372451,3.322525343753193
+"('Mexican', 'Pizza', 'Sandwiches')","('Breakfast & Brunch',)",0.014147081819436141,0.6555839727195226,3.321920838695078
+"('American (Traditional)', 'Pizza', 'Seafood')","('Breakfast & Brunch',)",0.013365220990663661,0.6548978365384616,3.3184441062353227
+"('American (New)', 'Breakfast & Brunch', 'Sandwiches')","('Seafood',)",0.013861932576001471,0.510155721056195,3.3182046874712863
+"('American (Traditional)', 'Burgers', 'Pizza')","('Breakfast & Brunch',)",0.01326710512195496,0.6547132697836285,3.3175088848532823
+"('American (Traditional)', 'Breakfast & Brunch', 'Pizza')","('Seafood',)",0.013365220990663661,0.5099438465138044,3.3168265923707145
+"('American (New)', 'Pizza', 'Sandwiches')","('Breakfast & Brunch',)",0.016063407380153,0.6530790326601846,3.3092280137800962
+"('American (New)', 'Breakfast & Brunch', 'Coffee & Tea', 'Mexican')","('American (Traditional)',)",0.012604823008171211,0.8062365169641106,3.3051775308930686
+"('American (Traditional)', 'Sandwiches', 'Seafood')","('Breakfast & Brunch',)",0.013849668092412884,0.6520860401328136,3.3041964042432452
+"('Bakeries', 'Breakfast & Brunch')","('Italian',)",0.012052921246684757,0.499237998475997,3.3040579751005286
+"('American (New)', 'American (Traditional)', 'Italian')","('Seafood',)",0.01542565423354643,0.5075153838394028,3.301031148162296
+"('American (New)', 'Italian', 'Pizza')","('Seafood',)",0.012338070490119426,0.5073121533030761,3.2997092762505584
+"('American (New)', 'Breakfast & Brunch', 'Italian')","('Mexican',)",0.015818117708381242,0.6083009079118029,3.2996424111182345
+"('American (New)', 'Pizza', 'Sandwiches')","('Seafood',)",0.01247604593049104,0.5072301171777612,3.299175688868654
+"('American (Traditional)', 'Italian', 'Seafood')","('Breakfast & Brunch',)",0.01317512149504055,0.6508633747349288,3.2980010153487664
+"('American (New)', 'American (Traditional)', 'Pizza')","('Mexican',)",0.019399346916248908,0.6079561833381378,3.297772501327495
+"('American (New)', 'American (Traditional)', 'Coffee & Tea')","('Mexican',)",0.01680234251636542,0.6073368059403746,3.2944127760606645
+"('American (New)', 'American (Traditional)', 'Seafood')","('Pizza',)",0.015306075518557697,0.5334473178029494,3.2898019375029395
+"('Italian', 'Pizza', 'Sandwiches')","('Breakfast & Brunch',)",0.012408591270753807,0.6482460355598271,3.28473865093855
+"('Chinese', 'Sandwiches')","('Pizza',)",0.012172499961673489,0.532171581769437,3.281934396070588
+"('American (New)', 'American (Traditional)', 'Coffee & Tea')","('Breakfast & Brunch',)",0.017906146039338332,0.6472348442868227,3.2796148262242797
+"('American (Traditional)', 'Breakfast & Brunch', 'Coffee & Tea', 'Sandwiches')","('American (New)',)",0.01211117754373055,0.8358019466779517,3.278205547596365
+"('American (Traditional)', 'Bakeries')","('Italian',)",0.01337748547425225,0.49528890907026907,3.2779221032614227
+"('American (Traditional)', 'Breakfast & Brunch', 'Pizza', 'Sandwiches')","('American (New)',)",0.013239510033880636,0.8355263157894738,3.277124460490396
+"('American (Traditional)', 'Italian', 'Mexican', 'Sandwiches')","('American (New)',)",0.012003863312330405,0.8352890975037337,3.2761940363589432
+"('American (Traditional)', 'Breakfast & Brunch', 'Mexican', 'Seafood')","('American (New)',)",0.0120099955541247,0.8348252344416027,3.2743746598073007
+"('American (Traditional)', 'Breakfast & Brunch', 'Coffee & Tea', 'Mexican')","('American (New)',)",0.012604823008171211,0.8347208121827411,3.2739650919310193
+"('Mexican', 'Specialty Food')","('Sandwiches',)",0.012405525149856659,0.5322983817918695,3.2738639158465204
+"('American (Traditional)', 'Mexican', 'Seafood')","('Breakfast & Brunch',)",0.014386239249413605,0.6457473162675476,3.2720773473794655
+"('Salad', 'Sandwiches')","('Pizza',)",0.012531236106639684,0.5304347826086957,3.271223450390717
+"('American (Traditional)', 'Italian', 'Sandwiches')","('Breakfast & Brunch',)",0.014530346931579513,0.6455523770603461,3.2710895675653937
+"('American (New)', 'Italian', 'Sandwiches')","('Breakfast & Brunch',)",0.015011727912431588,0.6453994199841814,3.2703145161305187
+"('American (New)', 'Mexican', 'Seafood')","('Breakfast & Brunch',)",0.01451195020619663,0.6440332017961627,3.263391728420873
+"('American (Traditional)', 'Breakfast & Brunch', 'Seafood')","('Mexican',)",0.014386239249413605,0.6016155917425311,3.2633788572143136
+"('American (New)', 'Breakfast & Brunch', 'Coffee & Tea')","('Seafood',)",0.012755062932131415,0.5013860431481258,3.2611640915490794
+"('American (New)', 'Mexican', 'Sandwiches')","('Breakfast & Brunch',)",0.016676631559582395,0.6433640880056778,3.260001250409567
+"('American (New)', 'American (Traditional)', 'Coffee & Tea')","('Seafood',)",0.013855800334207177,0.5008312091322177,3.2575552859307804
+"('American (Traditional)', 'Italian', 'Mexican', 'Pizza')","('American (New)',)",0.012365665578193748,0.8305189456342669,3.257484414559763
+"('Breakfast & Brunch', 'Specialty Food')","('Sandwiches',)",0.012574161799199743,0.5295029051000646,3.256670532244485
+"('American (Traditional)', 'Italian', 'Mexican')","('Breakfast & Brunch',)",0.01518036456177467,0.6424030102504217,3.2551313567641382
+"('American (New)', 'American (Traditional)', 'Sandwiches')","('Seafood',)",0.015876374005427032,0.5004349086691794,3.2549776297371418
+"('American (New)', 'Breakfast & Brunch', 'Seafood')","('Mexican',)",0.01451195020619663,0.5998732572877059,3.2539278099008557
+"('Bakeries', 'Breakfast & Brunch')","('Pizza',)",0.012736666206748532,0.5275590551181103,3.253488664678001
+"('American (Traditional)', 'Bakeries')","('Sandwiches',)",0.014285057259807754,0.5288909070269043,3.252906480958922
+"('American (Traditional)', 'Breakfast & Brunch', 'Mexican', 'Sandwiches')","('American (New)',)",0.013696362047555534,0.8289107441083688,3.251176681986506
+"('Italian', 'Mexican', 'Pizza')","('Breakfast & Brunch',)",0.01294209630685738,0.6411970226340574,3.2490204761436283
+"('American (Traditional)', 'Pizza', 'Sandwiches')","('Seafood',)",0.012482178172285334,0.49926416482707875,3.2473627632476636
+"('Breakfast & Brunch', 'Salad')","('Coffee & Tea',)",0.012341136611016573,0.4691689008042896,3.245463034546853
+"('American (Traditional)', 'Breakfast & Brunch', 'Mexican', 'Pizza')","('American (New)',)",0.013935519477533,0.8271155595996361,3.244135559578407
+"('American (New)', 'American (Traditional)', 'Sandwiches')","('Mexican',)",0.01897315611154548,0.5980477433072388,3.244025566991641
+"('American (New)', 'Bakeries')","('Italian',)",0.014048965950727438,0.49010589367846835,3.2436198598572257
+"('Breakfast & Brunch', 'Burgers', 'Italian')","('American (Traditional)',)",0.012095846939244814,0.7908981555733761,3.242297710440046
+"('American (New)', 'Italian', 'Seafood')","('Breakfast & Brunch',)",0.013555320486286774,0.6396122685185185,3.2409903412719987
+"('American (Traditional)', 'Mexican', 'Sandwiches')","('Breakfast & Brunch',)",0.016523325514725046,0.63926453143535,3.2392283167091156
+"('Pizza', 'Salad')","('Sandwiches',)",0.012531236106639684,0.5264039155074703,3.2376104138037247
+"('American (New)', 'Italian', 'Mexican')","('Breakfast & Brunch',)",0.015818117708381242,0.6388854489164086,3.2373074611487933
+"('American (New)', 'American (Traditional)', 'Burgers')","('Breakfast & Brunch',)",0.016446672492296373,0.6387995712754556,3.2368723090753275
+"('Burgers', 'Italian')","('Pizza',)",0.014858421867574238,0.5246292086175165,3.2354201237507785
+"('Burgers', 'Pizza', 'Sandwiches')","('American (Traditional)',)",0.012886906130708734,0.7891475779196395,3.2351211936171658
+"('Burgers', 'Italian', 'Mexican')","('American (Traditional)',)",0.012028392279507581,0.7888598431530264,3.233941621040811
+"('American (New)', 'Breakfast & Brunch', 'Pizza')","('Seafood',)",0.013411212804120866,0.4968760649778484,3.2318298508705174
+"('American (New)', 'Mexican', 'Pizza')","('Seafood',)",0.01326710512195496,0.4967282745953393,3.230868578224217
+"('American (New)', 'Mexican', 'Pizza')","('Breakfast & Brunch',)",0.017029235462754297,0.6375846630696821,3.2307162267825906
+"('American (Traditional)', 'Bakeries')","('Pizza',)",0.014147081819436141,0.5237824951753889,3.230198390639637
+"('American (Traditional)', 'Ice Cream & Frozen Yogurt')","('Pizza',)",0.013463336859372364,0.5235483486347919,3.2287543947337474
+"('Desserts', 'Pizza')","('Sandwiches',)",0.012206227291542105,0.5242986961675227,3.2246624096997185
+"('American (Traditional)', 'Delis')","('Sandwiches',)",0.01219089668705637,0.5237781583454091,3.221460878282482
+"('American (Traditional)', 'Ice Cream & Frozen Yogurt')","('Sandwiches',)",0.013466402980269512,0.5236675807797783,3.2207807787097527
+"('American (Traditional)', 'Mexican', 'Pizza')","('Seafood',)",0.013352956507075074,0.4949426071144448,3.219254065319997
+"('American (New)', 'Breakfast & Brunch', 'Mexican')","('Seafood',)",0.01451195020619663,0.4944113652982346,3.2157987103921326
+"('Mexican', 'Salad')","('Pizza',)",0.013628907387818301,0.5209187858900738,3.212537721927165
+"('American (Traditional)', 'Pizza', 'Sandwiches')","('Breakfast & Brunch',)",0.015845712796455563,0.6337993622761834,3.211535663941052
+"('Breakfast & Brunch', 'Burgers', 'Sandwiches')","('American (Traditional)',)",0.013417345045915161,0.7829665414206478,3.209781950697452
+"('American (New)', 'American (Traditional)', 'Breakfast & Brunch')","('Seafood',)",0.017676186972052307,0.4934097911674084,3.2092841740680536
+"('Breakfast & Brunch', 'Specialty Food')","('Pizza',)",0.012347268852810867,0.5199483537766301,3.2065530082722704
+"('American (New)', 'Burgers', 'Seafood')","('American (Traditional)',)",0.013319229177206458,0.7807332854061826,3.200626687391423
+"('Breakfast & Brunch', 'Burgers', 'Pizza')","('American (Traditional)',)",0.01326710512195496,0.7802019473494411,3.1984484598248235
+"('Pizza', 'Specialty Food')","('Mexican',)",0.012626285854451242,0.5893802776585086,3.1970101230238885
+"('American (New)', 'Ice Cream & Frozen Yogurt')","('Pizza',)",0.013484799705652395,0.5181432610744581,3.1954208921835896
+"('American (New)', 'Desserts')","('Coffee & Tea',)",0.014754173757071241,0.46175990787832255,3.19421152869635
+"('Burgers', 'Coffee & Tea')","('Sandwiches',)",0.014459826150945132,0.5193260654112983,3.194078592509012
+"('Desserts', 'Sandwiches')","('Pizza',)",0.012206227291542105,0.5176179950591601,3.192181544834448
+"('American (Traditional)', 'Mexican', 'Pizza', 'Sandwiches')","('American (New)',)",0.013122997439789051,0.8133789433675409,3.190257422878388
+"('American (New)', 'American (Traditional)', 'Mexican')","('Seafood',)",0.0164681353385764,0.4904574924664415,3.1900815443923887
+"('American (New)', 'Delis')","('Sandwiches',)",0.012117309785524843,0.5186351706036745,3.189829292383937
+"('American (Traditional)', 'Delis')","('Pizza',)",0.012034524521301875,0.5170596759320247,3.1887383569414807
+"('American (Traditional)', 'Cafes')","('Coffee & Tea',)",0.013546122123595333,0.46035219339376887,3.1844737022654352
+"('Pizza', 'Sandwiches', 'Seafood')","('American (Traditional)',)",0.012482178172285334,0.7763157894736842,3.1825171029311656
+"('Desserts', 'Mexican')","('Pizza',)",0.012908368976988762,0.5159313725490196,3.1817800415996973
+"('American (New)', 'Cafes')","('Coffee & Tea',)",0.0145426114151681,0.459281495109906,3.1770671761818168
+"('American (Traditional)', 'Desserts')","('Coffee & Tea',)",0.014257462171733432,0.4592592592592593,3.1769133602933555
+"('Burgers', 'Mexican', 'Sandwiches')","('American (Traditional)',)",0.013349890386177928,0.7747330960854094,3.1760288299304382
+"('American (New)', 'Burgers', 'Sandwiches')","('American (Traditional)',)",0.015253951463306199,0.77431906614786,3.1743315085887325
+"('Coffee & Tea', 'Pizza', 'Sandwiches')","('American (Traditional)',)",0.013165923132349109,0.7738331230852407,3.172339378415926
+"('Cafes', 'Mexican')","('Pizza',)",0.012672277667908446,0.5143746110765401,3.1721793992541967
+"('American (New)', 'Ice Cream & Frozen Yogurt')","('Sandwiches',)",0.013420411166812307,0.5156691800188502,3.1715871750254183
+"('American (New)', 'Italian', 'Pizza')","('Breakfast & Brunch',)",0.015207959649848994,0.6253151790216843,3.168545312856789
+"('American (New)', 'American (Traditional)', 'Italian')","('Mexican',)",0.017752839994480983,0.584081509129426,3.168267701078014
+"('American (Traditional)', 'Mexican', 'Pizza')","('Breakfast & Brunch',)",0.016848334329822624,0.624502784407319,3.164428814115203
+"('American (Traditional)', 'Italian', 'Pizza')","('Breakfast & Brunch',)",0.01468365297643686,0.624380704041721,3.163810218592202
+"('Breakfast & Brunch', 'Chinese')","('Pizza',)",0.012279814193073633,0.5130011528115793,3.1637091988982236
+"('Burgers', 'Italian')","('Sandwiches',)",0.014554875898756687,0.5139114431092346,3.1607763372720323
+"('Breakfast & Brunch', 'Burgers', 'Coffee & Tea')","('American (Traditional)',)",0.01215103711539346,0.7695145631067961,3.1546353832405196
+"('American (Traditional)', 'Bakeries', 'Breakfast & Brunch')","('American (New)',)",0.012037590642199022,0.8038493038493039,3.1528800067818503
+"('Italian', 'Sandwiches', 'Seafood')","('American (Traditional)',)",0.012255285225896457,0.7688016926331986,3.151712961070108
+"('American (New)', 'Bakeries')","('Pizza',)",0.014646859525671097,0.5109637394373729,3.1511443471457317
+"('American (New)', 'Burgers', 'Pizza')","('American (Traditional)',)",0.015330604485734872,0.7685213648939441,3.150563753702822
+"('American (New)', 'Burgers', 'Italian')","('American (Traditional)',)",0.013914056631252971,0.7683711479851,3.1499479374486272
+"('Coffee & Tea', 'Italian', 'Sandwiches')","('American (Traditional)',)",0.012000797191433259,0.7679026878556015,3.1480274787971534
+"('American (New)', 'Specialty Food')","('Italian',)",0.0137331554983213,0.4755786791250797,3.1474758178419058
+"('Breakfast & Brunch', 'Burgers', 'Italian')","('American (New)',)",0.012270615830382192,0.8023255813953488,3.1469036203647014
+"('American (New)', 'Desserts', 'Mexican')","('American (Traditional)',)",0.012052921246684757,0.7670243902439025,3.144426885831512
+"('Breakfast & Brunch', 'Pizza', 'Seafood')","('American (Traditional)',)",0.013365220990663661,0.7664849657112713,3.14221550764738
+"('Burgers', 'Mexican', 'Pizza')","('American (Traditional)',)",0.013573717211669657,0.7664473684210527,3.1420613770464474
+"('American (New)', 'American (Traditional)', 'Sandwiches')","('Breakfast & Brunch',)",0.019663033313403546,0.6197931767662124,3.140564680127652
+"('Chinese', 'Mexican')","('Pizza',)",0.013533857640006745,0.5091706079132541,3.14008599636699
+"('American (Traditional)', 'Breakfast & Brunch', 'Specialty Food')","('American (New)',)",0.012031458400404729,0.8003263308178666,3.1390621043689717
+"('American (New)', 'Burgers', 'Coffee & Tea')","('American (Traditional)',)",0.013441874013092336,0.7653631284916201,3.1376165207574376
+"('Italian', 'Pizza', 'Seafood')","('American (Traditional)',)",0.012105045301936256,0.764819837272375,3.1353892910391137
+"('American (New)', 'Bakeries', 'Breakfast & Brunch')","('American (Traditional)',)",0.012037590642199022,0.7642592953085459,3.1330913416595108
+"('American (New)', 'Mexican', 'Salad')","('American (Traditional)',)",0.0122123595333364,0.7641980046047582,3.132840079588457
 "('American (New)', 'American (Traditional)', 'Breakfast & Brunch')","('Mexican',)",0.020687117693050636,0.577456350564875,3.13233046360944
+"('Coffee & Tea', 'Italian', 'Sandwiches')","('American (New)',)",0.01247604593049104,0.7983127329801846,3.131164315151856
+"('Mexican', 'Salad')","('Sandwiches',)",0.013313096935412163,0.5088480018750732,3.129633996597
+"('American (New)', 'Bakeries')","('Sandwiches',)",0.014579404865933863,0.5086105465825222,3.128173544451171
+"('American (New)', 'Chinese')","('Italian',)",0.013371353232457956,0.47232752084912816,3.125958995278793
+"('Mexican', 'Sandwiches', 'Seafood')","('American (Traditional)',)",0.013294700210029282,0.7624406541234395,3.1256357974670888
+"('American (Traditional)', 'Specialty Food')","('Sandwiches',)",0.014088825522390347,0.5078470380194519,3.123477638508979
 "('American (New)', 'American (Traditional)', 'Mexican')","('Breakfast & Brunch',)",0.020687117693050636,0.6161081179800931,3.121892055288083
+"('Breakfast & Brunch', 'Sandwiches', 'Seafood')","('American (Traditional)',)",0.013849668092412884,0.7614632501685772,3.121628916704132
+"('American (New)', 'American (Traditional)', 'Seafood')","('Breakfast & Brunch',)",0.017676186972052307,0.616050438127805,3.121599784715186
+"('American (New)', 'American (Traditional)', 'Pizza')","('Seafood',)",0.015306075518557697,0.4796771403862785,3.1199629250599843
+"('Breakfast & Brunch', 'Salad')","('Sandwiches',)",0.013340692023486487,0.5071686676768855,3.1193053692290453
+"('American (New)', 'Japanese')","('Italian',)",0.012831715954560088,0.47112462006079026,3.1179979547428256
+"('American (New)', 'Breakfast & Brunch', 'Specialty Food')","('American (Traditional)',)",0.012031458400404729,0.7604651162790699,3.117537053293076
+"('Coffee & Tea', 'Italian', 'Mexican')","('American (New)',)",0.012929831823268791,0.7947606483226536,3.1172322303126987
+"('American (New)', 'Breakfast & Brunch', 'Salad')","('American (Traditional)',)",0.012479112051388186,0.7598954443614638,3.1152016755441965
+"('Coffee & Tea', 'Italian', 'Mexican')","('American (Traditional)',)",0.012362599457296602,0.7598944591029024,3.1151976364633676
+"('American (Traditional)', 'Specialty Food')","('Pizza',)",0.014009106379064527,0.504973474801061,3.114202022104416
+"('Cafes', 'Mexican')","('Sandwiches',)",0.012472979809593892,0.5062850031113877,3.1138704522094653
+"('Breakfast & Brunch', 'Burgers', 'Mexican')","('American (Traditional)',)",0.014140949577641846,0.7595520421607378,3.1137938935670504
+"('American (Traditional)', 'Coffee & Tea', 'Italian')","('American (New)',)",0.014876818592957121,0.7938481675392671,3.1136532729077033
+"('Breakfast & Brunch', 'Coffee & Tea', 'Italian')","('American (New)',)",0.01365956859678977,0.7938346400570206,3.1136002150421147
+"('American (New)', 'American (Traditional)', 'Seafood')","('Mexican',)",0.0164681353385764,0.5739474246633897,3.1132967903542768
+"('American (New)', 'American (Traditional)', 'Pizza')","('Breakfast & Brunch',)",0.01958944641187202,0.6139137119246662,3.1107727425723644
+"('American (New)', 'Ice Cream & Frozen Yogurt')","('Italian',)",0.012230756258719281,0.4699575871819039,3.110274295280886
+"('American (Traditional)', 'Specialty Food')","('Italian',)",0.013037146054668936,0.46993810786914236,3.1101453772520586
+"('Breakfast & Brunch', 'Chinese')","('Sandwiches',)",0.012095846939244814,0.5053157422825669,3.107909081367349
+"('Breakfast & Brunch', 'Italian', 'Seafood')","('American (Traditional)',)",0.01317512149504055,0.7579820074087141,3.107357514817239
+"('Coffee & Tea', 'Italian', 'Pizza')","('American (New)',)",0.01225221910499931,0.7920713577799802,3.106684220450875
+"('American (New)', 'Breakfast & Brunch', 'Burgers')","('American (Traditional)',)",0.016446672492296373,0.7577341432405708,3.1063413922998095
+"('American (Traditional)', 'Chinese')","('Pizza',)",0.014306520106087782,0.5036701208981001,3.106164159597445
+"('Pizza', 'Salad')","('Mexican',)",0.013628907387818301,0.5725141679546625,3.1055222916470977
+"('Coffee & Tea', 'Mexican', 'Pizza')","('American (Traditional)',)",0.01390485826856153,0.7572215728836199,3.104240103172923
+"('Breakfast & Brunch', 'Coffee & Tea', 'Italian')","('American (Traditional)',)",0.0130218154501832,0.7567712045616536,3.1023938121316856
+"('Desserts', 'Mexican')","('Sandwiches',)",0.012620153612656946,0.5044117647058823,3.102349230595157
+"('Mexican', 'Pizza', 'Seafood')","('American (Traditional)',)",0.013352956507075074,0.7560763888888888,3.0995454058620444
+"('American (New)', 'Breakfast & Brunch', 'Desserts')","('American (Traditional)',)",0.012764261294822854,0.7558097312999273,3.0984522394612015
+"('Breakfast & Brunch', 'Salad')","('Pizza',)",0.013202716583114872,0.5019233010840425,3.0953914159412887
+"('Burgers', 'Coffee & Tea')","('Pizza',)",0.013972312928298763,0.5018169805087546,3.0947357305101213
+"('American (New)', 'Specialty Food')","('Sandwiches',)",0.014524214689785219,0.5029730303673816,3.0935003958129603
+"('Breakfast & Brunch', 'Italian', 'Sandwiches')","('American (Traditional)',)",0.014530346931579513,0.754497691450406,3.0930735143116594
+"('Burgers', 'Sandwiches')","('Pizza',)",0.016330159898204785,0.5015065913370997,3.0928215416779503
+"('Sandwiches', 'Specialty Food')","('Mexican',)",0.012405525149856659,0.5701000422713823,3.0924272076406214
+"('American (Traditional)', 'Breakfast & Brunch', 'Cafes')","('American (New)',)",0.012289012555765073,0.7883556254917388,3.092110272341384
+"('American (New)', 'Pizza', 'Seafood')","('American (Traditional)',)",0.015306075518557697,0.7539646579066607,3.090888336073103
+"('Burgers', 'Pizza')","('Sandwiches',)",0.016330159898204785,0.5025002358713085,3.090592506378666
+"('American (New)', 'American (Traditional)', 'Italian')","('Breakfast & Brunch',)",0.018531634702356314,0.6097044285281953,3.0894438101814377
+"('Italian', 'Mexican', 'Seafood')","('American (Traditional)',)",0.012592558524582624,0.7534397358282884,3.088736410896805
+"('Breakfast & Brunch', 'Coffee & Tea', 'Seafood')","('American (Traditional)',)",0.012518971623051097,0.752210759027266,3.0836982038406133
+"('Breakfast & Brunch', 'Desserts')","('Sandwiches',)",0.013460270738475218,0.5012559945192967,3.0829398870878784
+"('American (New)', 'Chinese')","('Pizza',)",0.014140949577641846,0.4995126177840355,3.080524585935034
+"('American (New)', 'Sandwiches', 'Seafood')","('American (Traditional)',)",0.015876374005427032,0.7511968663861888,3.0795417372138663
+"('Breakfast & Brunch', 'Burgers', 'Pizza')","('American (New)',)",0.013349890386177928,0.7850703209520377,3.079224559870387
+"('American (New)', 'Burgers', 'Mexican')","('American (Traditional)',)",0.01598368823682718,0.7510445180809682,3.078917183271332
+"('Breakfast & Brunch', 'Coffee & Tea', 'Pizza')","('American (Traditional)',)",0.014055098192521731,0.7506140494514492,3.0771524712890495
+"('Italian', 'Mexican', 'Sandwiches')","('American (Traditional)',)",0.01437090864492787,0.750280134464543,3.0757835822735697
+"('Breakfast & Brunch', 'Pizza', 'Sandwiches')","('American (Traditional)',)",0.015845712796455563,0.7501814486863115,3.075379018587894
+"('Italian', 'Sandwiches', 'Seafood')","('American (New)',)",0.012497508776771069,0.7839969224850932,3.075014446669401
+"('American (New)', 'Specialty Food')","('Pizza',)",0.014395437612105046,0.4985134848163092,3.074362872372415
+"('Burgers', 'Sandwiches')","('Coffee & Tea',)",0.014459826150945132,0.44406779661016943,3.0718268330665928
+"('Breakfast & Brunch', 'Italian', 'Pizza')","('American (Traditional)',)",0.01468365297643686,0.7489834219580856,3.0704676917747005
+"('Pizza', 'Seafood')","('Italian',)",0.015827316071072683,0.46362493263876414,3.06836350761911
+"('Mexican', 'Pizza', 'Sandwiches')","('American (Traditional)',)",0.01613392816078738,0.7476555839727195,3.065024201953098
+"('Breakfast & Brunch', 'Burgers', 'Coffee & Tea')","('American (New)',)",0.012335004369222278,0.7811650485436893,3.0639071922514103
+"('American (Traditional)', 'Breakfast & Brunch', 'Desserts')","('American (New)',)",0.012764261294822854,0.780904145563684,3.0628838713560267
+"('Coffee & Tea', 'Italian')","('Sandwiches',)",0.015628018212758128,0.49760812262032605,3.060503906464627
+"('Breakfast & Brunch', 'Italian', 'Seafood')","('American (New)',)",0.013555320486286774,0.7798553536778973,3.058770270769278
+"('Italian', 'Pizza', 'Seafood')","('American (New)',)",0.012338070490119426,0.7795428128632312,3.057544414528382
+"('Breakfast & Brunch', 'Italian', 'Sandwiches')","('American (New)',)",0.015011727912431588,0.7794937111924853,3.0573518265952293
+"('Salad', 'Sandwiches')","('Mexican',)",0.013313096935412163,0.563530175210902,3.056789891131285
+"('Italian', 'Pizza', 'Sandwiches')","('American (Traditional)',)",0.014272792776219166,0.7456351113246836,3.056741246942305
+"('American (New)', 'Coffee & Tea', 'Pizza')","('American (Traditional)',)",0.01571693571877539,0.7451664486117168,3.0548199577971564
+"('Italian', 'Mexican', 'Seafood')","('American (New)',)",0.01301261708749176,0.7785727389469822,3.0537395637423
+"('Burgers', 'Italian')","('Coffee & Tea',)",0.012497508776771069,0.4412688102197683,3.052464921293084
+"('Bakeries', 'Pizza')","('Mexican',)",0.012549632832022567,0.5626116838487972,3.0518076643858896
+"('Cafes', 'Pizza')","('Mexican',)",0.012672277667908446,0.5623894407402368,3.0506021380139132
+"('Breakfast & Brunch', 'Burgers', 'Sandwiches')","('American (New)',)",0.013325361419000752,0.777598854893541,3.0499197687305797
+"('American (Traditional)', 'Desserts', 'Mexican')","('American (New)',)",0.012052921246684757,0.7773383428910422,3.0488979813380026
+"('Burgers', 'Pizza', 'Sandwiches')","('American (New)',)",0.012693740514188475,0.7773188133683816,3.048821382103241
+"('Burgers', 'Mexican')","('Pizza',)",0.017709914301920926,0.4943512495720644,3.0486941153764007
+"('American (New)', 'Coffee & Tea', 'Seafood')","('American (Traditional)',)",0.013855800334207177,0.7436234984367286,3.048494612638069
+"('Breakfast & Brunch', 'Mexican', 'Seafood')","('American (Traditional)',)",0.014386239249413605,0.743581616481775,3.048322916995972
+"('American (New)', 'Pizza', 'Sandwiches')","('American (Traditional)',)",0.018286345030584555,0.743455497382199,3.047805890037549
+"('Pizza', 'Sandwiches', 'Seafood')","('American (New)',)",0.01247604593049104,0.7759344012204424,3.0433914024273467
+"('Breakfast & Brunch', 'Italian', 'Pizza')","('American (New)',)",0.015207959649848994,0.7757272442915233,3.042578885782339
+"('Coffee & Tea', 'Ice Cream & Frozen Yogurt')","('Breakfast & Brunch',)",0.012215425654233546,0.600361663652803,3.042102925379374
+"('American (Traditional)', 'Burgers', 'Coffee & Tea')","('American (New)',)",0.013441874013092336,0.7753802617615848,3.0412179412917397
+"('Breakfast & Brunch', 'Italian', 'Mexican')","('American (Traditional)',)",0.01518036456177467,0.7413896376160527,3.0393368699207803
+"('Breakfast & Brunch', 'Desserts')","('Italian',)",0.012328872127427984,0.4591230874628911,3.0385693863755
+"('Coffee & Tea', 'Italian')","('Pizza',)",0.015468579926106486,0.4925314849165284,3.0374715164621566
+"('Coffee & Tea', 'Salad')","('Breakfast & Brunch',)",0.012341136611016573,0.5994043186895012,3.0372519462283436
+"('Breakfast & Brunch', 'Coffee & Tea', 'Pizza')","('American (New)',)",0.014499685722608043,0.7743572949074832,3.037205632359639
+"('Coffee & Tea', 'Mexican', 'Sandwiches')","('American (Traditional)',)",0.013757684465498474,0.7398186314921682,3.032896509018857
+"('Chinese', 'Pizza')","('Sandwiches',)",0.012172499961673489,0.49292277129376705,3.031686981285465
+"('American (Traditional)', 'Breakfast & Brunch', 'Salad')","('American (New)',)",0.012479112051388186,0.7727359027909625,3.030846163286453
+"('Coffee & Tea', 'Pizza')","('Sandwiches',)",0.01701390485826856,0.49276263209306453,3.030702056347449
+"('Coffee & Tea', 'Pizza', 'Sandwiches')","('American (New)',)",0.01314446028606908,0.772571634528744,3.0302018657580265
+"('Breakfast & Brunch', 'Italian', 'Mexican')","('American (New)',)",0.015818117708381242,0.7725366876310272,3.0300647960677467
+"('American (Traditional)', 'Salad')","('Pizza',)",0.015088380934860262,0.49116678311208706,3.0290553177288766
+"('American (Traditional)', 'Burgers', 'Italian')","('American (New)',)",0.013914056631252971,0.7721626680279053,3.0285978060197607
+"('American (New)', 'Steakhouses')","('Italian',)",0.013717824893835565,0.45760458218267364,3.028519611525327
+"('Breakfast & Brunch', 'Ice Cream & Frozen Yogurt')","('Mexican',)",0.012451516963313864,0.5582897992851251,3.0283642116197176
+"('Burgers', 'Pizza')","('Italian',)",0.014858421867574238,0.45721294461741674,3.0259276749644357
+"('Italian', 'Sandwiches')","('Pizza',)",0.01914179276088856,0.4906475950958818,3.025853453768486
+"('Italian', 'Mexican', 'Pizza')","('American (Traditional)',)",0.014889083076545708,0.7376576029166033,3.024037343077738
+"('Breakfast & Brunch', 'Burgers')","('Coffee & Tea',)",0.015790522620306918,0.4371445547916136,3.02393549721114
+"('Chinese', 'Sandwiches')","('Mexican',)",0.012742798448542826,0.5571045576407506,3.0219350356209063
+"('Breakfast & Brunch', 'Chinese')","('Mexican',)",0.013325361419000752,0.5566799026514666,3.0196315545731065
+"('American (New)', 'Coffee & Tea', 'Sandwiches')","('American (Traditional)',)",0.016161523248861703,0.7363788767812238,3.0187951879509316
+"('Breakfast & Brunch', 'Pizza', 'Seafood')","('American (New)',)",0.013411212804120866,0.7691225602250747,3.0166738109822493
+"('American (New)', 'Coffee & Tea', 'Italian')","('American (Traditional)',)",0.014876818592957121,0.7358204428268122,3.016505880384513
+"('Breakfast & Brunch', 'Specialty Food')","('Mexican',)",0.01320578270401202,0.5561007101355714,3.0164898065257284
+"('Breakfast & Brunch', 'Mexican', 'Sandwiches')","('American (Traditional)',)",0.016523325514725046,0.7355992355992356,3.015599038356307
+"('American (New)', 'Italian', 'Sandwiches')","('American (Traditional)',)",0.01710895460608012,0.735565515423148,3.0154608020373144
+"('American (Traditional)', 'Mexican', 'Salad')","('American (New)',)",0.0122123595333364,0.7678812415654521,3.0118050765500266
+"('Bakeries', 'Sandwiches')","('Mexican',)",0.012423921875239542,0.5552206083858592,3.011715818813925
+"('American (Traditional)', 'Salad')","('Sandwiches',)",0.015042389121403058,0.48966962770735606,3.011678749502445
+"('Breakfast & Brunch', 'Cafes')","('Sandwiches',)",0.013024881571080348,0.48957012792439786,3.011066783056173
+"('American (Traditional)', 'Breakfast & Brunch', 'Italian')","('American (New)',)",0.018531634702356314,0.7676870316270799,3.011043340949983
+"('American (New)', 'Breakfast & Brunch', 'Cafes')","('American (Traditional)',)",0.012289012555765073,0.734065934065934,3.009313247934614
+"('American (Traditional)', 'Chinese')","('Italian',)",0.012914501218783056,0.45466321243523317,3.0090530320553803
+"('Burgers', 'Seafood')","('Italian',)",0.012604823008171211,0.45465604954656047,3.00900562661045
+"('Desserts', 'Pizza')","('Mexican',)",0.012908368976988762,0.5544580534703016,3.0075794473118376
+"('American (New)', 'Chinese')","('Coffee & Tea',)",0.012307409281147956,0.43474493664031194,3.0073362043046266
+"('Breakfast & Brunch', 'Coffee & Tea', 'Seafood')","('American (New)',)",0.012755062932131415,0.7663964627855564,3.005981436090042
+"('Cafes', 'Sandwiches')","('Mexican',)",0.012472979809593892,0.5541479362484676,3.005897260216154
+"('American (Traditional)', 'Coffee & Tea', 'Seafood')","('American (New)',)",0.013855800334207177,0.7655429442656276,3.002633742108079
+"('Breakfast & Brunch', 'Mexican', 'Pizza')","('American (Traditional)',)",0.016848334329822624,0.732276119402985,3.001975878460557
+"('Breakfast & Brunch', 'Coffee & Tea', 'Sandwiches')","('American (Traditional)',)",0.014490487359916602,0.7322590641462658,3.0019059602044305
+"('Coffee & Tea', 'Specialty Food')","('Breakfast & Brunch',)",0.012522037743948243,0.5923991876994488,3.001756126345634
+"('American (New)', 'Mexican', 'Sandwiches')","('American (Traditional)',)",0.01897315611154548,0.7319612017979655,3.000684869469657
+"('American (Traditional)', 'Barbeque')","('Pizza',)",0.013635039629612596,0.4860640507159253,2.9975864577998577
+"('American (New)', 'Mexican', 'Seafood')","('American (Traditional)',)",0.0164681353385764,0.7308477343856308,2.996120194718272
+"('American (New)', 'Breakfast & Brunch', 'Seafood')","('American (Traditional)',)",0.017676186972052307,0.7306717363751584,2.9953986884884554
+"('Italian', 'Mexican', 'Sandwiches')","('American (New)',)",0.01462233055849392,0.7634064350888426,2.994253866631998
+"('Burgers', 'Mexican', 'Sandwiches')","('American (New)',)",0.013153658648760521,0.7633451957295375,2.994013671920556
+"('Bakeries', 'Breakfast & Brunch')","('Mexican',)",0.013325361419000752,0.5519431038862078,2.9939374582870517
+"('American (New)', 'Salad')","('Coffee & Tea',)",0.013567584969875363,0.43225554361629387,2.9901158961723966
+"('Breakfast & Brunch', 'Sandwiches', 'Seafood')","('American (New)',)",0.013861932576001471,0.7621375590020228,2.9892770456954616
+"('American (Traditional)', 'Italian', 'Seafood')","('American (New)',)",0.01542565423354643,0.7620418055134809,2.9889014787102592
+"('Breakfast & Brunch', 'Desserts')","('Pizza',)",0.013009550966594613,0.4844713404886961,2.987764117305206
+"('Burgers', 'Seafood')","('Sandwiches',)",0.013454138496680925,0.4852908648529087,2.984747475248018
+"('American (New)', 'Italian', 'Seafood')","('American (Traditional)',)",0.01542565423354643,0.7278645833333334,2.983890726538834
+"('Breakfast & Brunch', 'Coffee & Tea', 'Mexican')","('American (Traditional)',)",0.01510064541844885,0.7276891252955082,2.983171433934205
+"('American (Traditional)', 'Chinese')","('Sandwiches',)",0.013776081190881357,0.48499568221070816,2.9829319750813044
+"('Mexican', 'Sandwiches', 'Seafood')","('American (New)',)",0.013260972880160664,0.7605064181466502,2.982879339848703
+"('Breakfast & Brunch', 'Pizza', 'Sandwiches')","('American (New)',)",0.016063407380153,0.7604877340688054,2.9828060566410173
+"('Burgers', 'Coffee & Tea')","('Mexican',)",0.015309141639454843,0.5498293139522079,2.9824715031590805
+"('American (Traditional)', 'Italian', 'Sandwiches')","('American (New)',)",0.01710895460608012,0.7601144258275441,2.981341856716226
+"('American (New)', 'Barbeque')","('Pizza',)",0.013037146054668936,0.48329165719481704,2.980488938939276
+"('American (Traditional)', 'Coffee & Tea', 'Pizza')","('American (New)',)",0.01571693571877539,0.7597450718838002,2.9798931664466948
+"('American (Traditional)', 'Burgers', 'Seafood')","('American (New)',)",0.013319229177206458,0.7595733519846127,2.9792196419013326
+"('American (New)', 'Mexican', 'Pizza')","('American (Traditional)',)",0.019399346916248908,0.7263230398346918,2.977571148068499
+"('Coffee & Tea', 'Mexican', 'Sandwiches')","('American (New)',)",0.014113354489567524,0.7589447650453421,2.9767541807957993
+"('American (New)', 'Coffee & Tea', 'Mexican')","('American (Traditional)',)",0.01680234251636542,0.7260201377848436,2.97632939700891
+"('American (New)', 'Breakfast & Brunch', 'Pizza')","('American (Traditional)',)",0.01958944641187202,0.7257753038736794,2.9753256970710455
+"('Burgers', 'Pizza')","('Coffee & Tea',)",0.013972312928298763,0.429946221341636,2.974141222522013
 "('Italian', 'Mexican')","('Pizza',)",0.020184273865918534,0.4822004101963082,2.9737591525664167
+"('Chinese', 'Pizza')","('Mexican',)",0.013533857640006745,0.5480506580581077,2.9728234353251763
+"('Breakfast & Brunch', 'Burgers', 'Mexican')","('American (New)',)",0.014104156126876082,0.7575757575757576,2.9713846217760684
+"('Burgers', 'Coffee & Tea')","('Italian',)",0.012497508776771069,0.44884924567778883,2.970575024991527
+"('American (Traditional)', 'Salad')","('Coffee & Tea',)",0.013184319857731991,0.4291845493562232,2.9688723774027617
+"('American (Traditional)', 'Burgers', 'Pizza')","('American (New)',)",0.015330604485734872,0.7565441065214102,2.967338251433205
+"('American (Traditional)', 'Cafes')","('Pizza',)",0.01415628018212758,0.48108783994998433,2.966897864432025
+"('American (Traditional)', 'Steakhouses')","('Italian',)",0.013512394793726717,0.4482758620689655,2.9667802563815497
+"('American (New)', 'Breakfast & Brunch', 'Sandwiches')","('American (Traditional)',)",0.019663033313403546,0.7236515459264274,2.966619322575948
+"('American (New)', 'Chinese')","('Sandwiches',)",0.013653436354995477,0.48229177948662405,2.9663018107540355
+"('American (Traditional)', 'Cafes')","('Sandwiches',)",0.014190007511996198,0.4822340314681671,2.965946635611099
+"('American (Traditional)', 'Coffee & Tea', 'Mexican')","('American (New)',)",0.01680234251636542,0.7559663401848531,2.9650721203034034
+"('Coffee & Tea', 'Pizza')","('Italian',)",0.015468579926106486,0.44800639374833495,2.9649968605732693
+"('American (Traditional)', 'Breakfast & Brunch', 'Burgers')","('American (New)',)",0.016446672492296373,0.755280202759786,2.9623809330882875
+"('American (New)', 'Barbeque')","('Sandwiches',)",0.01299115424121173,0.48158672425551263,2.9619654179360744
+"('Pizza', 'Sandwiches')","('Italian',)",0.01914179276088856,0.4475268817204301,2.9618233530582323
+"('Coffee & Tea', 'Mexican', 'Pizza')","('American (New)',)",0.013861932576001471,0.7548839539155117,2.960826754894887
+"('Bakeries', 'Sandwiches')","('Breakfast & Brunch',)",0.013067807263640405,0.5839956152370512,2.9591742395943146
+"('American (New)', 'Salad')","('Italian',)",0.014030569225344555,0.44700595877698546,2.9583757797345767
+"('Burgers', 'Mexican')","('Sandwiches',)",0.017231599441965995,0.4809996576514892,2.9583547059052755
+"('Burgers', 'Sandwiches')","('Italian',)",0.014554875898756687,0.4469868173258003,2.9582490977419473
+"('American (Traditional)', 'Coffee & Tea', 'Sandwiches')","('American (New)',)",0.016161523248861703,0.7538615560640732,2.9568166777207936
+"('Burgers', 'Mexican')","('Coffee & Tea',)",0.015309141639454843,0.42733652858610066,2.9560887442884916
+"('Burgers', 'Pizza')","('Mexican',)",0.017709914301920926,0.5449570714218323,2.956042711287521
+"('American (New)', 'Desserts')","('Italian',)",0.014269726655322019,0.44659821514250064,2.9556772499523314
+"('Breakfast & Brunch', 'Coffee & Tea', 'Mexican')","('American (New)',)",0.015634150454552423,0.7533983451536642,2.9549998590567004
+"('American (New)', 'Italian', 'Pizza')","('American (Traditional)',)",0.017525947048092107,0.7206253151790216,2.954213248602411
+"('Barbeque', 'Breakfast & Brunch')","('Mexican',)",0.012218491775130694,0.5445476906258541,2.9538220829453015
+"('American (Traditional)', 'Desserts')","('Sandwiches',)",0.01490747980192859,0.4801975308641976,2.9534212812797715
+"('American (Traditional)', 'Chinese')","('Coffee & Tea',)",0.012126508148216284,0.4269214162348878,2.953217215956721
+"('Ice Cream & Frozen Yogurt', 'Mexican')","('Breakfast & Brunch',)",0.012451516963313864,0.5826398852223816,2.9523045966884744
+"('Breakfast & Brunch', 'Coffee & Tea', 'Sandwiches')","('American (New)',)",0.014892149197442856,0.7525565540749922,2.951698162769693
+"('American (New)', 'Thai')","('Mexican',)",0.012129574269113432,0.5440792188144684,2.951280923730912
+"('Burgers', 'Mexican', 'Pizza')","('American (New)',)",0.013322295298103604,0.7522506925207756,2.9504985041091523
+"('Chinese', 'Mexican')","('Sandwiches',)",0.012742798448542826,0.4794093897796747,2.9485738747396093
+"('American (Traditional)', 'Burgers', 'Sandwiches')","('American (New)',)",0.015253951463306199,0.7512836001208095,2.946705347508826
+"('American (Traditional)', 'Italian', 'Mexican')","('American (New)',)",0.017752839994480983,0.7512650836901519,2.9466327218515813
+"('Italian', 'Pizza', 'Sandwiches')","('American (New)',)",0.014380107007619311,0.7512413903572001,2.946539791204755
+"('Mexican', 'Pizza', 'Seafood')","('American (New)',)",0.01326710512195496,0.7512152777777779,2.9464373717224075
+"('American (New)', 'Salad')","('Sandwiches',)",0.015033190758711616,0.478948910813715,2.9457417311107164
+"('Bakeries', 'Mexican')","('Breakfast & Brunch',)",0.013325361419000752,0.5807055050774986,2.9425028657422634
+"('Breakfast & Brunch', 'Cafes')","('Pizza',)",0.012693740514188475,0.4771234297568284,2.942449106514906
+"('Breakfast & Brunch', 'Mexican', 'Seafood')","('American (New)',)",0.01451195020619663,0.7500792393026942,2.9419815701463228
+"('American (Traditional)', 'Pizza', 'Seafood')","('American (New)',)",0.015306075518557697,0.7500000000000001,2.9416707755583085
+"('American (Traditional)', 'Barbeque')","('Sandwiches',)",0.013411212804120866,0.4780850366160236,2.9404285333622426
+"('American (New)', 'Italian', 'Mexican')","('American (Traditional)',)",0.017752839994480983,0.7170278637770898,2.939465447811996
+"('American (New)', 'Salad')","('Pizza',)",0.014956537736282942,0.4765067890983687,2.9386462462037906
+"('Breakfast & Brunch', 'Salad')","('Mexican',)",0.01424826380904199,0.541671523487586,2.938220720285047
 "('Mexican', 'Sandwiches')","('Pizza',)",0.021579358874120408,0.4759908021101042,2.935464123176703
+"('Bakeries', 'Coffee & Tea')","('Breakfast & Brunch',)",0.013104600714406169,0.5792897804283004,2.9353292229905694
+"('Cafes', 'Sandwiches')","('Breakfast & Brunch',)",0.013024881571080348,0.5786677564364529,2.9321773545089242
+"('American (Traditional)', 'Sandwiches', 'Seafood')","('American (New)',)",0.015876374005427032,0.7475097444781289,2.931903426368493
+"('American (Traditional)', 'Breakfast & Brunch', 'Pizza')","('American (New)',)",0.01958944641187202,0.7474262985493683,2.931576132435194
+"('American (Traditional)', 'Breakfast & Brunch', 'Coffee & Tea')","('American (New)',)",0.017906146039338332,0.746898580381123,2.9295063016175162
+"('Sandwiches', 'Specialty Food')","('Breakfast & Brunch',)",0.012574161799199743,0.5778497956883191,2.9280326515150596
+"('American (Traditional)', 'Burgers', 'Mexican')","('American (New)',)",0.01598368823682718,0.7459931310818546,2.9259549232943063
+"('American (New)', 'Ice Cream & Frozen Yogurt')","('Mexican',)",0.014033635346241703,0.5392318567389256,2.924987092374628
+"('American (Traditional)', 'Japanese')","('Sandwiches',)",0.01204985512578761,0.47555663117134556,2.9248777527604
+"('Bakeries', 'Coffee & Tea')","('Mexican',)",0.012197028928850665,0.5391705069124425,2.9246543089006183
+"('American (New)', 'Sushi Bars')","('Italian',)",0.012804120866485766,0.44185800444397416,2.924305577503652
+"('American (Traditional)', 'Italian', 'Pizza')","('American (New)',)",0.017525947048092107,0.7452411994784877,2.923005676330515
+"('Breakfast & Brunch', 'Sushi Bars')","('Mexican',)",0.012742798448542826,0.5386210471747018,2.9216738421114514
+"('American (New)', 'Breakfast & Brunch', 'Italian')","('American (Traditional)',)",0.018531634702356314,0.7126518099280745,2.92152575573478
+"('American (Traditional)', 'Japanese')","('Pizza',)",0.012000797191433259,0.47362052274927396,2.9208464667119594
+"('Italian', 'Mexican', 'Pizza')","('American (New)',)",0.015030124637814469,0.7446452984961264,2.9206684169905968
+"('Pizza', 'Specialty Food')","('Breakfast & Brunch',)",0.012347268852810867,0.5763560898812079,2.920463869095107
+"('Burgers', 'Italian')","('Mexican',)",0.015247819221511904,0.538378261340262,2.9203568846226218
+"('American (Traditional)', 'Desserts')","('Pizza',)",0.014689785218231156,0.4731851851851852,2.918161713571376
+"('Breakfast & Brunch', 'Burgers')","('Sandwiches',)",0.01713654969415444,0.4744079449961803,2.9178128388922686
+"('Sandwiches', 'Seafood')","('Italian',)",0.01594076254426712,0.44003385526872624,2.9122329895823604
+"('Breakfast & Brunch', 'Mexican', 'Sandwiches')","('American (New)',)",0.016676631559582395,0.7424242424242424,2.911956929340547
+"('American (Traditional)', 'Specialty Food')","('Seafood',)",0.012411657391650953,0.4473916887709991,2.9099687360991062
+"('Bakeries', 'Italian')","('Breakfast & Brunch',)",0.012052921246684757,0.5741200525777713,2.9091336059656214
+"('American (Traditional)', 'Salad')","('Italian',)",0.013503196431035275,0.43956482682902487,2.9091288645728963
+"('American (Traditional)', 'Ice Cream & Frozen Yogurt')","('Mexican',)",0.013791411795367092,0.5363061881483249,2.909117216073503
+"('American (Traditional)', 'Breakfast & Brunch', 'Sandwiches')","('American (New)',)",0.019663033313403546,0.7413872832369942,2.9078897392917806
+"('American (New)', 'Specialty Food')","('Mexican',)",0.015471646047003634,0.5357825440645573,2.906276782655341
+"('Breakfast & Brunch', 'Burgers')","('Pizza',)",0.01700470649557712,0.4707580001697648,2.9031931164861104
+"('Breakfast & Brunch', 'Mexican', 'Pizza')","('American (New)',)",0.017029235462754297,0.7401385927505331,2.902992090876127
+"('Desserts', 'Sandwiches')","('Mexican',)",0.012620153612656946,0.5351709790664413,2.902959434647648
+"('American (New)', 'Chinese')","('Mexican',)",0.0151497033528032,0.5351456731289939,2.902822166161988
+"('Burgers', 'Seafood')","('Pizza',)",0.013049410538257523,0.47069232470692324,2.902788091926624
+"('Cafes', 'Coffee & Tea')","('Mexican',)",0.012497508776771069,0.5346976256067165,2.9003917956209055
+"('American (Traditional)', 'Breakfast & Brunch', 'Seafood')","('American (New)',)",0.017676186972052307,0.7391973329914091,2.899300255775295
+"('American (Traditional)', 'Mexican', 'Seafood')","('American (New)',)",0.0164681353385764,0.739196256537297,2.899296033677158
+"('Desserts', 'Italian')","('Breakfast & Brunch',)",0.012328872127427984,0.571977240398293,2.898275725467277
+"('Pizza', 'Seafood')","('Sandwiches',)",0.016078737984638734,0.4709897610921501,2.8967895381949025
+"('Burgers', 'Italian')","('Seafood',)",0.012604823008171211,0.44505791923784777,2.894789204272338
+"('American (Traditional)', 'Bakeries')","('Mexican',)",0.014413834337487927,0.5336587580883188,2.8947566054072236
+"('American (Traditional)', 'Sushi Bars')","('Italian',)",0.012420855754342394,0.43733131814746845,2.894347052703046
+"('Coffee & Tea', 'Desserts')","('Breakfast & Brunch',)",0.013567584969875363,0.5710414246999613,2.8935338376255553
+"('Bakeries', 'Pizza')","('Breakfast & Brunch',)",0.012736666206748532,0.5709965635738832,2.8933065210410023
+"('Breakfast & Brunch', 'Sandwiches')","('Coffee & Tea',)",0.019788744270186575,0.41822187662001037,2.8930383886958784
+"('Desserts', 'Sandwiches')","('Breakfast & Brunch',)",0.013460270738475218,0.5707970354960343,2.8922954888814436
+"('Cafes', 'Coffee & Tea')","('Breakfast & Brunch',)",0.013337625902589339,0.5706414797323888,2.8915072695924793
+"('American (Traditional)', 'Sushi Bars')","('Pizza',)",0.013313096935412163,0.46874662636294934,2.8907888523237992
 "('American (New)', 'Breakfast & Brunch', 'Mexican')","('American (Traditional)',)",0.020687117693050636,0.7047947351927295,2.8893155713442282
+"('Coffee & Tea', 'Mexican')","('Sandwiches',)",0.0185960232411964,0.46975447293005956,2.889191984871658
 "('American (Traditional)', 'Breakfast & Brunch', 'Mexican')","('American (New)',)",0.020687117693050636,0.7359293193717277,2.8864823622297706
+"('American (Traditional)', 'Steakhouses')","('Pizza',)",0.014104156126876082,0.4679076391008036,2.885614767032837
+"('American (New)', 'Breakfast & Brunch', 'Coffee & Tea')","('American (Traditional)',)",0.017906146039338332,0.7038688682656382,2.885519967325271
+"('Coffee & Tea', 'Pizza')","('Mexican',)",0.01836299805301323,0.5318355385844952,2.884866808562688
+"('American (Traditional)', 'Cafes')","('Italian',)",0.012825583712765794,0.435865374596228,2.884645141998514
+"('American (Traditional)', 'Mexican', 'Sandwiches')","('American (New)',)",0.01897315611154548,0.7340450771055754,2.8790919350185544
+"('Mexican', 'Pizza', 'Sandwiches')","('American (New)',)",0.01583958055466127,0.7340153452685422,2.878975319983749
+"('American (New)', 'Sushi Bars')","('Coffee & Tea',)",0.01205905348847905,0.4161464395302084,2.8786816094124847
+"('American (Traditional)', 'Chinese')","('Mexican',)",0.015054653604991645,0.5300086355785838,2.874957031081017
+"('American (Traditional)', 'Specialty Food')","('Mexican',)",0.014702049701819743,0.5299513704686118,2.874646404575149
+"('Burgers', 'Coffee & Tea')","('Breakfast & Brunch',)",0.015790522620306918,0.5671181587930845,2.8736541893819703
+"('American (New)', 'Desserts')","('Pizza',)",0.014876818592957121,0.4655983111025813,2.871373001315144
+"('Mexican', 'Specialty Food')","('Breakfast & Brunch',)",0.01320578270401202,0.5666359689514539,2.8712108769311255
+"('Burgers', 'Sandwiches')","('Mexican',)",0.017231599441965995,0.5291902071563087,2.8705175816284854
+"('Cafes', 'Mexican')","('Breakfast & Brunch',)",0.013950850082018735,0.5662725575606721,2.8693694288141907
+"('American (Traditional)', 'Pizza', 'Sandwiches')","('American (New)',)",0.018286345030584555,0.731420161883738,2.8687964198233584
+"('Coffee & Tea', 'Seafood')","('Sandwiches',)",0.01467445461374542,0.46638082245176377,2.8684425838902183
+"('American (Traditional)', 'Desserts')","('Italian',)",0.013444940133989483,0.4330864197530864,2.8662534571909575
+"('Salad', 'Sandwiches')","('Breakfast & Brunch',)",0.013340692023486487,0.5646982478909799,2.8613922171739863
+"('Coffee & Tea', 'Mexican')","('Pizza',)",0.01836299805301323,0.46386801951824025,2.8607021882533132
+"('American (New)', 'Grocery')","('American (Traditional)',)",0.012325806006530838,0.6968278731149246,2.8566553122549503
+"('Cafes', 'Pizza')","('Breakfast & Brunch',)",0.012693740514188475,0.5633419512858893,2.854519703288066
+"('American (New)', 'Desserts')","('Sandwiches',)",0.014821628416808475,0.4638710296516649,2.853006279055258
+"('American (New)', 'Cafes')","('Italian',)",0.013644237992304036,0.43090926697007836,2.851844620047813
+"('American (New)', 'Bakeries')","('Mexican',)",0.015060785846785938,0.5254037865012301,2.849978677251833
+"('American (New)', 'Ice Cream & Frozen Yogurt')","('Breakfast & Brunch',)",0.014628462800288216,0.5620876531573987,2.8481640276395526
+"('Desserts', 'Mexican')","('Breakfast & Brunch',)",0.014058164313418877,0.5618872549019608,2.8471485861881454
+"('Breakfast & Brunch', 'Cafes')","('Mexican',)",0.013950850082018735,0.5243747839114902,2.8443969979511854
+"('American (Traditional)', 'Japanese')","('Mexican',)",0.013282435726440693,0.5242013552758954,2.843456258797474
+"('Burgers', 'Seafood')","('Mexican',)",0.014530346931579513,0.5241097102410972,2.8429591432422354
+"('Coffee & Tea', 'Desserts')","('Mexican',)",0.012448450842416716,0.5239385727190605,2.842030831910621
+"('Breakfast & Brunch', 'Desserts')","('Mexican',)",0.014058164313418877,0.523521351906828,2.839767676506876
+"('Mexican', 'Sandwiches')","('Coffee & Tea',)",0.0185960232411964,0.410185310428784,2.8374456619537574
+"('American (New)', 'Japanese')","('Sandwiches',)",0.012552698952919713,0.4608803332207588,2.834612210120773
+"('Gastropubs', 'Mexican')","('American (New)',)",0.01235340109460516,0.7226905829596413,2.8345570235514317
+"('American (New)', 'Cafes')","('Sandwiches',)",0.014588603228625305,0.4607339982569962,2.8337121871752284
+"('Desserts', 'Pizza')","('Breakfast & Brunch',)",0.013009550966594613,0.5588041617279073,2.8315261916685825
+"('Breakfast & Brunch', 'Italian')","('Pizza',)",0.019604777016357756,0.4590093323761666,2.830738370196178
+"('Breakfast & Brunch', 'Steakhouses')","('Mexican',)",0.012175566082570637,0.5214707813525936,2.8286446459808015
+"('American (New)', 'Japanese')","('Pizza',)",0.012488310414079627,0.45851626702690534,2.827697606305948
 "('Breakfast & Brunch', 'Pizza')","('Sandwiches',)",0.021122506860445506,0.45966504303729894,2.8271376529644687
+"('Breakfast & Brunch', 'Pizza')","('Italian',)",0.019604777016357756,0.42663641822913195,2.8235660434931056
+"('American (Traditional)', 'Ice Cream & Frozen Yogurt')","('Breakfast & Brunch',)",0.014315718468779224,0.5566948849409801,2.820838238935383
+"('American (Traditional)', 'Mexican', 'Pizza')","('American (New)',)",0.019399346916248908,0.7190589839754518,2.8203130654176483
+"('Breakfast & Brunch', 'Pizza')","('Coffee & Tea',)",0.018724800318876574,0.40748648828985123,2.818776633649222
+"('American (New)', 'Specialty Food')","('Seafood',)",0.012512839381256803,0.4333191760458696,2.818436923827456
+"('American (Traditional)', 'Sushi Bars')","('Sandwiches',)",0.01301261708749176,0.4581669005721688,2.8179234326602924
+"('American (New)', 'Burgers')","('Pizza',)",0.019948182556838216,0.4568499403131802,2.8174212684776814
+"('Burgers', 'Mexican')","('Italian',)",0.015247819221511904,0.42562478603218074,2.8168708571523053
+"('American (New)', 'Steakhouses')","('Pizza',)",0.013684097563966947,0.4564794926869183,2.815136695516214
+"('Italian', 'Mexican')","('Sandwiches',)",0.01915405724447715,0.4575886317023146,2.8143668304773213
+"('Coffee & Tea', 'Sandwiches')","('Pizza',)",0.01701390485826856,0.45595727198027936,2.811916128770128
+"('American (Traditional)', 'Steakhouses')","('Seafood',)",0.013031013812874642,0.43230597090835116,2.8118467359732002
+"('American (New)', 'Delis')","('Mexican',)",0.012108111422833401,0.518241469816273,2.811127701380906
+"('Pizza', 'Salad')","('Breakfast & Brunch',)",0.013202716583114872,0.5546110252447192,2.8102790775800344
+"('Coffee & Tea', 'Italian')","('Mexican',)",0.016268837480261845,0.5180123010836669,2.809884607938871
+"('American (Traditional)', 'Bakeries')","('Breakfast & Brunch',)",0.014974934461665824,0.5544329662844818,2.809376831956068
+"('American (Traditional)', 'Salad')","('Mexican',)",0.015903969093501356,0.5177163389559836,2.808279203153366
+"('American (New)', 'Sushi Bars')","('Pizza',)",0.01319351822042343,0.45529573590096284,2.8078363956777825
+"('Pizza', 'Seafood')","('Mexican',)",0.017660856367566573,0.5173342913597988,2.8062068398952467
+"('Mexican', 'Seafood')","('Italian',)",0.016713425010348157,0.4239054358814837,2.8054918503564634
+"('American (New)', 'Steakhouses')","('Seafood',)",0.012926765702371645,0.4312161194640483,2.8047580177213574
 "('American (Traditional)', 'Burgers')","('Pizza',)",0.020263993009244353,0.4545704656441295,2.803363610050196
+"('American (New)', 'Cafes')","('Pizza',)",0.014392371491207898,0.4545366514960782,2.803155076149918
+"('Sandwiches', 'Seafood')","('Coffee & Tea',)",0.01467445461374542,0.40507829030892933,2.8021179900060607
+"('Breakfast & Brunch', 'Burgers')","('Italian',)",0.015293811034969108,0.4233935998641881,2.802104416146624
+"('American (Traditional)', 'Delis')","('Mexican',)",0.012022260037713287,0.5165327361348966,2.801858916720152
+"('Breakfast & Brunch', 'Gastropubs')","('American (New)',)",0.012889972251605882,0.7142371729527693,2.8014008246567283
 "('American (Traditional)', 'Burgers')","('Sandwiches',)",0.020303852580907264,0.4554646124217621,2.8013031986553445
+"('American (New)', 'Barbeque')","('Mexican',)",0.013917122752150117,0.5159127074335076,2.798495658548737
+"('Mexican', 'Sandwiches')","('Italian',)",0.01915405724447715,0.4224942513188151,2.7961523457056607
+"('Italian', 'Seafood')","('Sandwiches',)",0.01594076254426712,0.45461699895068214,2.796090011367018
+"('Breakfast & Brunch', 'Burgers')","('Mexican',)",0.018617486087476428,0.5154061624649859,2.7957479768676254
+"('Italian', 'Pizza')","('Sandwiches',)",0.01914179276088856,0.453937322765942,2.791909710596254
+"('American (Traditional)', 'Steakhouses')","('Sandwiches',)",0.013681031443069801,0.4538704099277795,2.791498167871608
+"('Coffee & Tea', 'Seafood')","('Italian',)",0.013260972880160664,0.4214578054960046,2.7892929377738316
+"('American (Traditional)', 'Desserts')","('Seafood',)",0.013310030814515017,0.42874074074074076,2.7886574175635457
+"('Breakfast & Brunch', 'Italian')","('Coffee & Tea',)",0.01720707047478882,0.40287150035893754,2.7868525809062037
+"('American (New)', 'Bakeries')","('Breakfast & Brunch',)",0.015750663048644007,0.5494705316076586,2.7842315937416267
+"('Italian', 'Seafood')","('Pizza',)",0.015827316071072683,0.4513816019587269,2.7836976944469884
+"('Burgers', 'Desserts')","('American (Traditional)',)",0.012233822379616429,0.6788023137121469,2.782759287123046
+"('American (Traditional)', 'Sushi Bars')","('Seafood',)",0.01215103711539346,0.42783115621289003,2.782741209003311
+"('American (New)', 'Burgers')","('Coffee & Tea',)",0.01756274049885787,0.40221894529878516,2.7823385491319312
 "('American (New)', 'Pizza')","('Italian',)",0.024320470956169803,0.42003812751535696,2.779897221966236
+"('American (New)', 'Japanese')","('Mexican',)",0.013947783961121587,0.5121017674209164,2.7778237523782523
+"('American (New)', 'Specialty Food')","('Breakfast & Brunch',)",0.015821183829278388,0.5478870248460395,2.776207779358526
+"('Coffee & Tea', 'Italian')","('Breakfast & Brunch',)",0.01720707047478882,0.5478863614175534,2.7762044176886187
+"('Burgers', 'Salad')","('American (Traditional)',)",0.012433120237930981,0.6769616026711185,2.7752132672570853
+"('American (New)', 'Burgers')","('Sandwiches',)",0.01969982676416931,0.45116213749034473,2.774841127928424
+"('Breakfast & Brunch', 'Italian')","('Sandwiches',)",0.019258305354980146,0.45089734386216795,2.7732125332640636
+"('Coffee & Tea', 'Sandwiches')","('Italian',)",0.015628018212758128,0.41881676253081346,2.7718139816479743
+"('Italian', 'Sandwiches')","('Coffee & Tea',)",0.015628018212758128,0.400581578120088,2.7710121064727264
 "('American (Traditional)', 'Italian')","('Pizza',)",0.023517147281117295,0.44806636289286134,2.763252414213714
+"('Mexican', 'Seafood')","('Pizza',)",0.017660856367566573,0.4479352982346994,2.7624441305238925
+"('American (New)', 'Salad')","('Mexican',)",0.015980622115930033,0.5091335352153952,2.761722995755997
+"('Mexican', 'Salad')","('Breakfast & Brunch',)",0.01424826380904199,0.5445915856088128,2.759509402445215
+"('American (New)', 'Steakhouses')","('Sandwiches',)",0.013423477287709455,0.447785619310627,2.7540740893502385
+"('Mexican', 'Steakhouses')","('Breakfast & Brunch',)",0.012175566082570637,0.5433771209633279,2.7533555677244554
+"('American (New)', 'Gastropubs')","('Mexican',)",0.01235340109460516,0.5075585789871504,2.753179868006589
 "('Breakfast & Brunch', 'Sandwiches')","('Pizza',)",0.021122506860445506,0.44641005702436487,2.753037875545268
 "('Mexican', 'Pizza')","('Italian',)",0.020184273865918534,0.41588224145555625,2.752392728074724
+"('American (New)', 'Sushi Bars')","('Sandwiches',)",0.012963559153137409,0.4473600677177018,2.7514567640829344
 "('American (Traditional)', 'Coffee & Tea')","('Sandwiches',)",0.021438317312851646,0.44728761514841353,2.7510111496299943
+"('Coffee & Tea', 'Pizza')","('Breakfast & Brunch',)",0.018724800318876574,0.5423141816890152,2.747969529821547
+"('Coffee & Tea', 'Italian')","('Seafood',)",0.013260972880160664,0.42223957824856,2.7463719212627207
+"('American (Traditional)', 'Specialty Food')","('Breakfast & Brunch',)",0.015033190758711616,0.5418877099911583,2.7458085477366008
+"('American (New)', 'Burgers')","('Italian',)",0.01810851001855003,0.414718067551436,2.7446879898856147
+"('American (Traditional)', 'Gastropubs')","('American (New)',)",0.014392371491207898,0.6990320178704393,2.741762744198699
+"('American (Traditional)', 'Barbeque')","('Mexican',)",0.014174676907510463,0.5053011258060991,2.740934631873569
+"('American (New)', 'Bakeries')","('Seafood',)",0.012065185730273344,0.42090063108353837,2.737663010285396
+"('Sandwiches', 'Seafood')","('Pizza',)",0.016078737984638734,0.4438425730004232,2.737204045971883
 "('Pizza', 'Sandwiches')","('Mexican',)",0.021579358874120408,0.5045161290322581,2.7366765276789713
+"('Burgers', 'Italian')","('Breakfast & Brunch',)",0.015293811034969108,0.5400021652051532,2.736254271278407
 "('Mexican', 'Pizza')","('Sandwiches',)",0.021579358874120408,0.44462695053383033,2.7346469182668796
+"('American (Traditional)', 'Sushi Bars')","('Mexican',)",0.01430958622698493,0.5038324516895174,2.7329680164367773
+"('Ice Cream & Frozen Yogurt', 'Sandwiches')","('American (Traditional)',)",0.013466402980269512,0.6663632225762404,2.7317650643831204
+"('American (Traditional)', 'Cafes')","('Mexican',)",0.014812430054117033,0.5033864749400855,2.7305488785106973
+"('American (New)', 'Desserts')","('Seafood',)",0.013398948320532279,0.4193455522502639,2.7275483145935087
+"('Breakfast & Brunch', 'Coffee & Tea')","('Sandwiches',)",0.019788744270186575,0.44345197196646974,2.7274202948820294
+"('Ice Cream & Frozen Yogurt', 'Pizza')","('American (Traditional)',)",0.013463336859372364,0.6647993943981831,2.725354129567423
+"('Mexican', 'Seafood')","('Sandwiches',)",0.017437029542074843,0.44225834046193324,2.7200789479135024
+"('Coffee & Tea', 'Mexican')","('Italian',)",0.016268837480261845,0.41096739214623185,2.7198652620035064
 "('Breakfast & Brunch', 'Pizza')","('Mexican',)",0.023008171212190898,0.5007006071929005,2.715979768035934
+"('American (Traditional)', 'Salad')","('Seafood',)",0.012825583712765794,0.4175067371993213,2.715588114071209
 "('American (Traditional)', 'Mexican')","('Pizza',)",0.026978797773996227,0.4397740903638544,2.712113466989114
+"('American (New)', 'Sushi Bars')","('Mexican',)",0.014475156755430867,0.49952385990900433,2.709596668496528
+"('American (Traditional)', 'Desserts')","('Mexican',)",0.01550537337687225,0.4994567901234568,2.709232857911965
+"('Sandwiches', 'Steakhouses')","('American (Traditional)',)",0.013681031443069801,0.6605477424130274,2.70792442461753
+"('Coffee & Tea', 'Sandwiches')","('Mexican',)",0.0185960232411964,0.49835661462612985,2.7032651112204227
+"('American (New)', 'Sushi Bars')","('Seafood',)",0.012040656763096168,0.4155115860755475,2.702611057188629
+"('Burgers', 'Seafood')","('Breakfast & Brunch',)",0.014766438240659829,0.5326255253262553,2.6988759723068676
+"('Ice Cream & Frozen Yogurt', 'Italian')","('American (New)',)",0.012230756258719281,0.6872846312887664,2.695686819136708
 "('American (Traditional)', 'Pizza')","('Italian',)",0.023517147281117295,0.40713413663145603,2.6944960022659545
 "('American (New)', 'Sandwiches')","('Italian',)",0.02325959312575695,0.40712714002039396,2.694449697279858
 "('Breakfast & Brunch', 'Mexican')","('Pizza',)",0.023008171212190898,0.43683781581092096,2.6940052838735524
+"('Breakfast & Brunch', 'Sandwiches')","('Italian',)",0.019258305354980146,0.40701140487299114,2.6936837386830703
 "('American (Traditional)', 'Sandwiches')","('Pizza',)",0.02500114979533643,0.43646290547050637,2.691693189083451
+"('Seafood', 'Specialty Food')","('American (Traditional)',)",0.012411657391650953,0.6561841465391474,2.690035804178265
+"('American (New)', 'Cafes')","('Mexican',)",0.015701605114289658,0.4958845744165779,2.6898558780410275
+"('Burgers', 'Sandwiches')","('Seafood',)",0.013454138496680925,0.41318267419962335,2.6874631210106323
+"('Coffee & Tea', 'Sandwiches')","('Breakfast & Brunch',)",0.019788744270186575,0.5303204601479048,2.6871959368436014
+"('Barbeque', 'Mexican')","('Breakfast & Brunch',)",0.012218491775130694,0.5297793140122308,2.6844538859398583
+"('American (Traditional)', 'Cafes')","('Breakfast & Brunch',)",0.015588158641095218,0.529748879858289,2.6842996725142805
+"('American (New)', 'Gastropubs')","('Breakfast & Brunch',)",0.012889972251605882,0.5296044343663392,2.683567750274368
+"('Pizza', 'Specialty Food')","('American (Traditional)',)",0.014009106379064527,0.6539287247745813,2.6807896720792113
+"('Coffee & Tea', 'Seafood')","('Breakfast & Brunch',)",0.01664290422971378,0.5289417267589164,2.6802097331435837
+"('Chinese', 'Sandwiches')","('Breakfast & Brunch',)",0.012095846939244814,0.5288203753351206,2.6795948312541427
+"('Italian', 'Specialty Food')","('American (New)',)",0.0137331554983213,0.6830867774897057,2.6792218806823573
+"('American (New)', 'Cafes')","('Breakfast & Brunch',)",0.01674102009842248,0.5287111455408153,2.679041351082253
+"('Pizza', 'Steakhouses')","('American (Traditional)',)",0.014104156126876082,0.6535019178860634,2.6790399714538022
+"('American (New)', 'Desserts')","('Breakfast & Brunch',)",0.016888193901485535,0.5285481239804241,2.6782153017260217
+"('American (Traditional)', 'Grocery')","('American (New)',)",0.012325806006530838,0.6821652808416766,2.6756075610033143
+"('American (Traditional)', 'Burgers')","('Italian',)",0.01801959251253277,0.40422312401128,2.675230332399735
+"('American (Traditional)', 'Cafes')","('Seafood',)",0.01208971469745052,0.41085755965405857,2.672339883799791
+"('American (Traditional)', 'Desserts')","('Breakfast & Brunch',)",0.016345490502690522,0.5265185185185186,2.667931052935947
+"('American (New)', 'Desserts')","('Mexican',)",0.015713869597878245,0.491795413108147,2.6676747997231915
+"('Burgers', 'Sandwiches')","('Breakfast & Brunch',)",0.01713654969415444,0.5262711864406779,2.666677792304745
+"('American (Traditional)', 'Salad')","('Breakfast & Brunch',)",0.016149258765273115,0.5257011677812157,2.6637894409384693
+"('Italian', 'Sandwiches')","('Mexican',)",0.01915405724447715,0.49096196164728073,2.6631538599183777
+"('Breakfast & Brunch', 'Seafood')","('Italian',)",0.0173818393659262,0.40231353346107446,2.6625922761903844
 "('American (Traditional)', 'Pizza')","('Sandwiches',)",0.02500114979533643,0.43282552152449705,2.6620630556990097
 "('American (Traditional)', 'Coffee & Tea')","('Pizza',)",0.020687117693050636,0.431614636642784,2.661793621402303
+"('Coffee & Tea', 'Seafood')","('Mexican',)",0.01543485259623787,0.4905476515299162,2.6609064931680892
+"('American (New)', 'Delis')","('Breakfast & Brunch',)",0.01226141746769075,0.5248031496062993,2.659239077578598
+"('American (New)', 'Salad')","('Seafood',)",0.012831715954560088,0.4088111751489694,2.65902958975252
+"('Breakfast & Brunch', 'Burgers')","('Seafood',)",0.014766438240659829,0.4087938205585264,2.658916710329669
+"('Italian', 'Specialty Food')","('American (Traditional)',)",0.013037146054668936,0.648467286868995,2.658400433348271
+"('Italian', 'Sandwiches')","('Seafood',)",0.01594076254426712,0.4085979251807608,2.657642548472952
 "('Coffee & Tea', 'Mexican')","('Breakfast & Brunch',)",0.020751506231890725,0.5242041669893889,2.6562039624447173
 "('American (New)', 'Sandwiches')","('Pizza',)",0.02459642183691303,0.4305264852680728,2.6550829259290083
+"('Sandwiches', 'Specialty Food')","('American (Traditional)',)",0.014088825522390347,0.6474566718331689,2.6542574033086828
+"('Burgers', 'Desserts')","('American (New)',)",0.012193962807953517,0.6765906771010548,2.6537426957911743
+"('Coffee & Tea', 'Seafood')","('Pizza',)",0.013533857640006745,0.43013057883453515,2.652641346960187
+"('Burgers', 'Pizza')","('Breakfast & Brunch',)",0.01700470649557712,0.5232569110293424,2.6514041054558355
+"('American (New)', 'Salad')","('Breakfast & Brunch',)",0.016422143525119195,0.5232001562957898,2.651116522568016
+"('Breakfast & Brunch', 'Italian')","('Seafood',)",0.0173818393659262,0.40696338837042356,2.647011034442929
+"('American (Traditional)', 'Delis')","('Breakfast & Brunch',)",0.012154103236290606,0.5221973389540245,2.646035129544944
+"('Ice Cream & Frozen Yogurt', 'Mexican')","('American (Traditional)',)",0.013791411795367092,0.6453371592539455,2.64556843275737
 "('American (New)', 'Burgers')","('Mexican',)",0.02128194514709715,0.48739554806544483,2.643808352855745
+"('Barbeque', 'Pizza')","('American (Traditional)',)",0.013635039629612596,0.6444927536231884,2.6421067804270497
+"('Salad', 'Seafood')","('American (Traditional)',)",0.012825583712765794,0.6441330458885125,2.6406321536924335
+"('Burgers', 'Mexican')","('Seafood',)",0.014530346931579513,0.40559739815131807,2.6381262273908943
 "('American (Traditional)', 'Italian')","('Sandwiches',)",0.02250839350595594,0.42884682790045564,2.637592379225958
+"('Pizza', 'Specialty Food')","('American (New)',)",0.014395437612105046,0.6719622155431515,2.635588815656935
 "('American (New)', 'Italian')","('Pizza',)",0.024320470956169803,0.4270255720053836,2.6334925816714727
+"('Burgers', 'Mexican')","('Breakfast & Brunch',)",0.018617486087476428,0.5196850393700787,2.633305013056076
+"('Delis', 'Pizza')","('American (Traditional)',)",0.012034524521301875,0.6419692508995747,2.6317616468021896
+"('Breakfast & Brunch', 'Ice Cream & Frozen Yogurt')","('American (Traditional)',)",0.014315718468779224,0.641875171844927,2.631375968442296
+"('Mexican', 'Steakhouses')","('American (Traditional)',)",0.014367842524030722,0.641215106732348,2.6286700225652258
+"('Mexican', 'Sushi Bars')","('Breakfast & Brunch',)",0.012742798448542826,0.5184630738522954,2.6271131705361124
+"('Bakeries', 'Seafood')","('American (New)',)",0.012065185730273344,0.6693315189658106,2.6252706246690347
+"('Coffee & Tea', 'Salad')","('American (Traditional)',)",0.013184319857731991,0.6403574087862993,2.625153878208173
+"('Bakeries', 'Italian')","('American (New)',)",0.014048965950727438,0.669198188987878,2.6247476741362483
 "('American (New)', 'Coffee & Tea')","('Sandwiches',)",0.021947293381778043,0.4265792610250298,2.6236458679755663
 "('Breakfast & Brunch', 'Mexican')","('Sandwiches',)",0.022462401692498735,0.42647572476423334,2.6230090754550592
+"('Cafes', 'Italian')","('American (New)',)",0.013644237992304036,0.6682685087851029,2.62110125669209
+"('Barbeque', 'Sandwiches')","('American (Traditional)',)",0.013411212804120866,0.6390065741417092,2.6196161132703315
+"('Sandwiches', 'Specialty Food')","('American (New)',)",0.014524214689785219,0.6674651261096238,2.617950206908028
+"('Bakeries', 'Sandwiches')","('American (Traditional)',)",0.014285057259807754,0.6383940805700191,2.61710518757003
+"('Italian', 'Salad')","('American (Traditional)',)",0.013503196431035275,0.6383533845484853,2.6169383536780644
 "('American (New)', 'Mexican')","('Pizza',)",0.026708979135047294,0.4243265624238881,2.6168476260137847
+"('Burgers', 'Salad')","('American (New)',)",0.012249152984102164,0.6669449081803005,2.615909793735212
+"('Coffee & Tea', 'Specialty Food')","('American (New)',)",0.014094957764184643,0.6668117203365246,2.6153874006849516
+"('American (New)', 'Chinese')","('Breakfast & Brunch',)",0.014600867712213892,0.515758691649518,2.613409748901298
+"('Breakfast & Brunch', 'Specialty Food')","('American (New)',)",0.015821183829278388,0.6662362814719174,2.6131303984301044
 "('American (New)', 'Pizza')","('Sandwiches',)",0.02459642183691303,0.4248040669349714,2.6127276610565406
+"('Bakeries', 'Italian')","('American (Traditional)',)",0.01337748547425225,0.6372133781218052,2.6122648818775995
+"('Burgers', 'Pizza')","('Seafood',)",0.013049410538257523,0.4015473157845079,2.611783285932998
+"('Ice Cream & Frozen Yogurt', 'Pizza')","('American (New)',)",0.013484799705652395,0.6658591975775928,2.61165138953428
+"('American (New)', 'Breweries')","('American (Traditional)',)",0.014101090005978936,0.6369806094182825,2.6113106434220215
+"('Sandwiches', 'Seafood')","('Mexican',)",0.017437029542074843,0.4813372831146847,2.610946149776118
+"('Salad', 'Sandwiches')","('American (Traditional)',)",0.015042389121403058,0.636729396495782,2.610280792640708
+"('Burgers', 'Italian')","('American (Traditional)',)",0.01801959251253277,0.6362455342643716,2.608297192863651
+"('Seafood', 'Steakhouses')","('American (Traditional)',)",0.013031013812874642,0.6360371146363365,2.6074427737731183
 "('American (Traditional)', 'Burgers')","('Mexican',)",0.02142605282926306,0.4806382832381869,2.6071545236123885
+"('Breakfast & Brunch', 'Steakhouses')","('American (Traditional)',)",0.014840025142191357,0.6355876559422193,2.60560021176358
+"('American (Traditional)', 'Breweries')","('American (New)',)",0.014101090005978936,0.6642114384748701,2.6051885031374273
+"('Ice Cream & Frozen Yogurt', 'Sandwiches')","('American (New)',)",0.013420411166812307,0.6640873918980428,2.604701964217613
+"('Mexican', 'Specialty Food')","('American (New)',)",0.015471646047003634,0.6638600184186292,2.603810153658242
+"('Coffee & Tea', 'Ice Cream & Frozen Yogurt')","('American (Traditional)',)",0.012920633460577351,0.6350210970464136,2.603277595889772
+"('Coffee & Tea', 'Specialty Food')","('American (Traditional)',)",0.013420411166812307,0.634899912967798,2.6027808001166775
+"('Italian', 'Salad')","('American (New)',)",0.014030569225344555,0.6632845339904334,2.6015529726926254
 "('Breakfast & Brunch', 'Italian')","('Mexican',)",0.020475555351147496,0.4793969849246231,2.6004212761241594
+"('American (New)', 'Ice Cream & Frozen Yogurt')","('American (Traditional)',)",0.01650799491023931,0.6343072573044297,2.6003512001904703
+"('Bakeries', 'Pizza')","('American (Traditional)',)",0.014147081819436141,0.6342268041237114,2.6000213812854662
+"('Pizza', 'Salad')","('American (Traditional)',)",0.015088380934860262,0.6338227717671303,2.5983650451624714
+"('Desserts', 'Italian')","('American (New)',)",0.014269726655322019,0.6620199146514936,2.5965928476905384
 "('Italian', 'Pizza')","('Mexican',)",0.020184273865918534,0.4786592016287356,2.5964192747763692
+"('Breakfast & Brunch', 'Specialty Food')","('American (Traditional)',)",0.015033190758711616,0.6330535829567463,2.595211745206934
+"('Italian', 'Steakhouses')","('American (Traditional)',)",0.013512394793726717,0.6330077563918415,2.5950238785828668
+"('Seafood', 'Specialty Food')","('American (New)',)",0.012512839381256803,0.6615334738207165,2.5946849159892915
+"('American (New)', 'Barbeque')","('Breakfast & Brunch',)",0.01381287464164712,0.5120481927710844,2.594608216131831
+"('Burgers', 'Seafood')","('American (Traditional)',)",0.017535145410783548,0.6324928113249282,2.592912854300297
+"('Desserts', 'Sandwiches')","('American (Traditional)',)",0.01490747980192859,0.6321674684696399,2.5915791068545913
 "('American (Traditional)', 'Mexican')","('Sandwiches',)",0.025847399162948995,0.42133146741303473,2.5913696809124276
+"('Breakfast & Brunch', 'Seafood')","('Sandwiches',)",0.018188229161875853,0.42097792917465054,2.589195268738523
+"('Pizza', 'Seafood')","('Breakfast & Brunch',)",0.017437029542074843,0.5107777977366624,2.5881709755740503
+"('Breakfast & Brunch', 'Coffee & Tea')","('Pizza',)",0.018724800318876574,0.41960972928404566,2.5877586301852147
+"('Desserts', 'Pizza')","('American (Traditional)',)",0.014689785218231156,0.6309758988542079,2.586694251062831
+"('Mexican', 'Specialty Food')","('American (Traditional)',)",0.014702049701819743,0.6308380476253125,2.586129128081219
+"('American (Traditional)', 'Steakhouses')","('Mexican',)",0.014367842524030722,0.47665547757094906,2.585550356457725
+"('Italian', 'Seafood')","('Mexican',)",0.016713425010348157,0.47665267576075554,2.585535158433816
+"('Coffee & Tea', 'Salad')","('American (New)',)",0.013567584969875363,0.6589724497393894,2.5846399963952367
+"('Cafes', 'Sandwiches')","('American (Traditional)',)",0.014190007511996198,0.6304318212777551,2.584463797662474
+"('Delis', 'Mexican')","('American (Traditional)',)",0.012022260037713287,0.6285668483488297,2.576818315858178
+"('Ice Cream & Frozen Yogurt', 'Mexican')","('American (New)',)",0.014033635346241703,0.6566714490674319,2.5756149478202537
+"('Cafes', 'Pizza')","('American (Traditional)',)",0.01415628018212758,0.6282487413253504,2.5755142318030644
+"('Bakeries', 'Pizza')","('American (New)',)",0.014646859525671097,0.6566323024054983,2.575461405698426
+"('Cafes', 'Italian')","('American (Traditional)',)",0.012825583712765794,0.6281723982579968,2.5752012623635174
 "('Breakfast & Brunch', 'Sandwiches')","('Mexican',)",0.022462401692498735,0.47472783825816484,2.5750941490987125
+"('Bakeries', 'Mexican')","('American (Traditional)',)",0.014413834337487927,0.6281400320684126,2.575068576730551
+"('Bakeries', 'Mexican')","('American (New)',)",0.015060785846785938,0.6563335114911811,2.5742894796975606
+"('Barbeque', 'Breakfast & Brunch')","('American (Traditional)',)",0.014082693280596054,0.6276305001366493,2.5729797436689106
+"('American (New)', 'Steakhouses')","('Mexican',)",0.01421760260007052,0.4742763628925028,2.5726451847050416
+"('Breakfast & Brunch', 'Ice Cream & Frozen Yogurt')","('American (New)',)",0.014628462800288216,0.6558977178993676,2.5725801979999425
+"('Delis', 'Sandwiches')","('American (Traditional)',)",0.01219089668705637,0.6268327289925901,2.569709270049
+"('Cafes', 'Seafood')","('American (Traditional)',)",0.01208971469745052,0.6266687857596948,2.569037182543279
+"('American (New)', 'Sushi Bars')","('Breakfast & Brunch',)",0.014677520734642567,0.506507247910274,2.5665315990009527
+"('Breakfast & Brunch', 'Delis')","('American (Traditional)',)",0.012154103236290606,0.6252365930599368,2.5631658891553615
+"('Sandwiches', 'Sushi Bars')","('American (Traditional)',)",0.01301261708749176,0.6249447798556914,2.561969596968645
+"('American (Traditional)', 'Chinese')","('Breakfast & Brunch',)",0.014352511919544987,0.5052892918825561,2.5603600730371516
+"('Coffee & Tea', 'Ice Cream & Frozen Yogurt')","('American (New)',)",0.013279369605543547,0.6526522001205546,2.5598505382646235
+"('American (Traditional)', 'Sushi Bars')","('Breakfast & Brunch',)",0.014343313556853548,0.5050199719313397,2.55899539727409
+"('Bakeries', 'Breakfast & Brunch')","('American (New)',)",0.015750663048644007,0.6524003048006096,2.5588625474630478
+"('Desserts', 'Italian')","('American (Traditional)',)",0.013444940133989483,0.6237553342816501,2.55709344871336
+"('American (Traditional)', 'Japanese')","('Breakfast & Brunch',)",0.012785724141102883,0.50459825750242,2.5568585208285057
 "('Burgers', 'Pizza')","('American (Traditional)',)",0.020263993009244353,0.6235493914520237,2.55624918329148
 "('Burgers', 'Sandwiches')","('American (Traditional)',)",0.020303852580907264,0.6235404896421844,2.5562126902013684
+"('Bakeries', 'Sandwiches')","('American (New)',)",0.014579404865933863,0.6515483694162784,2.555521062899379
+"('American (New)', 'Other')","('American (Traditional)',)",0.012328872127427984,0.6231210289787695,2.554493105525357
+"('Burgers', 'Coffee & Tea')","('American (Traditional)',)",0.017335847552468992,0.6226186543332232,2.5524336138555888
+"('Seafood', 'Sushi Bars')","('American (Traditional)',)",0.01215103711539346,0.6222326895902026,2.550851346159315
+"('American (New)', 'Japanese')","('Breakfast & Brunch',)",0.013708626531144123,0.5033209501294608,2.5503862546410776
+"('Sandwiches', 'Seafood')","('Breakfast & Brunch',)",0.018188229161875853,0.5020736352094795,2.5440659637286673
+"('American (Traditional)', 'Barbeque')","('Breakfast & Brunch',)",0.014082693280596054,0.5020220789157285,2.5438047219446944
+"('Bakeries', 'Breakfast & Brunch')","('American (Traditional)',)",0.014974934461665824,0.6202692405384811,2.542802160154643
+"('Cafes', 'Sandwiches')","('American (New)',)",0.014588603228625305,0.6481405803024112,2.5421549380386743
+"('Sandwiches', 'Steakhouses')","('American (New)',)",0.013423477287709455,0.6481125092524056,2.542044836988753
+"('Desserts', 'Mexican')","('American (Traditional)',)",0.01550537337687225,0.6197303921568628,2.5405931439093985
+"('Chinese', 'Mexican')","('Breakfast & Brunch',)",0.013325361419000752,0.5013265659245588,2.5402804760889492
+"('Pizza', 'Sushi Bars')","('American (Traditional)',)",0.013313096935412163,0.619047619047619,2.537794106292164
+"('Cafes', 'Seafood')","('American (New)',)",0.012472979809593892,0.6465352828989193,2.5358585960947653
 "('American (Traditional)', 'Coffee & Tea')","('Breakfast & Brunch',)",0.023973999294792193,0.500191914022518,2.534531061895038
 "('American (Traditional)', 'Pizza')","('Mexican',)",0.026978797773996227,0.4670630075906364,2.533517357060974
 "('American (New)', 'Mexican')","('Sandwiches',)",0.02592098606448052,0.4118076866871255,2.532794334588756
+"('American (New)', 'Steakhouses')","('Breakfast & Brunch',)",0.014981066703460118,0.4997442978418738,2.5322629382372086
+"('Desserts', 'Seafood')","('American (Traditional)',)",0.013310030814515017,0.6174964438122333,2.5314350423864758
+"('American (Traditional)', 'Bakeries')","('American (New)',)",0.017427831179383402,0.6452491769780906,2.5308141958259993
 "('American (New)', 'Coffee & Tea')","('Pizza',)",0.02109184565147404,0.40995232419547084,2.528200827734364
+"('Bakeries', 'Coffee & Tea')","('American (New)',)",0.014579404865933863,0.6444835998915696,2.5278114281701916
+"('Salad', 'Seafood')","('American (New)',)",0.012831715954560088,0.6444410224822914,2.5276444298760947
+"('American (New)', 'Specialty Food')","('American (Traditional)',)",0.017792699566143894,0.6161605436398386,2.525958501519856
 "('Coffee & Tea', 'Italian')","('American (New)',)",0.02021800119578715,0.6437567119008103,2.524960407957497
 "('Breakfast & Brunch', 'Coffee & Tea')","('Mexican',)",0.020751506231890725,0.4650267967569054,2.522472218811844
+"('American (Traditional)', 'Asian Fusion')","('American (New)',)",0.012442318600622422,0.6430042782443353,2.5220091918270984
+"('Italian', 'Steakhouses')","('American (New)',)",0.013717824893835565,0.6426314277506464,2.5205467872925156
+"('American (New)', 'Delis')","('American (Traditional)',)",0.014361710282236428,0.6146981627296588,2.519963451154073
+"('Chinese', 'Pizza')","('Breakfast & Brunch',)",0.012279814193073633,0.49726843804320836,2.5197174664119038
+"('Barbeque', 'Mexican')","('American (Traditional)',)",0.014174676907510463,0.6145971816006381,2.5195494776467204
+"('Italian', 'Sushi Bars')","('American (Traditional)',)",0.012420855754342394,0.6144395571060215,2.5189032938942315
 "('American (New)', 'Burgers')","('Breakfast & Brunch',)",0.021705069830903433,0.49708587880064603,2.518792417329864
+"('American (Traditional)', 'Ice Cream & Frozen Yogurt')","('American (New)',)",0.01650799491023931,0.6419458686061762,2.517857868225576
+"('Breakfast & Brunch', 'Salad')","('American (Traditional)',)",0.016149258765273115,0.6139410187667561,2.5168595292140687
+"('Breakfast & Brunch', 'Steakhouses')","('American (New)',)",0.014981066703460118,0.6416283650689428,2.516612547056755
+"('American (Traditional)', 'Specialty Food')","('American (New)',)",0.017792699566143894,0.6413572060123784,2.5155489994937903
 "('American (Traditional)', 'Coffee & Tea')","('Mexican',)",0.022226310383418418,0.46372824974411464,2.515428433835517
+"('Italian', 'Seafood')","('Breakfast & Brunch',)",0.0173818393659262,0.49571528506470797,2.5118474582059998
 "('American (New)', 'Italian')","('Sandwiches',)",0.02325959312575695,0.40839838492597574,2.511825662889084
 "('Mexican', 'Sandwiches')","('Breakfast & Brunch',)",0.022462401692498735,0.4954686865954281,2.51059791485537
+"('Burgers', 'Italian')","('American (New)',)",0.01810851001855003,0.6393850817364946,2.507813879029608
+"('American (Traditional)', 'Other')","('American (New)',)",0.012328872127427984,0.6390654799745709,2.5065603281457842
+"('Italian', 'Japanese')","('American (New)',)",0.012831715954560088,0.6390288593678424,2.5064166937876555
+"('Desserts', 'Pizza')","('American (New)',)",0.014876818592957121,0.6390096141182668,2.5063412095366626
 "('American (New)', 'Coffee & Tea')","('Breakfast & Brunch',)",0.02543960508362845,0.49445768772348037,2.5054750650598074
+"('Cafes', 'Pizza')","('American (New)',)",0.014392371491207898,0.6387263573275276,2.505230211905601
+"('Chinese', 'Coffee & Tea')","('American (Traditional)',)",0.012126508148216284,0.6106222016365602,2.50325399339789
 "('Pizza', 'Sandwiches')","('Breakfast & Brunch',)",0.021122506860445506,0.49383512544802866,2.502320469032041
 "('American (New)', 'Pizza')","('Mexican',)",0.026708979135047294,0.4612899809362423,2.502202388857578
+"('Italian', 'Sandwiches')","('Breakfast & Brunch',)",0.019258305354980146,0.49363407733417164,2.5013017346718467
+"('Cafes', 'Mexican')","('American (New)',)",0.015701605114289658,0.6373366521468575,2.499779471750109
+"('Breakfast & Brunch', 'Japanese')","('American (New)',)",0.013708626531144123,0.6363506974096215,2.4959123327680417
+"('Salad', 'Sandwiches')","('American (New)',)",0.015033190758711616,0.6363400389357561,2.4958705278065993
 "('American (Traditional)', 'Breakfast & Brunch')","('Sandwiches',)",0.02652194576032133,0.4057794248721677,2.4957179325060936
+"('Breakfast & Brunch', 'Desserts')","('American (Traditional)',)",0.016345490502690522,0.6087006165791277,2.495376429405327
+"('American (New)', 'Steakhouses')","('American (Traditional)',)",0.018246485458921647,0.6086734172036413,2.4952649251967975
+"('American (Traditional)', 'Steakhouses')","('Breakfast & Brunch',)",0.014840025142191357,0.49232021157562816,2.494644222859213
+"('Japanese', 'Sandwiches')","('American (Traditional)',)",0.01204985512578761,0.6080767445458766,2.4928188575476065
+"('American (New)', 'Bakeries')","('American (Traditional)',)",0.017427831179383402,0.6079794630441758,2.4924200507126053
+"('Mexican', 'Salad')","('American (Traditional)',)",0.015903969093501356,0.6078753076292043,2.4919930641769654
+"('Breakfast & Brunch', 'Seafood')","('Pizza',)",0.017437029542074843,0.40359094457455114,2.488969814092219
+"('Mexican', 'Steakhouses')","('American (New)',)",0.01421760260007052,0.6345101258894362,2.48869319216637
+"('Pizza', 'Steakhouses')","('American (New)',)",0.013684097563966947,0.6340389259838045,2.486845038843913
+"('American (New)', 'Barbeque')","('American (Traditional)',)",0.016363887228073404,0.6066151398045011,2.486826989096359
+"('Mexican', 'Seafood')","('Breakfast & Brunch',)",0.01934722286099741,0.49070689789252664,2.486469373310931
+"('Breakfast & Brunch', 'Sushi Bars')","('American (Traditional)',)",0.014343313556853548,0.6062726801451529,2.4854230710803686
+"('Japanese', 'Sandwiches')","('American (New)',)",0.012552698952919713,0.6334519572953736,2.48454281399468
+"('Italian', 'Sushi Bars')","('American (New)',)",0.012804120866485766,0.6333990596086758,2.4843353372226082
+"('Delis', 'Mexican')","('American (New)',)",0.012108111422833401,0.6330554664956716,2.482987686796998
+"('Bakeries', 'Coffee & Tea')","('American (Traditional)',)",0.01369022980576124,0.6051775548929249,2.480933590262994
+"('Japanese', 'Pizza')","('American (Traditional)',)",0.012000797191433259,0.6049459041731067,2.4799839349967683
 "('Italian', 'Mexican')","('Breakfast & Brunch',)",0.020475555351147496,0.48915909756812187,2.478626487630779
 "('American (Traditional)', 'Burgers')","('Breakfast & Brunch',)",0.021775590611537814,0.48847926267281105,2.47518168452457
+"('Seafood', 'Steakhouses')","('American (New)',)",0.012926765702371645,0.6309488177192458,2.474724930610362
+"('Burgers', 'Coffee & Tea')","('American (New)',)",0.01756274049885787,0.6307675366149103,2.474013904841315
+"('Breakfast & Brunch', 'Delis')","('American (New)',)",0.01226141746769075,0.6307570977917981,2.4739729614001416
 "('American (Traditional)', 'Seafood')","('Sandwiches',)",0.021239019454537093,0.40221809313668566,2.473814211097238
 "('American (Traditional)', 'Breakfast & Brunch')","('Pizza',)",0.026209201428812338,0.40099451142280806,2.4729574534932732
 "('Breakfast & Brunch', 'Burgers')","('American (Traditional)',)",0.021775590611537814,0.6028350734233088,2.4713305557228784
+"('Coffee & Tea', 'Sushi Bars')","('American (New)',)",0.01205905348847905,0.6299855838539163,2.4709469080614714
+"('Japanese', 'Pizza')","('American (New)',)",0.012488310414079627,0.6295208655332303,2.469124176991033
+"('Chinese', 'Sandwiches')","('American (Traditional)',)",0.013776081190881357,0.6022788203753351,2.469050188811967
+"('Breakfast & Brunch', 'Cafes')","('American (New)',)",0.01674102009842248,0.6292497406937883,2.4680607636354135
+"('Breakfast & Brunch', 'Desserts')","('American (New)',)",0.016888193901485535,0.62891071020781,2.4667310088719128
+"('Desserts', 'Sandwiches')","('American (New)',)",0.014821628416808475,0.628526849564426,2.465225420023206
+"('Cafes', 'Mexican')","('American (Traditional)',)",0.014812430054117033,0.6012445550715619,2.4648102041783195
+"('American (Traditional)', 'Thai')","('American (New)',)",0.013319229177206458,0.6282904252241829,2.4642981099267747
+"('Pizza', 'Salad')","('American (New)',)",0.014956537736282942,0.6282843894899536,2.4642744364027864
+"('Desserts', 'Mexican')","('American (New)',)",0.015713869597878245,0.6280637254901962,2.4634089419503806
 "('American (New)', 'Sandwiches')","('Mexican',)",0.02592098606448052,0.45371115762357106,2.461092131576017
+"('Coffee & Tea', 'Desserts')","('American (Traditional)',)",0.014257462171733432,0.6000774293457221,2.4600255564433113
+"('Breakfast & Brunch', 'Chinese')","('American (Traditional)',)",0.014352511919544987,0.5995901114384526,2.458027790076224
 "('Coffee & Tea', 'Pizza')","('American (Traditional)',)",0.020687117693050636,0.5991475002220051,2.4562132993942187
 "('Burgers', 'Mexican')","('American (Traditional)',)",0.02142605282926306,0.5980828483396098,2.4518487445695794
 "('Pizza', 'Seafood')","('American (Traditional)',)",0.02040810069141026,0.5978085144602119,2.4507241091120306
+"('American (New)', 'Thai')","('American (Traditional)',)",0.013319229177206458,0.5974418924494568,2.4492211372088954
+"('Breakfast & Brunch', 'Salad')","('American (New)',)",0.016422143525119195,0.6243151882503788,2.4487063253510972
 "('American (Traditional)', 'Sandwiches')","('Mexican',)",0.025847399162948995,0.45123648431645436,2.447668615530553
+"('American (New)', 'Desserts')","('American (Traditional)',)",0.01907127198025418,0.5968717013722291,2.446883631158109
+"('Coffee & Tea', 'Italian')","('American (Traditional)',)",0.018740130923362307,0.5967001854925315,2.4461804994841647
+"('Delis', 'Sandwiches')","('American (New)',)",0.012117309785524843,0.6230490304272426,2.443740166063678
 "('American (Traditional)', 'Italian')","('Mexican',)",0.023630593754311733,0.45022783035401337,2.442197314486407
+"('Sandwiches', 'Sushi Bars')","('American (New)',)",0.012963559153137409,0.6225887203651893,2.441934725187361
+"('American (New)', 'Salad')","('American (Traditional)',)",0.01868800686811081,0.5953892742014262,2.440806400875148
+"('Cafes', 'Coffee & Tea')","('American (New)',)",0.0145426114151681,0.6221959858323495,2.440394330923618
 "('American (New)', 'Coffee & Tea')","('Mexican',)",0.023143080531665364,0.44982121573301553,2.4399916908699124
+"('Desserts', 'Seafood')","('American (New)',)",0.013398948320532279,0.6216216216216216,2.438141543705985
+"('Coffee & Tea', 'Desserts')","('American (New)',)",0.014754173757071241,0.6209833526906698,2.4356381076244813
+"('American (New)', 'Asian Fusion')","('American (Traditional)',)",0.012442318600622422,0.593622001170275,2.433561441126228
+"('Breakfast & Brunch', 'Sushi Bars')","('American (New)',)",0.014677520734642567,0.6203991705546915,2.433346812268467
+"('Breakfast & Brunch', 'Japanese')","('American (Traditional)',)",0.012785724141102883,0.5935098206660974,2.4331015556285975
+"('American (Traditional)', 'Cafes')","('American (New)',)",0.018246485458921647,0.6200896113368761,2.4321326505293306
+"('Chinese', 'Coffee & Tea')","('American (New)',)",0.012307409281147956,0.6197313571097731,2.4307274958758787
+"('Breakfast & Brunch', 'Seafood')","('Mexican',)",0.01934722286099741,0.44780356255766096,2.4290472160191654
+"('Barbeque', 'Sandwiches')","('American (New)',)",0.01299115424121173,0.6189919649379109,2.427827431417687
+"('American (New)', 'Gastropubs')","('American (Traditional)',)",0.014392371491207898,0.5913328294280675,2.4241769505363084
+"('American (Traditional)', 'Delis')","('American (New)',)",0.014361710282236428,0.6170465024370966,2.4201968845062334
+"('Seafood', 'Sushi Bars')","('American (New)',)",0.012040656763096168,0.616580310880829,2.4183683750703877
 "('American (New)', 'Burgers')","('American (Traditional)',)",0.025746217173343144,0.5896355593006108,2.417218968640066
+"('Chinese', 'Italian')","('American (Traditional)',)",0.012914501218783056,0.589585666293393,2.4170144315806112
+"('Barbeque', 'Pizza')","('American (New)',)",0.013037146054668936,0.616231884057971,2.4170017657340916
+"('American (Traditional)', 'Japanese')","('American (New)',)",0.0156065553664781,0.6159244917715392,2.4157961031932538
+"('Barbeque', 'Breakfast & Brunch')","('American (New)',)",0.01381287464164712,0.6156053566548236,2.4145443825981916
+"('Burgers', 'Seafood')","('American (New)',)",0.017059896671725767,0.6153505861535059,2.413545114680591
+"('American (New)', 'Chinese')","('American (Traditional)',)",0.01664903647150807,0.5881078739304668,2.4109562017553716
 "('American (New)', 'Sandwiches')","('Breakfast & Brunch',)",0.027171963390516488,0.4756077926259862,2.409960436976653
+"('American (Traditional)', 'Desserts')","('American (New)',)",0.01907127198025418,0.614320987654321,2.409506794926443
+"('Burgers', 'Pizza')","('American (New)',)",0.019948182556838216,0.6138314935371262,2.40758688754063
+"('Pizza', 'Sushi Bars')","('American (New)',)",0.01319351822042343,0.6134873110921014,2.406236925620644
 "('Sandwiches', 'Seafood')","('American (Traditional)',)",0.021239019454537093,0.5862886161658909,2.4034981298870557
 "('Mexican', 'Pizza')","('Breakfast & Brunch',)",0.023008171212190898,0.4740665866447659,2.402150965606419
+"('Breakfast & Brunch', 'Cafes')","('American (Traditional)',)",0.015588158641095218,0.5859167915178057,2.4019738297016575
+"('American (New)', 'Sushi Bars')","('American (Traditional)',)",0.016943384077634183,0.5847000317426727,2.396985706508717
 "('Pizza', 'Sandwiches')","('American (Traditional)',)",0.02500114979533643,0.584516129032258,2.3962317948543284
 "('Coffee & Tea', 'Pizza')","('American (New)',)",0.02109184565147404,0.6108693721694344,2.3959687730593022
+"('Mexican', 'Salad')","('American (New)',)",0.015980622115930033,0.6108051095745928,2.3957167205296925
+"('Chinese', 'Italian')","('American (New)',)",0.013371353232457956,0.6104423292273237,2.3942938134023484
+"('Breakfast & Brunch', 'Chinese')","('American (New)',)",0.014600867712213892,0.6099654156526194,2.392423249768782
 "('Breakfast & Brunch', 'Italian')","('American (New)',)",0.02600377132870349,0.6088298636037329,2.3879693560670026
+"('Mexican', 'Sushi Bars')","('American (Traditional)',)",0.01430958622698493,0.5822105788423154,2.3867801605958867
+"('American (Traditional)', 'Salad')","('American (New)',)",0.01868800686811081,0.6083441461223675,2.3860642615068555
+"('Cafes', 'Coffee & Tea')","('American (Traditional)',)",0.013546122123595333,0.5795618522891249,2.375921670184103
+"('Chinese', 'Pizza')","('American (Traditional)',)",0.014306520106087782,0.5793394586540849,2.375009964462417
+"('American (Traditional)', 'Steakhouses')","('American (New)',)",0.018246485458921647,0.6053300783236701,2.374242401294883
+"('Burgers', 'Sandwiches')","('American (New)',)",0.01969982676416931,0.6049905838041431,2.3729108264861427
 "('Italian', 'Seafood')","('American (New)',)",0.021193027641079887,0.6044071353620147,2.3706224088444707
+"('Mexican', 'Thai')","('American (New)',)",0.012129574269113432,0.6035087719298247,2.367098822905399
+"('Barbeque', 'Mexican')","('American (New)',)",0.013917122752150117,0.6034299388460516,2.366789621600489
 "('Italian', 'Seafood')","('American (Traditional)',)",0.020242530162964324,0.5772997551591466,2.366648172334048
 "('Italian', 'Sandwiches')","('American (Traditional)',)",0.02250839350595594,0.5769412134548884,2.3651783257569363
 "('American (New)', 'Mexican')","('Breakfast & Brunch',)",0.029351975348387987,0.4663159432997223,2.36287754723045
+"('American (New)', 'Cafes')","('American (Traditional)',)",0.018246485458921647,0.576256415222233,2.362370986118823
 "('American (New)', 'Pizza')","('Breakfast & Brunch',)",0.026991062257584818,0.46616183012073714,2.362096637687063
+"('Coffee & Tea', 'Seafood')","('American (Traditional)',)",0.01809931165585859,0.5752290001948936,2.3581590842862803
 "('American (New)', 'Italian')","('Mexican',)",0.02475892624446182,0.4347240915208614,2.3580994715941745
 "('Breakfast & Brunch', 'Burgers')","('American (New)',)",0.021705069830903433,0.6008827773533656,2.3567990742356066
+"('Italian', 'Pizza')","('Breakfast & Brunch',)",0.019604777016357756,0.46491674543735917,2.3557876476449544
 "('Coffee & Tea', 'Sandwiches')","('American (Traditional)',)",0.021438317312851646,0.5745275267050124,2.3552833842051144
+"('American (New)', 'Japanese')","('American (Traditional)',)",0.0156065553664781,0.5730046155578071,2.3490401893120785
 "('American (Traditional)', 'Sandwiches')","('Breakfast & Brunch',)",0.02652194576032133,0.4630125254255433,2.3461387416284287
+"('Chinese', 'Sandwiches')","('American (New)',)",0.013653436354995477,0.5969168900804289,2.341243961315665
+"('American (Traditional)', 'Sushi Bars')","('American (New)',)",0.016943384077634183,0.5965669869372774,2.339871561515018
 "('Italian', 'Sandwiches')","('American (New)',)",0.02325959312575695,0.5961961647280729,2.3384171123740254
 "('Breakfast & Brunch', 'Pizza')","('American (Traditional)',)",0.026209201428812338,0.5703609795155802,2.338202567518998
 "('Mexican', 'Sandwiches')","('American (Traditional)',)",0.025847399162948995,0.5701339104558366,2.3372716948303585
@@ -88,17 +1318,23 @@ Antecedent_decoded,Consequent_decoded,Support,Confidence,Lift
 "('Pizza', 'Seafood')","('American (New)',)",0.020300786460010118,0.594664990120352,2.332411496912946
 "('American (Traditional)', 'Italian')","('Breakfast & Brunch',)",0.02413956982323813,0.45992522490945204,2.3304950280135666
 "('Burgers', 'Mexican')","('American (New)',)",0.02128194514709715,0.594060253337898,2.330039581553146
+"('Coffee & Tea', 'Seafood')","('American (New)',)",0.018632816691962165,0.5921847593061781,2.322683466909353
+"('Japanese', 'Mexican')","('American (New)',)",0.013947783961121587,0.5920093701197293,2.3219955505838525
+"('Chinese', 'Mexican')","('American (Traditional)',)",0.015054653604991645,0.5663859730072672,2.321906974451716
 "('American (Traditional)', 'Mexican')","('Breakfast & Brunch',)",0.028110196385043463,0.4582167133146741,2.3218377994875223
 "('Italian', 'Mexican')","('American (New)',)",0.02475892624446182,0.5914884266041606,2.319952291496566
 "('Breakfast & Brunch', 'Italian')","('American (Traditional)',)",0.02413956982323813,0.5651830581478823,2.316975608678571
 "('Mexican', 'Seafood')","('American (Traditional)',)",0.022278434438669916,0.5650517147523135,2.316437164647904
 "('Italian', 'Mexican')","('American (Traditional)',)",0.023630593754311733,0.5645326692059771,2.314309330394351
 "('American (New)', 'Italian')","('Breakfast & Brunch',)",0.02600377132870349,0.45658142664872137,2.3135516102594145
+"('Japanese', 'Mexican')","('American (Traditional)',)",0.013282435726440693,0.5637688703800103,2.3111781267530005
+"('Mexican', 'Sushi Bars')","('American (New)',)",0.014475156755430867,0.5889471057884232,2.3099846525966026
 "('Coffee & Tea', 'Sandwiches')","('American (New)',)",0.021947293381778043,0.5881676253081347,2.306927352664625
 "('Breakfast & Brunch', 'Pizza')","('American (New)',)",0.026991062257584818,0.5873757256288784,2.3038213418064353
 "('American (New)', 'Seafood')","('Breakfast & Brunch',)",0.02419169387848963,0.45428374021188395,2.3019089637443466
 "('Coffee & Tea', 'Mexican')","('American (Traditional)',)",0.022226310383418418,0.5614592208194562,2.301709687069165
 "('American (Traditional)', 'Pizza')","('Breakfast & Brunch',)",0.026209201428812338,0.45373958278040233,2.2991516542517565
+"('American (Traditional)', 'Chinese')","('American (New)',)",0.01664903647150807,0.586139896373057,2.298974138065862
 "('Breakfast & Brunch', 'Sandwiches')","('American (Traditional)',)",0.02652194576032133,0.560523587350959,2.2978740449813158
 "('American (New)', 'Seafood')","('Mexican',)",0.022532922473133116,0.42313450023030863,2.2952333695508433
 "('American (Traditional)', 'Seafood')","('Breakfast & Brunch',)",0.023912676876849254,0.45285100452909066,2.2946491240913582
@@ -106,8 +1342,10 @@ Antecedent_decoded,Consequent_decoded,Support,Confidence,Lift
 "('Coffee & Tea', 'Mexican')","('American (New)',)",0.023143080531665364,0.5846177677949035,2.293004003192534
 "('American (Traditional)', 'Seafood')","('Mexican',)",0.022278434438669916,0.42190221809313666,2.288549029038786
 "('Sandwiches', 'Seafood')","('American (New)',)",0.021134771344034096,0.5834109183241643,2.2882704647677716
+"('American (Traditional)', 'Barbeque')","('American (New)',)",0.016363887228073404,0.5833424417969177,2.288001884235755
 "('Italian', 'Pizza')","('American (Traditional)',)",0.023517147281117295,0.557696502581255,2.286284372643054
 "('Mexican', 'Pizza')","('American (Traditional)',)",0.026978797773996227,0.555878450944469,2.278831245311963
+"('Grocery',)","('Mexican',)",0.015986754357724325,0.4197053851726636,2.276632618952506
 "('American (New)', 'Sandwiches')","('American (Traditional)',)",0.03172515292277975,0.5553051038480117,2.2764808011175606
 "('American (Traditional)', 'Italian')","('American (New)',)",0.03039445645341796,0.5790980254702652,2.2713543169458665
 "('Breakfast & Brunch', 'Seafood')","('American (Traditional)',)",0.023912676876849254,0.5534738485558158,2.2689735452221247
@@ -117,9 +1355,11 @@ Antecedent_decoded,Consequent_decoded,Support,Confidence,Lift
 "('American (New)', 'Pizza')","('American (Traditional)',)",0.03190912017660856,0.5511014615547553,2.259247912550444
 "('Pizza', 'Sandwiches')","('American (New)',)",0.02459642183691303,0.5750537634408602,2.2554918003850655
 "('Breakfast & Brunch', 'Sandwiches')","('American (New)',)",0.027171963390516488,0.5742612752721616,2.2523834813372834
+"('Chinese', 'Pizza')","('American (New)',)",0.014140949577641846,0.5726347156692326,2.2460037442057637
 "('Mexican', 'Sandwiches')","('American (New)',)",0.02592098606448052,0.5717570674962802,2.242561408230302
 "('Mexican', 'Seafood')","('American (New)',)",0.022532922473133116,0.5715063379734039,2.241577989950282
 "('Breakfast & Brunch', 'Coffee & Tea')","('American (New)',)",0.02543960508362845,0.5700838257523706,2.2359985731122975
+"('Chinese', 'Mexican')","('American (New)',)",0.0151497033528032,0.569961933325643,2.235520483259676
 "('American (New)', 'Seafood')","('American (Traditional)',)",0.028692759355501387,0.5388070013818517,2.2088466064040126
 "('American (New)', 'Coffee & Tea')","('American (Traditional)',)",0.02766560885495715,0.5377234803337306,2.2044046971786844
 "('Breakfast & Brunch', 'Coffee & Tea')","('American (Traditional)',)",0.023973999294792193,0.5372406211350832,2.202425209348036
@@ -136,14 +1376,32 @@ Antecedent_decoded,Consequent_decoded,Support,Confidence,Lift
 "('American (Traditional)', 'Mexican')","('American (New)',)",0.03357708994465652,0.5473310675729708,2.146757074712717
 "('American (Traditional)', 'Seafood')","('American (New)',)",0.028692759355501387,0.5433747532226222,2.131239508974927
 "('American (New)', 'Breakfast & Brunch')","('American (Traditional)',)",0.03582455656226525,0.516123332449863,2.115854598110293
+"('Grocery',)","('Breakfast & Brunch',)",0.015440984838032164,0.4053771230781615,2.054093401791765
+"('Grocery',)","('American (Traditional)',)",0.01806865044688712,0.4743620703533768,1.944653738016794
 "('Gastropubs',)","('American (New)',)",0.024338867681552682,0.49154746423927176,1.9279610804699443
+"('French',)","('American (New)',)",0.013727023256527004,0.4651911886949293,1.8245857664414717
+"('Grocery',)","('American (New)',)",0.017688451455640897,0.4643805843999035,1.8214063918211791
 "('Breweries',)","('American (Traditional)',)",0.021229821091845652,0.4386442825467216,1.7982281827017172
 "('Breweries',)","('American (New)',)",0.022137392877401157,0.4573962622743111,1.7940122901092588
+"('Fast Food',)","('American (Traditional)',)",0.017437029542074843,0.4351518861427806,1.7839110562997245
+"('Chicken Wings',)","('American (Traditional)',)",0.01792454276472121,0.4346791583017324,1.7819731021068985
+"('Tapas/Small Plates',)","('American (New)',)",0.016523325514725046,0.4516804961864052,1.7715937540282987
+"('Gluten-Free',)","('American (New)',)",0.01390485826856153,0.4455688740420515,1.7476225803572314
+"('Gluten-Free',)","('American (Traditional)',)",0.013239510033880636,0.42424837885635686,1.7392119803676171
+"('Middle Eastern',)","('American (New)',)",0.01294209630685738,0.4417120133947258,1.7324950946883797
 "('Ice Cream & Frozen Yogurt',)","('American (Traditional)',)",0.025715555964371674,0.42099186828631663,1.725861871139444
 "('Gastropubs',)","('American (Traditional)',)",0.020589001824341934,0.41581522075670324,1.704640134415513
+"('Other',)","('American (Traditional)',)",0.019292032684848765,0.41569767441860467,1.7041582516089826
+"('Other',)","('American (New)',)",0.019785678149289426,0.42633456659619445,1.6721812468884565
 "('Ice Cream & Frozen Yogurt',)","('American (New)',)",0.02602523417498352,0.4260616403975504,1.671110768191876
+"('Diners',)","('American (Traditional)',)",0.018347667448527494,0.40608034744842564,1.6647318893191898
 "('Steakhouses',)","('American (Traditional)',)",0.030143034539851905,0.4060550989219776,1.664628382642739
+"('Mediterranean',)","('American (New)',)",0.017112020726977265,0.42392707937713636,1.6627385338286786
+"('Vegan',)","('American (New)',)",0.01208971469745052,0.4219368646334939,1.6549324584307343
 "('Specialty Food',)","('American (Traditional)',)",0.027742261877385824,0.40170484816196056,1.646794470678666
 "('Specialty Food',)","('American (New)',)",0.028876726609330206,0.4181317705558515,1.6400080130354668
 "('Bakeries',)","('American (New)',)",0.028665164267427063,0.41643652561247213,1.6333588763589975
+"('Chicken Wings',)","('American (New)',)",0.016805408637262566,0.40753959402186035,1.5984630848226717
 "('Steakhouses',)","('American (New)',)",0.02997746401140597,0.4038247077774565,1.5838924550897566
+"('Fast Food',)","('American (New)',)",0.016170721611553144,0.40355038641058993,1.5828165042257265
+"('Diners',)","('American (New)',)",0.01822195649174447,0.4032980456026059,1.5818267661186234

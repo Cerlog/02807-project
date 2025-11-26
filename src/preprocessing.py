@@ -31,6 +31,7 @@ def get_categories(restaurants_file, food_file):
                 cats.append(s)
     return cats
 
+import hashlib
 def simplify_random(categories_string):
     """
     Random version: instead of picking the first match,
@@ -47,7 +48,10 @@ def simplify_random(categories_string):
     
     # If we found any matches, pick one at random
     if matching_categories:
-        return random.choice(matching_categories)
+
+        seed = int(hashlib.md5(categories_string.encode()).hexdigest(), 16) % (2**32)
+        rng = random.Random(seed)
+        return rng.choice(matching_categories)
     return "Other"
 
 

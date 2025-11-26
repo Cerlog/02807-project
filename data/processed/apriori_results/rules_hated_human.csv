@@ -1,13 +1,6 @@
 Antecedent_decoded,Consequent_decoded,Support,Confidence,Lift
-"('American (Traditional)', 'Italian')","('American (New)',)",0.022221113265655297,0.47544234289200726,2.194440733182444
-"('American (New)', 'Burgers')","('American (Traditional)',)",0.021344245465951865,0.562887760857304,2.1008246059753017
-"('American (Traditional)', 'Breakfast & Brunch')","('American (New)',)",0.02320491616288354,0.45070617557463305,2.0802690487382756
-"('American (Traditional)', 'Sandwiches')","('American (New)',)",0.021558115661001482,0.4416532788082371,2.038484706820738
-"('American (Traditional)', 'Mexican')","('American (New)',)",0.025086973879320178,0.4387780548628429,2.0252138893659537
-"('American (Traditional)', 'Pizza')","('American (New)',)",0.022705885707767767,0.4323920716806951,1.995738892395593
-"('American (New)', 'Sandwiches')","('American (Traditional)',)",0.021558115661001482,0.533051295610788,1.9894681603319617
-"('American (Traditional)', 'Burgers')","('American (New)',)",0.021344245465951865,0.43023422905589886,1.9857792036500623
-"('American (New)', 'Breakfast & Brunch')","('American (Traditional)',)",0.02320491616288354,0.5215510334882231,1.9465465775186255
-"('American (New)', 'Pizza')","('American (Traditional)',)",0.022705885707767767,0.5209355577363428,1.9442494826200583
-"('American (New)', 'Mexican')","('American (Traditional)',)",0.025086973879320178,0.5126001456664239,1.913139836976389
-"('American (New)', 'Italian')","('American (Traditional)',)",0.022221113265655297,0.5113188976377953,1.9083579291573225
+"('American (New)', 'Burgers')","('American (Traditional)',)",0.012244130340103734,0.4583178955168581,1.870372449033654
+"('American (New)', 'Breakfast & Brunch')","('American (Traditional)',)",0.012135249633764897,0.42072752230610844,1.7169680127460625
+"('American (New)', 'Pizza')","('American (Traditional)',)",0.013233954943184068,0.4193851944792974,1.7114900399036377
+"('American (New)', 'Italian')","('American (Traditional)',)",0.012699449657520687,0.4066561014263074,1.6595432466835105
+"('American (New)', 'Mexican')","('American (Traditional)',)",0.013629884784416202,0.40655447298494246,1.6591285060883327
