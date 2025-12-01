@@ -42,7 +42,7 @@ def run_apriori(label, path_parquet, min_support, min_conf, OUT_DIR, id2cat_map)
 
     print(f"Saved {len(df)} {label} rules")
 
-    return df
+    return df, transactions
 
 #Triangular matrix
 def pair_index(i, j, n):

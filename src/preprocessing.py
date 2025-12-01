@@ -1,6 +1,7 @@
 from pathlib import Path
 import random
 import pandas as pd
+import hashlib
 
 DATA_DIR_RAW = Path("data/raw")
 DATA_DIR_PROC = Path("data/processed")
@@ -31,11 +32,9 @@ def get_categories(restaurants_file, food_file):
                 cats.append(s)
     return cats
 
-import hashlib
-def simplify_random(categories_string):
+def simplify_random(categories_string, run_index=None):
     """
-    Random version: instead of picking the first match,
-    find ALL matches and pick one randomly
+    Randomise the selection of the categories
     """
     
     business_cats = {c.strip() for c in categories_string.split(",")}
@@ -48,19 +47,23 @@ def simplify_random(categories_string):
     
     # If we found any matches, pick one at random
     if matching_categories:
+        if run_index is not None:
+            key = categories_string
+        else: 
+            key = f"{categories_string}_{run_index}"
 
-        seed = int(hashlib.md5(categories_string.encode()).hexdigest(), 16) % (2**32)
+        seed = int(hashlib.md5(key.encode()).hexdigest(), 16) % (2**32)
         rng = random.Random(seed)
         return rng.choice(matching_categories)
     return "Other"
 
 
-def simple_experiment(df, n_runs=100, random_seed=1337, min_threshold=0.005):
+def test_distribution(df, n_runs=100, run_index=0):
     
     distributions = []
     for i in range(n_runs):
-        random.seed(random_seed + i)
-        simple_cat = df["categories"].apply(simplify_random)
+        random.seed(run_index + i)
+        simple_cat = df["categories"].apply(lambda s: simplify_random(s, run_index=run_index + i))
         dist = simple_cat.value_counts(normalize=True)
         dist.name = f"trial_{i}"
         distributions.append(dist)
@@ -72,19 +75,12 @@ def simple_experiment(df, n_runs=100, random_seed=1337, min_threshold=0.005):
         "std":  dist_df.std(axis=1),
     })
     
-    summary["cv"] = summary["std"] / summary["mean"].replace(0, pd.NA)
-    relevant_stats = summary[summary["mean"] >= min_threshold]
-    avg_std = summary["std"].mean()
-    mean_ = summary["mean"].mean()
-    mean_cv = relevant_stats["cv"].mean()
-
-
-    print(f"Ran {n_runs} random trials.")
-    print(f"Average change in category (mean std):   {avg_std:.4f}")
-    print(f"Average category share (mean of means):        {mean_:.4f}")
-    print(f"Average coefficient of variation (mean cv):    {mean_cv:.4f}")
-    
-    # most unstable categories 
-    most_unstable = relevant_stats.sort_values("cv", ascending=False).head(10)
-    print("\nMost unstable categories (by CV):")
-    print(most_unstable)
+    for col in ["mean", "std"]:
+        col_data = summary[col]
+        print(f"{col}:")
+        print(f"  Mean: {col_data.mean():.2e}")
+        print(f"  Std Dev: {col_data.std():.2e}")
+        print(f"  Range: [{col_data.min():.2e}, {col_data.max():.2e}]")
+        print()
+        
+    summary.to_csv(DATA_DIR_PROC / "simple_experiment_summary.csv")
