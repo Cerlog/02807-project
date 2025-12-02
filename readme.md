@@ -1,6 +1,14 @@
 # Project name: Integrating Graph Clustering and Association Rule Mining on the Yelp Dataset for Detection of Global and Local Patterns
 
-
+# TODO: 
+- Finish the readme 
+- Requiremnts.txt
+- Add table of who did what 
+- Add jupyter as pdf to overleaf 
+- Go again through the report and re-read and re-read 
+- Check the notebook and the .py files.
+- Go through the captions in the figures and tables in the report and double check. 
+- Check all the XX's.
 ## Setup :wrench:
 
 **1. Clone the repository**
