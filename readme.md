@@ -3,7 +3,6 @@
 # TODO: 
 - Finish the readme 
 - Requiremnts.txt
-- Add table of who did what 
 - Add jupyter as pdf to overleaf 
 - Go again through the report and re-read and re-read 
 - Check the notebook and the .py files.
