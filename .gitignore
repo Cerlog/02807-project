@@ -1,3 +1,4 @@
 # ignore data/
 data/raw/
 data/
+src/__pycache__/
