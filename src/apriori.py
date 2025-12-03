@@ -293,3 +293,25 @@ def generate_rules(frequent_sets: List[List[frozenset]], transactions: List[Set[
                             "Lift": lift
                         })
     return rules
+
+
+def filter_rules(df_rules, min_support=0.015, min_confidence=0.60, 
+                         min_lift=1.5, max_antecedent=3, max_consequent=3, save_path=None, color="cm.Greens"):
+    
+    rules_filtered = df_rules[
+        (df_rules["Support"] > min_support) &
+        (df_rules["Confidence"] > min_confidence) &
+        (df_rules["Lift"] > min_lift) &
+        (df_rules["Consequent"].apply(len) <= max_consequent) &
+        (df_rules["Antecedent"].apply(len) <= max_antecedent)
+    ]
+    
+    num_cols = ["Support", "Confidence", "Lift"]
+    styled = rules_filtered.style \
+        .format({c: "{:.4f}" for c in num_cols}) \
+        .background_gradient(cmap=color, subset=num_cols)
+    
+    if save_path:
+        styled.to_html(save_path)
+    
+    return rules_filtered
