@@ -2,7 +2,6 @@ from pathlib import Path
 import random
 import pandas as pd
 import hashlib
-from typing import List, Optional, Union
 
 DATA_DIR_RAW = Path("data/raw")
 DATA_DIR_PROC = Path("data/processed")
@@ -17,17 +16,9 @@ BIZ     = DATA_DIR_RAW / "business.json"
 FOOD = DATA_DIR_RAW / "Food.txt"
 RESTAURANTS = DATA_DIR_RAW / "restaurants.txt"
 
-def get_categories(restaurants_file: Union[str, Path], food_file: Union[str, Path]) -> List[str]:
-    """
-    Load restaurant and food categories from files.
+CATEGORIES_IN_ORDER = None
 
-    Args:
-        restaurants_file: Path to the restaurants categories file.
-        food_file: Path to the food categories file.
-
-    Returns:
-        List of category names.
-    """
+def get_categories(restaurants_file, food_file):
     cats = []
     with open(restaurants_file) as f:
         for line in f:
@@ -41,25 +32,16 @@ def get_categories(restaurants_file: Union[str, Path], food_file: Union[str, Pat
                 cats.append(s)
     return cats
 
-def simplify_random(categories_string: str, categories_in_order: List[str], run_index: Optional[int] = None) -> str:
+def simplify_random(categories_string, run_index=None):
     """
-    Randomly select a single category from a comma-separated string of categories,
-    prioritizing those present in `categories_in_order`.
-
-    Args:
-        categories_string: Comma-separated string of categories.
-        categories_in_order: List of valid categories to choose from.
-        run_index: Optional index to seed the random number generator for reproducibility.
-
-    Returns:
-        Selected category name, or "Other" if no match found.
+    Randomise the selection of the categories
     """
     
     business_cats = {c.strip() for c in categories_string.split(",")}
     
     # Build a list of ALL categories that match
     matching_categories = []
-    for cat in categories_in_order:
+    for cat in CATEGORIES_IN_ORDER:
         if cat in business_cats:
             matching_categories.append(cat)
     
@@ -76,21 +58,12 @@ def simplify_random(categories_string: str, categories_in_order: List[str], run_
     return "Other"
 
 
-def test_distribution(df: pd.DataFrame, categories_in_order: List[str], n_runs: int = 100, run_index: int = 0) -> None:
-    """
-    Test the distribution of simplified categories over multiple random runs.
-
-    Args:
-        df: DataFrame containing a "categories" column.
-        categories_in_order: List of valid categories.
-        n_runs: Number of simulation runs.
-        run_index: Starting seed index.
-    """
+def test_distribution(df, n_runs=100, run_index=0):
     
     distributions = []
     for i in range(n_runs):
         random.seed(run_index + i)
-        simple_cat = df["categories"].apply(lambda s: simplify_random(s, categories_in_order, run_index=run_index + i))
+        simple_cat = df["categories"].apply(lambda s: simplify_random(s, run_index=run_index + i))
         dist = simple_cat.value_counts(normalize=True)
         dist.name = f"trial_{i}"
         distributions.append(dist)

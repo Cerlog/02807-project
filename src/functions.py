@@ -1,18 +1,7 @@
 import numpy as np
 from sklearn.cluster import KMeans
-from collections import deque
-from typing import Dict, List, Any, Union
 
-def betweenness_centrality_normalized(graph: Dict[Any, List[Any]]) -> Dict[Any, float]:
-    """
-    Calculate the normalized betweenness centrality for an unweighted, undirected graph.
-
-    Args:
-        graph: Adjacency dictionary where keys are nodes and values are lists of neighbors.
-
-    Returns:
-        Dictionary mapping nodes to their normalized betweenness centrality scores.
-    """
+def betweenness_centrality_normalized(graph):
     betweenness = dict.fromkeys(graph.keys(), 0.0)
     n = len(graph)
 
@@ -24,6 +13,7 @@ def betweenness_centrality_normalized(graph: Dict[Any, List[Any]]) -> Dict[Any, 
         distance = dict.fromkeys(graph, -1)
         distance[s] = 0
 
+        from collections import deque
         queue = deque([s])
         while queue:
             v = queue.popleft()
@@ -49,24 +39,20 @@ def betweenness_centrality_normalized(graph: Dict[Any, List[Any]]) -> Dict[Any, 
         betweenness[v] /= 2.0
 
     # normalize like NetworkX for undirected graphs
-    if n > 2:
-        normalization_factor = 1 / ((n - 1) * (n - 2) / 2)
-        for v in betweenness:
-            betweenness[v] *= normalization_factor
+    normalization_factor = 1 / ((n - 1) * (n - 2) / 2)
+    for v in betweenness:
+        betweenness[v] *= normalization_factor
 
     return betweenness
 
 
-def spectral_clustering(graph: Dict[Any, List[Any]], k: int) -> Dict[Any, int]:
+ 
+def spectral_clustering(graph, k):
     """
     Perform spectral clustering on an unweighted, undirected graph.
-
-    Args:
-        graph: Adjacency dictionary where keys are nodes and values are lists of neighbors.
-        k: Number of clusters.
-
-    Returns:
-        Dictionary mapping nodes to cluster labels.
+    graph: dict where keys are nodes and values are lists of neighbors.
+    k: number of clusters.
+    Returns: dict of node -> cluster label.
     """
     nodes = list(graph.keys())
     n = len(nodes)
@@ -75,9 +61,8 @@ def spectral_clustering(graph: Dict[Any, List[Any]], k: int) -> Dict[Any, int]:
     A = np.zeros((n, n))
     for i, u in enumerate(nodes):
         for v in graph[u]:
-            if v in nodes: # Ensure neighbor is in the graph
-                j = nodes.index(v)
-                A[i, j] = 1
+            j = nodes.index(v)
+            A[i, j] = 1
    
     # Degree matrix
     D = np.diag(A.sum(axis=1))
@@ -89,7 +74,6 @@ def spectral_clustering(graph: Dict[Any, List[Any]], k: int) -> Dict[Any, int]:
     eigvals, eigvecs = np.linalg.eigh(L)
    
     # Take first k eigenvectors (smallest eigenvalues)
-    # Note: The first eigenvector corresponds to eigenvalue 0 for connected components
     U = eigvecs[:, :k]
 
     # K-means clustering
