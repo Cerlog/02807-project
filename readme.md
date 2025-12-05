@@ -6,18 +6,18 @@ This project explores the integration of graph clustering techniques with associ
 ## Project Structure :file_folder:
 ```
 .
-├── data/
-│   ├── processed/          # Processed data files
-└──── raw/                  # Raw dataset files
-├── figures/                # Generated figures and plots
-├── src/                    # Source code
-│   ├── apriori.py          # Association rule mining implementation
-│   ├── data.py             # Data downloading and cleaning utilities
-│   ├── functions.py        # Helper functions
-│   └── preprocessing.py    # Data preprocessing scripts
-├── FINAL_NOTEBOOK.ipynb    # Analysis notebook
-├── readme.md               # Project documentation
-└── requirements.txt        # Python dependencies
+├── data/                       # All data lives here
+│   ├── raw/                    # Raw dataset files (never modified)
+│   └── processed/              # Processed / cleaned data files
+├── figures/                    # Generated figures and plots
+├── src/                        # Source code
+│   ├── apriori.py              # Association rule mining implementation
+│   ├── data.py                 # Data downloading and cleaning utilities
+│   ├── functions.py            # Helper functions
+│   └── preprocessing.py        # Data preprocessing scripts
+├── FINAL_NOTEBOOK.ipynb        # Analysis notebook
+├── readme.md                   # Project documentation
+└── requirements.txt            # Python dependencies
 ```
 
 ## Setup :wrench:
