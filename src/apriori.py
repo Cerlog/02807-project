@@ -227,7 +227,42 @@ def filter_rules(df_rules, min_support=0.015, min_confidence=0.60,
         .format({c: "{:.4f}" for c in num_cols}) \
         .background_gradient(cmap=color, subset=num_cols)
     
-    if save_path:
-        styled.to_html(save_path)
+    #if save_path:
+    #    styled.to_html(save_path)
     
     return rules_filtered
+
+
+def filter_baskets_by_community(baskets_df, user_ids_set):
+    """Filter baskets to only include users in the given set"""
+    filtered = baskets_df[baskets_df['user_id'].isin(user_ids_set)].copy()
+    return filtered
+
+def jaccard_similariy(df1, df2, ant_col="Antecedent", cons_col="Consequent"):
+    
+    # making antecendent and consequent tuples 
+    ants1 = df1[ant_col].apply(tuple)
+    cons1 = df1[cons_col].apply(tuple)
+    ants2 = df2[ant_col].apply(tuple)
+    cons2 = df2[cons_col].apply(tuple)
+
+    # create set of rules     
+    set1 = set(zip(ants1, cons1))
+    set2 = set(zip(ants2, cons2))
+    
+    intersection = set1.intersection(set2)
+    union = set1.union(set2)
+    
+    if (len(union) == 0):
+        jaccard_similarity_value = 1.0 if len(intersection) == 0 else 0.0
+    else:
+        jaccard_similarity_value = len(intersection) / len(union)
+    
+    return jaccard_similarity_value
+
+def label_yelp_liked(stars, liked_thresh=4.0, hated_thresh=3.0):
+    if stars >= liked_thresh:
+        return "liked"
+    elif stars < hated_thresh:
+        return "hated"
+    return "neutral"
