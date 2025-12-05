@@ -1,13 +1,25 @@
-# Project name: Integrating Graph Clustering and Association Rule Mining on the Yelp Dataset for Detection of Global and Local Patterns
+# Integrating Graph Clustering and Association Rule Mining on the Yelp Dataset for Detection of Global and Local Patterns
 
-# TODO: 
-- Finish the readme 
-- Requiremnts.txt
-- Add jupyter as pdf to overleaf 
-- Go again through the report and re-read and re-read 
-- Check the notebook and the .py files.
-- Go through the captions in the figures and tables in the report and double check. 
-- Check all the XX's.
+## Project Overview 
+This project explores the integration of graph clustering techniques with association rule mining to uncover both global and local patterns in the Yelp user dataset. We leverage the Louvain algorithm for community detection and the Apriori algorithm for mining association rules.  
+
+## Project Structure :file_folder:
+```
+.
+├── data/
+│   ├── processed/          # Processed data files
+└──── raw/                  # Raw dataset files
+├── figures/                # Generated figures and plots
+├── src/                    # Source code
+│   ├── apriori.py          # Association rule mining implementation
+│   ├── data.py             # Data downloading and cleaning utilities
+│   ├── functions.py        # Helper functions
+│   └── preprocessing.py    # Data preprocessing scripts
+├── FINAL_NOTEBOOK.ipynb    # Analysis notebook
+├── readme.md               # Project documentation
+└── requirements.txt        # Python dependencies
+```
+
 ## Setup :wrench:
 
 **1. Clone the repository**
@@ -36,34 +48,10 @@ cd 02807-project
 pip install -r requirements.txt
 ```
 
-## Project Structure :file_folder:
+## Usage :computer:
+### 1. Data Downloading and Preprocessing
+The dataset is too loarge, to be stored on GitHub. It is therefore hosted on Google Drive and can be downloaded by running the main notebook. The dataset we use is the Yelp Open Dataset, which can be found here: https://www.yelp.com/dataset.
 
+### 2. Running the Analysis
+The entire analysis can be run in the `FINAL_NOTEBOOK.ipynb` notebook. This notebook includes data preprocessing, associaton rules, graph clustering and community detection, apriori on communities and sentiment analysis. 
 
-
-## Dataset :package:
-
-The project uses the **Yelp user dataset** (!TODO add link to the dataset), stored under the `data/` directory with the following structure:
-
-```
-data/
-├── raw/
-│   └── dataset.json
-└── processed/
-```
-
-The script `data.py` automatically downloads the dataset from Google Drive and places it in `data/raw`, as it is too large to be on GitHub.
-
-
-Before running the script, install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Then download the dataset:
-
-```bash
-python data.py
-```
-
-After downloading, the raw JSON file can be preprocessed and saved in data/processed for further analysis.
