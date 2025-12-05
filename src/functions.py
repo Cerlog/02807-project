@@ -2,6 +2,11 @@ import numpy as np
 from sklearn.cluster import KMeans
 
 def betweenness_centrality_normalized(graph):
+    """
+    Compute the normalized betweenness centrality for each node in an undirected graph.
+    graph: dict where keys are nodes and values are lists of neighbors.
+    Returns: dict of node and its normalized betweenness centrality
+    """
     betweenness = dict.fromkeys(graph.keys(), 0.0)
     n = len(graph)
 
@@ -49,10 +54,10 @@ def betweenness_centrality_normalized(graph):
  
 def spectral_clustering(graph, k):
     """
-    Perform spectral clustering on an unweighted, undirected graph.
+    Perform spectral clustering on a undirected graph.
     graph: dict where keys are nodes and values are lists of neighbors.
-    k: number of clusters.
-    Returns: dict of node -> cluster label.
+    k: number of clusters
+    Returns: dict of node and cluster label
     """
     nodes = list(graph.keys())
     n = len(nodes)
@@ -73,7 +78,7 @@ def spectral_clustering(graph, k):
     # Eigen decomposition
     eigvals, eigvecs = np.linalg.eigh(L)
    
-    # Take first k eigenvectors (smallest eigenvalues)
+    # Take first k eigenvectors
     U = eigvecs[:, :k]
 
     # K-means clustering
