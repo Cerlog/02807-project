@@ -1,5 +1,6 @@
 import numpy as np
 from sklearn.cluster import KMeans
+from collections import deque
 
 def betweenness_centrality_normalized(graph):
     """
@@ -18,7 +19,6 @@ def betweenness_centrality_normalized(graph):
         distance = dict.fromkeys(graph, -1)
         distance[s] = 0
 
-        from collections import deque
         queue = deque([s])
         while queue:
             v = queue.popleft()
