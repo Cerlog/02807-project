@@ -4,7 +4,16 @@ from pathlib import Path
 from loguru import logger
 
 def clean_review_json(file_path):
-    """Cleaning the 'review.json' as it has some formatting issues, i.e, not closed {} brackets."""
+    """
+    Clean the 'review.json' file by fixing formatting issues (e.g., unclosed brackets)
+    and converting it to a valid ndjson format.
+
+    Args:
+        file_path (str or Path): Path to the raw 'review.json' file.
+
+    Returns:
+        None: Creates a new file 'review_clean.ndjson' in the same directory.
+    """
     file_path = Path(file_path)
     if file_path.name != "review.json":
         logger.warning("Can't find 'review.json' to clean.")
@@ -28,6 +37,16 @@ def clean_review_json(file_path):
     logger.success(f"✅ Cleaned '{file_path.name}' → '{clean_path.name}'")
 
 def download_dataset(urls, raw_data_path):
+        """
+    Download dataset files from a list of Google Drive URLs.
+
+    Args:
+        urls (list): List of Google Drive URLs.
+        raw_data_path (str or Path): Directory where files should be saved.
+
+    Returns:
+        None: Downloads files and cleans 'review.json' if present.
+    """
     raw_data_path = Path(raw_data_path)
     raw_data_path.mkdir(parents=True, exist_ok=True)
     

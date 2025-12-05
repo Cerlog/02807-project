@@ -3,6 +3,8 @@
 ## Project Overview 
 This project explores the integration of graph clustering techniques with association rule mining to uncover both global and local patterns in the Yelp user dataset. We leverage the Louvain algorithm for community detection and the Apriori algorithm for mining association rules.  
 
+
+
 ## Project Structure :file_folder:
 ```
 .

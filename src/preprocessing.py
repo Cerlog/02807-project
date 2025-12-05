@@ -19,6 +19,16 @@ RESTAURANTS = DATA_DIR_RAW / "restaurants.txt"
 CATEGORIES_IN_ORDER = None
 
 def get_categories(restaurants_file, food_file):
+    """
+    Load restaurant and food categories from text files.
+
+    Args:
+        restaurants_file (str or Path): Path to the restaurants categories file.
+        food_file (str or Path): Path to the food categories file.
+
+    Returns:
+        list: A combined list of category names found in both files.
+    """
     cats = []
     with open(restaurants_file) as f:
         for line in f:
@@ -34,7 +44,15 @@ def get_categories(restaurants_file, food_file):
 
 def simplify_random(categories_string, run_index=None):
     """
-    Randomise the selection of the categories
+    Randomly select a single category from a comma-separated string of categories,
+    prioritizing those present in the global CATEGORIES_IN_ORDER list.
+
+    Args:
+        categories_string (str): Comma-separated string of categories.
+        run_index (int, optional): Seed modifier for reproducibility.
+
+    Returns:
+        str: The selected category name, or "Other" if no match is found.
     """
     
     business_cats = {c.strip() for c in categories_string.split(",")}
@@ -51,7 +69,7 @@ def simplify_random(categories_string, run_index=None):
             key = categories_string
         else: 
             key = f"{categories_string}_{run_index}"
-
+        # chatgpt suggestion to get reproducible random choice
         seed = int(hashlib.md5(key.encode()).hexdigest(), 16) % (2**32)
         rng = random.Random(seed)
         return rng.choice(matching_categories)
@@ -59,6 +77,17 @@ def simplify_random(categories_string, run_index=None):
 
 
 def test_distribution(df, n_runs=100, run_index=0):
+    """
+    Test the stability of the random category simplification by running it multiple times.
+
+    Args:
+        df (pd.DataFrame): DataFrame containing a "categories" column.
+        n_runs (int): Number of simulation runs.
+        run_index (int): Base seed for random number generation.
+
+    Returns:
+        None: Prints summary statistics (mean, std, range) for the distribution of categories.
+    """    
     
     distributions = []
     for i in range(n_runs):
@@ -69,7 +98,7 @@ def test_distribution(df, n_runs=100, run_index=0):
         distributions.append(dist)
         
     dist_df = pd.concat(distributions, axis=1).fillna(0)  
-    # per-category stats
+    # statistics per category 
     summary = pd.DataFrame({
         "mean": dist_df.mean(axis=1),
         "std":  dist_df.std(axis=1),

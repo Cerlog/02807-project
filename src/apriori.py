@@ -2,21 +2,56 @@ from itertools import combinations
 import pandas as pd
 
 def baskets_parquet_to_transactions(path_parquet):
-    """Load parquet with an 'items' column and return list of itemsets (as sets)."""
+    """
+    Load parquet with an 'items' column and return list of itemsets (as sets).
+    Args:
+        path_parquet (str or Path): Path to the parquet file.
+    Returns:
+        list: A list of sets, where each set represents a transaction.
+    """
     b = pd.read_parquet(path_parquet)
     return [set(items) for items in b["items"]]
 
 def baskets_df_to_transactions(df):
+    """
+    Convert a DataFrame with an 'items' column into a list of transaction sets.
+
+    Args:
+        df (pd.DataFrame): DataFrame containing an 'items' column.
+
+    Returns:
+        list: A list of sets, where each set represents a transaction.
+    """
     return [set(items) for items in df["items"]]
 
 def decode_itemset(itemset, id2cat_map):
-    """Convert set/tuple of IDs to sorted tuple of category names."""
+    """
+    Convert set/tuple of IDs to sorted tuple of category names.
+    Args:
+        itemset (set or tuple): Set or tuple of item IDs.
+        id2cat_map (dict): Mapping from item ID to category name.
+    Returns:
+        tuple: Sorted tuple of category names corresponding to the item IDs.
+    """
     if isinstance(itemset, (frozenset, set)):
         itemset = sorted(itemset)
     return tuple(id2cat_map.get(x, f"<ID_{x}>") for x in itemset)
 
 
 def run_apriori(label, path_parquet, min_support, min_conf, OUT_DIR, id2cat_map):
+    """
+    Run Apriori algorithm on transactions from parquet file and save results.
+    Args:
+        label (str): Label for the dataset (e.g., 'overall', 'community_1').
+        path_parquet (str or Path): Path to the parquet file with transactions.
+        min_support (float): Minimum support threshold.
+        min_conf (float): Minimum confidence threshold.
+        OUT_DIR (str or Path): Directory to save output files.
+        id2cat_map (dict): Mapping from item ID to category name.
+    Returns:
+        pd.DataFrame: DataFrame containing the generated association rules.
+        list: List of transactions used for the Apriori algorithm.
+    """
     print("Running Apriori for", label)
     
     # load the transactions
@@ -28,12 +63,12 @@ def run_apriori(label, path_parquet, min_support, min_conf, OUT_DIR, id2cat_map)
     
     print(f"Generated {len(rules)} {label} rules")
 
-    # 3) Turn into DataFrame and decode
+    # Turn into DataFrame and decode
     df = pd.DataFrame(rules).sort_values("Lift", ascending=False)
     df["Antecedent_decoded"] = df["Antecedent"].apply(lambda x: decode_itemset(x, id2cat_map))
     df["Consequent_decoded"] = df["Consequent"].apply(lambda x: decode_itemset(x, id2cat_map))
 
-    # 4) Save parquet + human-readable CSV
+    # Save parquet and readable CSV
     parquet_out = OUT_DIR / f"rules_{label}.parquet"
     csv_out     = OUT_DIR / f"rules_{label}_human.csv"
 
@@ -46,7 +81,19 @@ def run_apriori(label, path_parquet, min_support, min_conf, OUT_DIR, id2cat_map)
 
 #Triangular matrix
 def pair_index(i, j, n):
-    """Instead of us having a 2D matrix we save all possible pairs this way"""
+    """
+    Calculate the linear index for a pair (i, j) in a triangular matrix.
+    
+    This avoids storing a full 2D matrix by mapping pairs to a 1D array index.
+    
+    Args:
+        i (int): Row index.
+        j (int): Column index.
+        n (int): Dimension of the matrix (number of items).
+
+    Returns:
+        int: The linear index corresponding to the pair (i, j).
+    """
     #Only count pair once
     if i > j:
         i, j = j, i
@@ -60,9 +107,16 @@ def support(itemset, transactions):
 
 def apriori_triangular(transactions, min_support):
     """
-    Apriori algorithm using triangular matrix optimization
-    Input: List of transactions and minimum support 
-    Output: Frequent itemsets with support counts
+    Execute the Apriori algorithm using a triangular matrix optimization for 2-itemsets.
+
+    Args:
+        transactions (list): A list of sets, where each set represents a transaction.
+        min_support (float): The minimum support threshold.
+
+    Returns:
+        tuple: A tuple containing:
+            - all_frequent (list): A list of lists, where each inner list contains frequent itemsets of size k.
+            - support_map (dict): A dictionary mapping frequent itemsets to their support values.
     """
     '''
     #1. Individual item counts
@@ -164,11 +218,32 @@ def apriori_triangular(transactions, min_support):
 
 
 def support_of(itemset, transactions):
+    """
+    Calculate the support of a specific itemset.
+
+    Args:
+        itemset (set or frozenset): The itemset to check.
+        transactions (list): List of transactions.
+
+    Returns:
+        float: Support value.
+    """
     N = len(transactions)
     cnt = sum(1 for t in transactions if itemset.issubset(t))
     return cnt / N
 
 def generate_rules(frequent_sets, transactions, min_conf=0.4):
+    """
+    Generate association rules from frequent itemsets.
+
+    Args:
+        frequent_sets (list): List of frequent itemsets (output from apriori).
+        transactions (list): List of transactions.
+        min_conf (float): Minimum confidence threshold.
+
+    Returns:
+        list: A list of dictionaries, each representing a rule with metrics (Support, Confidence, Lift).
+    """    
     # collect supports for all frequent itemsets (including L1)
     sup = {}
     for Lk in frequent_sets:
@@ -239,6 +314,18 @@ def filter_baskets_by_community(baskets_df, user_ids_set):
     return filtered
 
 def jaccard_similariy(df1, df2, ant_col="Antecedent", cons_col="Consequent"):
+    """
+    Calculate the Jaccard similarity between the rules of two DataFrames.
+
+    Args:
+        df1 (pd.DataFrame): First DataFrame of rules.
+        df2 (pd.DataFrame): Second DataFrame of rules.
+        ant_col (str): Column name for antecedents.
+        cons_col (str): Column name for consequents.
+
+    Returns:
+        float: Jaccard similarity score.
+    """
     
     # making antecendent and consequent tuples 
     ants1 = df1[ant_col].apply(tuple)
@@ -261,6 +348,17 @@ def jaccard_similariy(df1, df2, ant_col="Antecedent", cons_col="Consequent"):
     return jaccard_similarity_value
 
 def label_yelp_liked(stars, liked_thresh=4.0, hated_thresh=3.0):
+    """
+    Label a review as 'liked', 'hated', or 'neutral' based on star rating.
+
+    Args:
+        stars (float): Star rating.
+        liked_thresh (float): Threshold for 'liked'.
+        hated_thresh (float): Threshold for 'hated'.
+
+    Returns:
+        str: Label ('liked', 'hated', 'neutral').
+    """    
     if stars >= liked_thresh:
         return "liked"
     elif stars < hated_thresh:
